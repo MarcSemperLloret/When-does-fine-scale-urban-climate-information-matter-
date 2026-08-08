@@ -13,6 +13,12 @@ authors:
     given-names: "Marc"
     email: "marc.semper@ua.es"
 license: MIT
+doi: "10.5281/zenodo.21851740"
+repository-code: "https://github.com/MarcSemperLloret/When-does-fine-scale-urban-climate-information-matter-"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21851740"
+    description: "Archived artefact on Zenodo"
 keywords:
   - urban heat
   - pedestrian accessibility

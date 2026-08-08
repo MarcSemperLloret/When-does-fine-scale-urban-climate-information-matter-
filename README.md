@@ -1,8 +1,12 @@
 # When does fine-scale urban climate information matter?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21851740.svg)](https://doi.org/10.5281/zenodo.21851740)
+
 Analysis code and derived results for a study of thermal exposure and pedestrian
 accessibility to primary-care centres for adults aged 65 and over in València
 (Spain).
+
+Archived at [10.5281/zenodo.21851740](https://doi.org/10.5281/zenodo.21851740).
 
 The study asks a decision question rather than a mapping question: **which
 information layer actually changes a prioritisation decision?** It compares five
