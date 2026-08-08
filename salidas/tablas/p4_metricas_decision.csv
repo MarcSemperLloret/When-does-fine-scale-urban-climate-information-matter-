@@ -1,0 +1,9 @@
+ventana,umbral_c,representacion_gruesa,cobertura_gruesa_pct,cobertura_observada_pct,dif_puntos_pct,dif_relativa_pct
+manana_10_12,30,C_uniforme,62.6,63.18,0.58,0.92
+manana_10_12,30,C2_uniforme_diaria,62.88,63.18,0.29,0.47
+manana_10_12,32,C_uniforme,71.42,71.46,0.05,0.06
+manana_10_12,32,C2_uniforme_diaria,70.99,71.46,0.47,0.66
+tarde_16_18,30,C_uniforme,54.55,55.48,0.93,1.71
+tarde_16_18,30,C2_uniforme_diaria,53.54,55.48,1.94,3.63
+tarde_16_18,32,C_uniforme,70.81,71.19,0.38,0.54
+tarde_16_18,32,C2_uniforme_diaria,70.38,71.19,0.81,1.15

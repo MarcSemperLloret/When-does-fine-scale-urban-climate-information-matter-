@@ -1,0 +1,10 @@
+{
+  "veg_min_m": 2.0,
+  "veg_max_m": 40.0,
+  "tratamiento_copa": "opaca (cota superior del beneficio de sombra)",
+  "hojas": [
+    "0696",
+    "0722",
+    "0747"
+  ]
+}

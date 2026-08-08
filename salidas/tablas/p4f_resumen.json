@@ -1,0 +1,16 @@
+{
+  "n_boot": 1000,
+  "bloques_dias": [
+    1,
+    3,
+    7
+  ],
+  "ensanchamiento_ic_L7_sobre_L1": {
+    "mediana": 1.577,
+    "maximo": 1.658
+  },
+  "desplazamiento_eficiencia_pp": {
+    "mediana": 0.155,
+    "maximo": 1.38
+  }
+}

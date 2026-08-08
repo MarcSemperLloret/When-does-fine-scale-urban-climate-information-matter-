@@ -1,0 +1,7 @@
+{
+  "celdas_era5_distintas_en_6_estaciones": 2,
+  "rango_observado_entre_estaciones_c": 1.24,
+  "rango_era5_entre_estaciones_c": 0.1,
+  "rango_pct_ge30_observado": 21.1,
+  "rango_pct_ge30_era5": 2.2
+}

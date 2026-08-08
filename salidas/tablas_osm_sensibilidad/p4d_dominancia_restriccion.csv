@@ -1,0 +1,11 @@
+ventana,k_pct,cupo,n_incumplen_solar,cociente_falla_cupo,regimen
+manana_10_12,5,20,55,2.75,dominada_por_sol
+manana_10_12,10,40,55,1.38,dominada_por_sol
+manana_10_12,15,60,55,0.92,mixta
+manana_10_12,20,81,55,0.68,mixta
+manana_10_12,25,101,55,0.54,mixta
+tarde_16_18,5,20,15,0.75,mixta
+tarde_16_18,10,40,15,0.38,sensible_a_termica
+tarde_16_18,15,60,15,0.25,sensible_a_termica
+tarde_16_18,20,81,15,0.19,sensible_a_termica
+tarde_16_18,25,101,15,0.15,sensible_a_termica

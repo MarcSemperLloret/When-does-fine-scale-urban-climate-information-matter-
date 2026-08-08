@@ -1,0 +1,8 @@
+excluida,nombre,disp_noche_mediana,iqr_noche_mediana,rango_dT_noche,estacion_mas_calida,estacion_mas_fria
+c13m009e01,Albalat dels Sorells,1.878,0.8,2.603,c15m250e26,c13m032e01
+c13m032e01,Almàssera,1.404,0.665,1.725,c15m250e26,c13m009e01
+c15m250e08,València - Camins al Grau,2.227,1.497,2.567,c15m250e26,c13m032e01
+c15m250e16,València - l'Albufera/Tancat de la Pipa,2.188,1.35,2.603,c15m250e26,c13m032e01
+c15m250e24,València - Micalet,2.144,1.371,2.594,c15m250e26,c13m032e01
+c15m250e26,València - Penya-roja,2.172,1.385,2.581,c15m250e24,c13m032e01
+c15m250e30,València - Col·legi Diocesà San Juan Bosco,2.219,1.49,2.549,c15m250e26,c13m032e01

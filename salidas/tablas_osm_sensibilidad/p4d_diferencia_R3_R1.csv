@@ -1,0 +1,11 @@
+ventana,k_pct,dif_R3_menos_R1_pp,ic_lo,ic_hi,distinguible_de_cero
+manana_10_12,5,9.76,3.83,15.62,True
+manana_10_12,10,9.48,6.55,13.34,True
+manana_10_12,15,8.2,4.57,11.35,True
+manana_10_12,20,4.65,2.53,8.34,True
+manana_10_12,25,3.63,0.17,7.95,True
+tarde_16_18,5,-4.8,-6.82,0.37,False
+tarde_16_18,10,2.7,-0.46,5.42,False
+tarde_16_18,15,-2.69,-5.99,1.57,False
+tarde_16_18,20,-6.13,-8.64,-3.0,True
+tarde_16_18,25,-1.91,-4.29,0.13,False

@@ -1,0 +1,8 @@
+station_id,dT_medio,dT_noche,dT_tarde,n_horas,dT_noche_ic_lo,dT_noche_ic_hi,significativa,nombre,km_costa,km_centro,alt_m
+c15m250e26,0.231,0.598,-0.064,12507,0.563,0.637,True,València - Penya-roja,2.324,2.937,7.0
+c15m250e24,0.442,0.573,0.471,11803,0.54,0.611,True,València - Micalet,4.708,0.007,25.0
+c15m250e08,-0.019,0.381,-0.489,10909,0.347,0.418,True,València - Camins al Grau,1.984,2.827,6.0
+c15m250e30,0.419,0.073,0.834,7348,0.054,0.093,True,València - Col·legi Diocesà San Juan Bosco,5.489,1.081,18.0
+c15m250e16,-0.722,-0.415,-0.99,12747,-0.457,-0.376,True,València - l'Albufera/Tancat de la Pipa,2.672,13.176,1.0
+c13m009e01,-0.413,-1.108,-0.081,12579,-1.162,-1.053,True,Albalat dels Sorells,3.048,8.01,10.0
+c13m032e01,-0.609,-1.952,0.652,12759,-2.02,-1.889,True,Almàssera,2.724,5.108,11.0

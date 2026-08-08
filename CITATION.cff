@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this artefact, please cite it as below."
+title: "When does fine-scale urban climate information matter? Analysis artefact"
+abstract: >-
+  Analysis code and derived results for a decision-focused evaluation of urban
+  climate information: thermal exposure and pedestrian accessibility to
+  primary-care centres for adults aged 65 and over in Valencia, Spain. Contains
+  no raw meteorological observations; AVAMET data must be requested from the
+  network directly.
+type: software
+authors:
+  - family-names: "Semper Lloret"
+    given-names: "Marc"
+    email: "marc.semper@ua.es"
+license: MIT
+keywords:
+  - urban heat
+  - pedestrian accessibility
+  - older adults
+  - urban shade
+  - value of information
+  - decision analysis

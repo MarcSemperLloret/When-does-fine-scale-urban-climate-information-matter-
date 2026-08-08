@@ -1,0 +1,7 @@
+ventana,estrato,n,vel_media,beta,ic_lo,ic_hi
+manana_10_12,brisa flojo (<7.4 km/h),78,6.7,-0.2133,-0.248,-0.1821
+manana_10_12,brisa medio,77,8.3,-0.1672,-0.2002,-0.139
+manana_10_12,brisa fuerte (>9.3 km/h),78,11.0,-0.0905,-0.1161,-0.0674
+tarde_16_18,brisa flojo (<9.3 km/h),159,8.2,-0.2432,-0.2659,-0.2224
+tarde_16_18,brisa medio,159,10.1,-0.2026,-0.2201,-0.1834
+tarde_16_18,brisa fuerte (>10.8 km/h),160,12.4,-0.1709,-0.1911,-0.1511

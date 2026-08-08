@@ -1,0 +1,13 @@
+{
+  "metros_por_planta_calibrados": {
+    "1-3": 4.13,
+    "4-6": 3.23,
+    "7-10": 2.99,
+    ">10": 2.93
+  },
+  "n_lidar": 94132,
+  "n_calibradas": 119868,
+  "altura_mediana_antes_m": 13.0,
+  "altura_mediana_despues_m": 14.2,
+  "factor_altura_media": 1.115
+}

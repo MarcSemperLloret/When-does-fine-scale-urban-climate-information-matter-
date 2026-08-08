@@ -1,0 +1,141 @@
+{
+  "panel_largo": {
+    "estaciones": [
+      "c13m009e01",
+      "c13m032e01",
+      "c15m250e08",
+      "c15m250e16",
+      "c15m250e24",
+      "c15m250e26",
+      "c15m250e30"
+    ],
+    "anios": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2025
+    ],
+    "horas_validas": 12793,
+    "dispersion_noche_mediana_c": 2.171,
+    "dispersion_noche_p90_c": 3.537,
+    "iqr_noche_mediana_c": 1.336,
+    "dispersion_dia_mediana_c": 1.379,
+    "dispersion_noche_calidos_c": 2.728,
+    "dispersion_noche_ordinarios_c": 2.104,
+    "umbral_dia_calido_c": 31.71,
+    "n_dias_calidos": 54,
+    "rango_dT_noche_c": 2.55,
+    "estaciones_con_anomalia_significativa": 7,
+    "spearman_ranking_mediana": 0.964,
+    "spearman_ranking_min": 0.964,
+    "loso_disp_noche_min": 1.404,
+    "loso_disp_noche_max": 2.227,
+    "loso_iqr_noche_min": 0.665,
+    "loso_iqr_noche_max": 1.497,
+    "loso_rango_dT_min": 1.725,
+    "loso_estacion_mas_calida": [
+      "c15m250e24",
+      "c15m250e26"
+    ],
+    "loso_estacion_mas_fria": [
+      "c13m009e01",
+      "c13m032e01"
+    ],
+    "coherencia_fisica": {
+      "spearman_dTnoche_km_centro": -0.607,
+      "spearman_dTtarde_km_centro": -0.571,
+      "spearman_dTnoche_km_costa": -0.214,
+      "spearman_dTtarde_km_costa": 0.679,
+      "spearman_dTnoche_alt_m": 0.036,
+      "spearman_dTtarde_alt_m": 0.857
+    },
+    "uhi_nocturna_max_c": 2.63,
+    "uhi_nocturna_min_c": 0.068,
+    "pct_noches_tropicales_max": 92.0,
+    "pct_noches_tropicales_min": 69.4,
+    "n_noches_comunes": 256,
+    "pct_tropicales_comunes_max": 92.6,
+    "pct_tropicales_comunes_min": 67.2,
+    "pct_torridas_comunes_max": 34.0,
+    "pct_torridas_comunes_min": 5.1,
+    "dispersion_por_regimen": {
+      "S": 1.867,
+      "brisa_E": 2.193,
+      "poniente_W": 2.077
+    }
+  },
+  "panel_denso": {
+    "estaciones": [
+      "c13m009e01",
+      "c13m009e02",
+      "c13m032e01",
+      "c13m190e01",
+      "c15m250e08",
+      "c15m250e11",
+      "c15m250e15",
+      "c15m250e16",
+      "c15m250e24",
+      "c15m250e26",
+      "c15m250e30",
+      "c16m021e02",
+      "c16m102e01",
+      "c16m165e01",
+      "c16m244e01",
+      "c16m244e03"
+    ],
+    "anios": [
+      2023,
+      2025
+    ],
+    "horas_validas": 4416,
+    "dispersion_noche_mediana_c": 1.954,
+    "dispersion_noche_p90_c": 3.039,
+    "iqr_noche_mediana_c": 0.915,
+    "dispersion_dia_mediana_c": 1.562,
+    "dispersion_noche_calidos_c": 2.705,
+    "dispersion_noche_ordinarios_c": 1.883,
+    "umbral_dia_calido_c": 32.93,
+    "n_dias_calidos": 19,
+    "rango_dT_noche_c": 2.474,
+    "estaciones_con_anomalia_significativa": 15,
+    "spearman_ranking_mediana": 0.968,
+    "spearman_ranking_min": 0.968,
+    "loso_disp_noche_min": 1.584,
+    "loso_disp_noche_max": 2.023,
+    "loso_iqr_noche_min": 0.81,
+    "loso_iqr_noche_max": 0.992,
+    "loso_rango_dT_min": 2.388,
+    "loso_estacion_mas_calida": [
+      "c15m250e24",
+      "c15m250e26"
+    ],
+    "loso_estacion_mas_fria": [
+      "c13m009e02",
+      "c13m032e01"
+    ],
+    "coherencia_fisica": {
+      "spearman_dTnoche_km_centro": -0.75,
+      "spearman_dTtarde_km_centro": 0.134,
+      "spearman_dTnoche_km_costa": -0.176,
+      "spearman_dTtarde_km_costa": 0.721,
+      "spearman_dTnoche_alt_m": -0.115,
+      "spearman_dTtarde_alt_m": 0.717
+    },
+    "uhi_nocturna_max_c": 2.658,
+    "uhi_nocturna_min_c": 0.166,
+    "pct_noches_tropicales_max": 95.4,
+    "pct_noches_tropicales_min": 77.2,
+    "n_noches_comunes": 86,
+    "pct_tropicales_comunes_max": 91.9,
+    "pct_tropicales_comunes_min": 69.8,
+    "pct_torridas_comunes_max": 47.7,
+    "pct_torridas_comunes_min": 5.8,
+    "dispersion_por_regimen": {
+      "S": 1.47,
+      "brisa_E": 1.97,
+      "poniente_W": 2.058
+    }
+  }
+}

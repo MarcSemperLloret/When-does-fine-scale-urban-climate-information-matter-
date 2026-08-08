@@ -1,0 +1,8 @@
+{
+  "referencia": "R5 = representacion de mayor informacion disponible, NO la realidad",
+  "k": "capacidad de priorizacion (secciones seleccionables para evaluacion detallada o intervencion), no presupuesto de obra",
+  "n_boot": 400,
+  "phi_ref": 0.4,
+  "umbral_c": 30.0,
+  "dominancia": "si n_incumplen_solar >= cupo, el termino termico es no identificable para la decision"
+}

@@ -1,0 +1,19 @@
+{
+  "escenarios": {
+    "A": "ERA5-Land corregido, sin sombra",
+    "B": "campo AVAMET, sin sombra",
+    "C": "ERA5-Land corregido, con sombra",
+    "D": "campo AVAMET, con sombra"
+  },
+  "umbrales_c": [
+    28.0,
+    30.0,
+    32.0
+  ],
+  "presupuestos_sol_min": [
+    3.0,
+    5.0,
+    8.0
+  ],
+  "nota": "la geometria solar de ruteo es la del 15 de julio; la variacion de elevacion a la misma hora entre junio y agosto es de unos 8 grados"
+}

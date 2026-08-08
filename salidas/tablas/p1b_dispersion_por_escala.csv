@@ -1,0 +1,13 @@
+escala,ventana,n_estaciones,n_horas,disp_p90_p10,iqr,rango_max_min,rango_p90
+intramunicipal_barrios,noche_00_06,6,2714,0.495,0.315,0.617,1.25
+intramunicipal_barrios,manana_10_12,6,1168,0.867,0.438,1.2,1.969
+intramunicipal_barrios,tarde_16_18,6,1159,0.925,0.417,1.317,2.133
+intramunicipal_barrios,diurna_10_18,6,3502,0.98,0.483,1.35,2.167
+intramunicipal_total,noche_00_06,7,3208,0.779,0.363,1.133,2.433
+intramunicipal_total,manana_10_12,7,1386,1.27,0.621,1.692,3.117
+intramunicipal_total,tarde_16_18,7,1397,1.353,0.769,1.717,2.833
+intramunicipal_total,diurna_10_18,7,4236,1.407,0.779,1.817,3.067
+metropolitano,noche_00_06,16,1288,1.954,0.915,2.713,4.294
+metropolitano,manana_10_12,16,551,1.629,0.871,2.833,4.583
+metropolitano,tarde_16_18,16,552,1.655,0.807,2.8,4.092
+metropolitano,diurna_10_18,16,1654,1.745,0.903,2.992,4.595

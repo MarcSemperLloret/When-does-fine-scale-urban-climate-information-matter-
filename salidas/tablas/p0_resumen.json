@@ -1,0 +1,102 @@
+{
+  "estaciones_evaluadas": 57,
+  "estaciones_usables": 41,
+  "usables_municipio": 7,
+  "usables_area_urbana": 16,
+  "usables_periurbanas": 25,
+  "urbanas_con_cobertura_por_verano": [
+    [
+      2019,
+      7
+    ],
+    [
+      2020,
+      6
+    ],
+    [
+      2021,
+      8
+    ],
+    [
+      2022,
+      11
+    ],
+    [
+      2023,
+      15
+    ],
+    [
+      2025,
+      16
+    ]
+  ],
+  "umbral_rango_diurno_c": 17.16,
+  "centinela_0c_total": 6914,
+  "estaciones_con_centinela": 19,
+  "descartadas": {
+    "c16m186e02": {
+      "nombre": "Paiporta",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c16m021e03": {
+      "nombre": "Aldaia - Sud",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c16m094e05": {
+      "nombre": "Catarroja - Col·legi Larrodé",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c16m007e02": {
+      "nombre": "Albal - centre",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c11m070e04": {
+      "nombre": "Bétera - Urb. Mas Camarena",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c15m250e37": {
+      "nombre": "València - Benimaclet",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c15m250e36": {
+      "nombre": "València - Col·legi Pureza de María-Grau",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c13m199e01": {
+      "nombre": "la Pobla de Farnals",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c13m171e02": {
+      "nombre": "Montcada - CIDE (CSIC-UV-GVA) climatoclab",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c13m199e02": {
+      "nombre": "la Pobla de Farnals - platja",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c13m205e04": {
+      "nombre": "Puçol - Urbanització Alfinach logoalfinach",
+      "motivo": "5.499% de partes enmascarados"
+    },
+    "c11m214e05": {
+      "nombre": "Riba-roja de Túria",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c21m235e09": {
+      "nombre": "Sueca - l'Albufera/Tancat de l'Estell",
+      "motivo": "solo 0 verano(s) con cobertura >=80%; 7.48% de partes enmascarados"
+    },
+    "c11m178e03": {
+      "nombre": "Nàquera",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c18m111e04": {
+      "nombre": "Xiva - Los Felipes",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    },
+    "c12m220e08": {
+      "nombre": "Sagunt - Port de Sagunt",
+      "motivo": "solo 1 verano(s) con cobertura >=80%"
+    }
+  }
+}

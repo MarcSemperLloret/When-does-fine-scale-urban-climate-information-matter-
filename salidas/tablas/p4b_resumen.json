@@ -1,0 +1,9 @@
+{
+  "n_secciones_totales": 591,
+  "n_secciones_alcanzables": 405,
+  "poblacion_65_total": 174665,
+  "spearman_fragilidad_vs_reclasificacion": {
+    "manana_10_12": 0.819,
+    "tarde_16_18": -0.022
+  }
+}

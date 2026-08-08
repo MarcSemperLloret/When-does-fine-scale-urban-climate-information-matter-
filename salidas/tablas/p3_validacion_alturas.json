@@ -1,0 +1,46 @@
+{
+  "plantas": {
+    "n": 20579,
+    "bias_catastro_menos_osm": -0.969,
+    "mae": 1.136,
+    "rmse": 2.529,
+    "pct_identicas": 58.7,
+    "pct_dentro_de_1": 84.0,
+    "spearman": 0.671
+  },
+  "metros_por_planta": {
+    "n": 246,
+    "mediana": 3.5,
+    "p25": 3.0,
+    "p75": 4.86,
+    "supuesto_actual": 3.0
+  },
+  "altura_modelada_vs_osm": {
+    "bias_m": -5.92,
+    "mae_m": 8.66,
+    "rmse_m": 18.39,
+    "error_relativo_mediano_pct": 21.3
+  },
+  "por_tramo_de_plantas": {
+    "1-3": {
+      "n": 131,
+      "bias": -8.91,
+      "mae": 10.31
+    },
+    "4-6": {
+      "n": 48,
+      "bias": -0.96,
+      "mae": 3.54
+    },
+    "7-10": {
+      "n": 44,
+      "bias": 0.66,
+      "mae": 4.11
+    },
+    ">10": {
+      "n": 23,
+      "bias": -11.87,
+      "mae": 18.65
+    }
+  }
+}

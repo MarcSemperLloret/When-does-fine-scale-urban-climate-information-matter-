@@ -1,0 +1,7 @@
+station_id,nombre,T_obs_media,T_era5_media,sesgo_era5,pct_horas_ge30_obs,pct_horas_ge30_era5
+c15m250e08,Camins al Grau,27.24,30.01,2.77,11.8,53.8
+c15m250e11,l'Olivereta,28.23,29.91,1.68,27.1,51.6
+c15m250e15,Altocúmulo,28.4,29.91,1.5,32.1,51.6
+c15m250e24,Micalet,28.32,29.91,1.59,29.4,51.6
+c15m250e26,Penya-roja,27.93,29.91,1.98,22.4,51.6
+c15m250e30,Col·legi Diocesà San Juan Bosco,28.47,29.91,1.43,32.9,51.6

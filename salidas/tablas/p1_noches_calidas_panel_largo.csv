@@ -1,0 +1,8 @@
+station_id,n_noches,tropicales,torridas,tmin_media,pct_tropicales,pct_torridas,n_noches_comunes,pct_tropicales_comunes,pct_torridas_comunes,nombre
+c13m009e01,531,415,51,21.8,78.2,9.6,256,75.8,10.2,Albalat dels Sorells
+c13m032e01,536,372,25,20.96,69.4,4.7,256,67.2,5.1,Almàssera
+c15m250e08,459,419,166,23.91,91.3,36.2,256,91.0,32.8,València - Camins al Grau
+c15m250e16,533,465,66,22.62,87.2,12.4,256,86.7,12.9,València - l'Albufera/Tancat de la Pipa
+c15m250e24,497,452,160,23.79,90.9,32.2,256,91.4,30.9,València - Micalet
+c15m250e26,525,483,187,23.88,92.0,35.6,256,92.6,34.0,València - Penya-roja
+c15m250e30,306,267,69,23.01,87.3,22.5,256,88.3,23.8,València - Col·legi Diocesà San Juan Bosco

@@ -1,0 +1,13 @@
+ventana,station_id,nombre,km_costa,raw_error_era5_minus_obs
+manana_10_12,c15m250e08,Camins al Grau,1.98,0.34
+manana_10_12,c15m250e11,l'Olivereta,6.76,-0.26
+manana_10_12,c15m250e15,Altocúmulo,5.89,-0.56
+manana_10_12,c15m250e24,Micalet,4.71,-0.44
+manana_10_12,c15m250e26,Penya-roja,2.32,-0.09
+manana_10_12,c15m250e30,Col·legi Diocesà San Juan Bosco,5.49,-0.88
+tarde_16_18,c15m250e08,Camins al Grau,1.98,2.77
+tarde_16_18,c15m250e11,l'Olivereta,6.76,1.68
+tarde_16_18,c15m250e15,Altocúmulo,5.89,1.5
+tarde_16_18,c15m250e24,Micalet,4.71,1.59
+tarde_16_18,c15m250e26,Penya-roja,2.32,1.98
+tarde_16_18,c15m250e30,Col·legi Diocesà San Juan Bosco,5.49,1.43

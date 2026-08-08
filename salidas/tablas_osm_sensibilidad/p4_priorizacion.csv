@@ -1,0 +1,5 @@
+ventana,umbral_c,n_secciones_alcanzables,n_top20,jaccard_top20_secciones,secciones_que_entran,secciones_que_salen,pob65_reclasificada,pct_pob65_reclasificada,spearman_secciones,spearman_distritos,solapamiento_top5_distritos
+manana_10_12,30,405,81,0.317,42,42,17212,9.85,0.435,0.69,2/5
+manana_10_12,32,405,81,0.296,44,44,17545,10.05,0.448,0.699,2/5
+tarde_16_18,30,405,81,0.306,43,43,17563,10.06,0.43,0.721,3/5
+tarde_16_18,32,405,81,0.296,44,44,17376,9.95,0.329,0.478,2/5

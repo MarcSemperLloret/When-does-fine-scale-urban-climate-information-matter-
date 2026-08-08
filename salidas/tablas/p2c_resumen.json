@@ -1,0 +1,16 @@
+{
+  "definicion_signo": {
+    "raw_error_era5_minus_obs": "T_era5 - T_obs; positivo = ERA5-Land calido",
+    "additive_correction_obs_minus_era5": "-raw_error; es lo que se SUMA a ERA5-Land",
+    "corrected_era5": "T_era5 + additive_correction"
+  },
+  "veranos": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025
+  ],
+  "locked_excluido": 2024
+}

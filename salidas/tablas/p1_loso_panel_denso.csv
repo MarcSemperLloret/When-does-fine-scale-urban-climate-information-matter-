@@ -1,0 +1,17 @@
+excluida,nombre,disp_noche_mediana,iqr_noche_mediana,rango_dT_noche,estacion_mas_calida,estacion_mas_fria
+c13m009e01,Albalat dels Sorells,1.95,0.85,2.473,c15m250e24,c13m032e01
+c13m009e02,Albalat dels Sorells - la Lloma,1.593,0.813,2.473,c15m250e24,c13m032e01
+c13m032e01,Almàssera,1.584,0.81,2.388,c15m250e24,c13m009e02
+c13m190e01,Paterna - Cases Verdes,2.011,0.957,2.47,c15m250e24,c13m032e01
+c15m250e08,València - Camins al Grau,1.929,0.917,2.474,c15m250e24,c13m032e01
+c15m250e11,València - l'Olivereta,1.996,0.911,2.473,c15m250e24,c13m032e01
+c15m250e15,València - Altocúmulo,2.019,0.96,2.474,c15m250e24,c13m032e01
+c15m250e16,València - l'Albufera/Tancat de la Pipa,1.984,0.884,2.472,c15m250e24,c13m032e01
+c15m250e24,València - Micalet,1.908,0.892,2.411,c15m250e26,c13m032e01
+c15m250e26,València - Penya-roja,1.915,0.896,2.472,c15m250e24,c13m032e01
+c15m250e30,València - Col·legi Diocesà San Juan Bosco,1.988,0.928,2.473,c15m250e24,c13m032e01
+c16m021e02,Aldaia - Barri del Crist,2.014,0.941,2.471,c15m250e24,c13m032e01
+c16m102e01,Quart de Poblet,2.023,0.992,2.47,c15m250e24,c13m032e01
+c16m165e01,Massanassa - IES Massanassa,1.983,0.942,2.472,c15m250e24,c13m032e01
+c16m244e01,Torrent - CEIP Antonio Machado,2.013,0.934,2.472,c15m250e24,c13m032e01
+c16m244e03,Torrent - Av. al Vedat,2.017,0.901,2.473,c15m250e24,c13m032e01

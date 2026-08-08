@@ -1,0 +1,15 @@
+{
+  "n_partes": 214000,
+  "n_con_lidar": 94132,
+  "pct_con_lidar": 44.0,
+  "sesgo_catastral_menos_lidar_m": -2.34,
+  "mae_m": 3.33,
+  "rmse_m": 5.83,
+  "error_relativo_mediano_pct": 12.8,
+  "metros_por_planta_lidar_mediana": 3.3,
+  "metros_por_planta_lidar_p25": 2.91,
+  "metros_por_planta_lidar_p75": 4.14,
+  "supuesto_previo": 3.0,
+  "altura_mediana_catastral_m": 13.0,
+  "altura_mediana_lidar_m": 16.8
+}

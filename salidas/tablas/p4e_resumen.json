@@ -1,0 +1,9 @@
+{
+  "n_osm": 56,
+  "n_oficial": 48,
+  "osm_emparejados_150m": 36,
+  "jaccard_secciones_alcanzables": 0.814,
+  "secciones_que_cambian_alcance": 87,
+  "pob65_que_cambia_alcance": 26440,
+  "jaccard_conjunto_prioritario": 0.625
+}

@@ -1,0 +1,14 @@
+{
+  "taus": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "tau_referencia_estacional": 0.1,
+  "definicion": "E = t * (f_abierto + tau * f_copa); edificio opaco (tau=0)",
+  "nota": "tau es la fraccion de radiacion directa que atraviesa la copa; se reporta la curva completa, no un valor elegido"
+}

@@ -1,0 +1,21 @@
+# Nada de esto debe entrar nunca en el artefacto publico.
+.env
+*.env
+__pycache__/
+*.pyc
+
+# Datos de entrada: 660 MB, todos descargables de su fuente original, y el
+# archivo de AVAMET no es redistribuible.
+datos/
+*.parquet
+*.tif
+*.gpkg
+*.nc
+*.graphml
+
+# El manuscrito no va al repositorio.
+*.tex
+*.aux
+*.log
+*.out
+manuscrito.pdf

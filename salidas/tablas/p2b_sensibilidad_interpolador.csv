@@ -1,0 +1,8 @@
+variante,sd_espacial,rango_espacial,valores_distintos,jaccard_vs_referencia,spearman_vs_referencia
+idw_p2_todas,0.0561,0.2089,91,1.0,1.0
+idw_p1_todas,0.0345,0.1721,74,0.841,0.978
+idw_p3_todas,0.0659,0.2089,88,0.952,0.992
+idw_p2_k3,0.0669,0.2089,91,0.929,0.963
+idw_p2_sin_mas_proxima,0.0282,0.1876,60,0.705,0.763
+idw_p2_k3_sin_mas_proxima,0.0401,0.205,75,0.723,0.73
+era5_sesgo_corregido,0.0059,0.0271,2,0.5,-0.085
