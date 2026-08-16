@@ -17,9 +17,9 @@ agree spatially but whether they select the same places to act on.
 Two results organise the repository:
 
 - **Spatial agreement is not decision efficiency.** Substituting the corrected
-  regional field for the local observed field reclassifies up to 10,128
+  regional field for the local observed field reclassifies 10,128
   residents aged 65+, and yet, paired with a complete building-plus-vegetation
-  shade layer, it retains 94.3–99.8 % of the attainable prioritisation benefit.
+  shade layer, it retains 94.9–99.9 % of the attainable prioritisation benefit.
 - **The value of information depends on the active constraint.** When the number
   of sections failing the binding solar constraint exceeds the prioritisation
   quota, the thermal layer is *decision-inactive*: it cannot change the outcome

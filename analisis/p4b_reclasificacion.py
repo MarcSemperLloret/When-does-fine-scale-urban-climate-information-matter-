@@ -62,10 +62,12 @@ def campo_termico(cent_x, cent_y, ventana_horas):
     w = 1.0 / np.maximum(d, 50.0) ** 2
     w /= w.sum(axis=1, keepdims=True)
 
-    piv = (hor[hor["hora"].isin(ventana_horas)]
-           .pivot_table(index=["date", "hora"], columns="station_id", values="t_qc")
-           .dropna()[list(ge.index)])
-    return w @ piv.to_numpy().T, piv.index
+    # Mismo criterio que p2_comparar_era5land: se conservan las horas con al
+    # menos tres estaciones y el peso de las ausentes se reparte entre las
+    # presentes. Antes se exigian las seis, lo que borraba 2019 y 2020 enteros.
+    from p2_comparar_era5land import idw_renormalizada, pivot_estaciones
+    piv = pivot_estaciones(hor, ventana_horas, ge.index)
+    return idw_renormalizada(w, piv), piv.index
 
 
 def flujos(T_gruesa, T_fina, umbral, alcanzable, pob):

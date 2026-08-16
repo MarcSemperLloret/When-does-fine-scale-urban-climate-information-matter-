@@ -175,14 +175,16 @@ def campo_termico(g_sec: gpd.GeoDataFrame) -> dict[str, pd.DataFrame]:
     w = 1.0 / np.maximum(d, 50.0) ** 2
     w = w / w.sum(axis=1, keepdims=True)          # 591 x 6
 
+    # Mismo criterio que p2_comparar_era5land: horas con al menos tres
+    # estaciones, repartiendo el peso de las ausentes. Exigir las seis dejaba
+    # 2019 y 2020 sin una sola hora.
+    from p2_comparar_era5land import idw_renormalizada, pivot_estaciones
     salida = {}
     for v, horas in VENTANAS.items():
-        piv = (hor[hor["hora"].isin(horas)]
-               .pivot_table(index=["date", "hora"], columns="station_id", values="t_qc"))
-        piv = piv.dropna()[list(ge.index)]         # solo horas con las seis
-        T = w @ piv.to_numpy().T                   # 591 x n_horas
+        piv = pivot_estaciones(hor, horas, ge.index)
+        T = idw_renormalizada(w, piv)              # 591 x n_horas
         salida[v] = pd.DataFrame(T, index=g_sec.index, columns=piv.index)
-        print(f"  {v}: {piv.shape[0]} horas comunes, campo {T.shape}")
+        print(f"  {v}: {piv.shape[0]} horas, campo {T.shape}")
     return salida
 
 

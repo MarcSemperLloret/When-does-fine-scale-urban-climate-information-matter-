@@ -6,11 +6,11 @@
     7
   ],
   "ensanchamiento_ic_L7_sobre_L1": {
-    "mediana": 1.577,
-    "maximo": 1.658
+    "mediana": 1.557,
+    "maximo": 1.745
   },
   "desplazamiento_eficiencia_pp": {
-    "mediana": 0.155,
-    "maximo": 1.38
+    "mediana": 0.705,
+    "maximo": 1.9
   }
 }

@@ -1,51 +1,51 @@
 ventana,k_pct,representacion,descripcion,regret_pct,regret_ic_lo,regret_ic_hi,eficiencia_pct,eficiencia_ic_lo,eficiencia_ic_hi
-manana_10_12,5,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",68.52,62.37,74.93,31.48,25.07,37.63
+manana_10_12,5,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",68.23,65.52,71.64,31.77,28.36,34.48
 manana_10_12,5,R2_era5_sombra_completa,ERA5 corregido + sombra completa,0.0,0.0,0.0,100.0,100.0,100.0
-manana_10_12,5,R3_local_sin_sombra,"meteorologia local, sin sombra",70.88,63.23,77.73,29.12,22.27,36.77
-manana_10_12,5,R4_local_sombra_edificios,local + sombra de edificios,63.72,58.74,68.76,36.28,31.24,41.26
+manana_10_12,5,R3_local_sin_sombra,"meteorologia local, sin sombra",71.8,67.39,76.24,28.2,23.76,32.61
+manana_10_12,5,R4_local_sombra_edificios,local + sombra de edificios,63.93,61.45,66.95,36.07,33.05,38.55
 manana_10_12,5,R5_local_sombra_completa,referencia de informacion completa,0.0,0.0,0.0,100.0,100.0,100.0
-manana_10_12,10,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",65.37,59.48,70.65,34.63,29.35,40.52
+manana_10_12,10,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",65.77,62.28,69.35,34.23,30.65,37.72
 manana_10_12,10,R2_era5_sombra_completa,ERA5 corregido + sombra completa,0.0,0.0,0.0,100.0,100.0,100.0
-manana_10_12,10,R3_local_sin_sombra,"meteorologia local, sin sombra",66.96,61.31,72.52,33.04,27.48,38.69
-manana_10_12,10,R4_local_sombra_edificios,local + sombra de edificios,59.99,54.84,65.14,40.01,34.86,45.16
+manana_10_12,10,R3_local_sin_sombra,"meteorologia local, sin sombra",66.38,61.38,70.44,33.62,29.56,38.62
+manana_10_12,10,R4_local_sombra_edificios,local + sombra de edificios,59.99,57.41,63.05,40.01,36.95,42.59
 manana_10_12,10,R5_local_sombra_completa,referencia de informacion completa,0.0,0.0,0.0,100.0,100.0,100.0
-manana_10_12,15,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",61.65,54.9,68.93,38.35,31.07,45.1
-manana_10_12,15,R2_era5_sombra_completa,ERA5 corregido + sombra completa,0.19,0.07,0.32,99.81,99.68,99.93
-manana_10_12,15,R3_local_sin_sombra,"meteorologia local, sin sombra",63.1,56.26,69.39,36.9,30.61,43.74
-manana_10_12,15,R4_local_sombra_edificios,local + sombra de edificios,54.97,49.62,60.37,45.03,39.63,50.38
+manana_10_12,15,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",61.97,57.85,66.43,38.03,33.57,42.15
+manana_10_12,15,R2_era5_sombra_completa,ERA5 corregido + sombra completa,0.13,0.05,0.18,99.87,99.82,99.95
+manana_10_12,15,R3_local_sin_sombra,"meteorologia local, sin sombra",61.85,58.39,66.22,38.15,33.78,41.61
+manana_10_12,15,R4_local_sombra_edificios,local + sombra de edificios,54.93,52.23,58.09,45.07,41.91,47.77
 manana_10_12,15,R5_local_sombra_completa,referencia de informacion completa,0.0,0.0,0.0,100.0,100.0,100.0
-manana_10_12,20,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",53.5,47.34,59.48,46.5,40.52,52.66
-manana_10_12,20,R2_era5_sombra_completa,ERA5 corregido + sombra completa,1.06,0.69,1.62,98.94,98.38,99.31
-manana_10_12,20,R3_local_sin_sombra,"meteorologia local, sin sombra",54.18,47.39,61.3,45.82,38.7,52.61
-manana_10_12,20,R4_local_sombra_edificios,local + sombra de edificios,41.99,37.62,46.68,58.01,53.32,62.38
+manana_10_12,20,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",53.29,49.86,56.8,46.71,43.2,50.14
+manana_10_12,20,R2_era5_sombra_completa,ERA5 corregido + sombra completa,0.62,0.46,0.84,99.38,99.16,99.54
+manana_10_12,20,R3_local_sin_sombra,"meteorologia local, sin sombra",53.81,50.51,57.84,46.19,42.16,49.49
+manana_10_12,20,R4_local_sombra_edificios,local + sombra de edificios,41.75,39.53,44.41,58.25,55.59,60.47
 manana_10_12,20,R5_local_sombra_completa,referencia de informacion completa,0.0,0.0,0.0,100.0,100.0,100.0
-manana_10_12,25,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",45.1,39.36,50.94,54.9,49.06,60.64
-manana_10_12,25,R2_era5_sombra_completa,ERA5 corregido + sombra completa,1.65,1.04,2.55,98.35,97.45,98.96
-manana_10_12,25,R3_local_sin_sombra,"meteorologia local, sin sombra",47.45,40.2,55.88,52.55,44.12,59.8
-manana_10_12,25,R4_local_sombra_edificios,local + sombra de edificios,32.61,29.16,36.36,67.39,63.64,70.84
+manana_10_12,25,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",44.98,42.21,48.31,55.02,51.69,57.79
+manana_10_12,25,R2_era5_sombra_completa,ERA5 corregido + sombra completa,0.99,0.73,1.34,99.01,98.66,99.27
+manana_10_12,25,R3_local_sin_sombra,"meteorologia local, sin sombra",46.32,43.37,50.29,53.68,49.71,56.63
+manana_10_12,25,R4_local_sombra_edificios,local + sombra de edificios,32.22,30.48,34.35,67.78,65.65,69.52
 manana_10_12,25,R5_local_sombra_completa,referencia de informacion completa,0.0,0.0,0.0,100.0,100.0,100.0
-tarde_16_18,5,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",44.4,34.65,53.56,55.6,46.44,65.35
-tarde_16_18,5,R2_era5_sombra_completa,ERA5 corregido + sombra completa,1.98,1.44,2.62,98.02,97.38,98.56
-tarde_16_18,5,R3_local_sin_sombra,"meteorologia local, sin sombra",40.44,30.16,49.73,59.56,50.27,69.84
-tarde_16_18,5,R4_local_sombra_edificios,local + sombra de edificios,50.31,41.3,58.39,49.69,41.61,58.7
+tarde_16_18,5,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",51.13,45.15,57.38,48.87,42.62,54.85
+tarde_16_18,5,R2_era5_sombra_completa,ERA5 corregido + sombra completa,1.57,1.28,1.93,98.43,98.07,98.72
+tarde_16_18,5,R3_local_sin_sombra,"meteorologia local, sin sombra",47.55,41.52,53.79,52.45,46.21,58.48
+tarde_16_18,5,R4_local_sombra_edificios,local + sombra de edificios,55.4,50.29,60.89,44.6,39.11,49.71
 tarde_16_18,5,R5_local_sombra_completa,referencia de informacion completa,0.0,0.0,0.0,100.0,100.0,100.0
-tarde_16_18,10,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",34.73,27.56,42.5,65.27,57.5,72.44
-tarde_16_18,10,R2_era5_sombra_completa,ERA5 corregido + sombra completa,3.24,1.63,5.19,96.76,94.81,98.37
-tarde_16_18,10,R3_local_sin_sombra,"meteorologia local, sin sombra",29.06,21.81,36.67,70.94,63.33,78.19
-tarde_16_18,10,R4_local_sombra_edificios,local + sombra de edificios,37.44,31.34,43.53,62.56,56.47,68.66
+tarde_16_18,10,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",39.88,34.89,46.04,60.12,53.96,65.11
+tarde_16_18,10,R2_era5_sombra_completa,ERA5 corregido + sombra completa,3.31,2.42,4.33,96.69,95.67,97.58
+tarde_16_18,10,R3_local_sin_sombra,"meteorologia local, sin sombra",34.86,30.01,40.12,65.14,59.88,69.99
+tarde_16_18,10,R4_local_sombra_edificios,local + sombra de edificios,41.0,37.1,45.35,59.0,54.65,62.9
 tarde_16_18,10,R5_local_sombra_completa,referencia de informacion completa,0.0,0.0,0.0,100.0,100.0,100.0
-tarde_16_18,15,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",29.5,23.53,36.48,70.5,63.52,76.47
-tarde_16_18,15,R2_era5_sombra_completa,ERA5 corregido + sombra completa,5.42,3.8,7.48,94.58,92.52,96.2
-tarde_16_18,15,R3_local_sin_sombra,"meteorologia local, sin sombra",19.75,14.43,25.99,80.25,74.01,85.57
-tarde_16_18,15,R4_local_sombra_edificios,local + sombra de edificios,25.85,22.43,29.6,74.15,70.4,77.57
+tarde_16_18,15,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",33.87,29.56,39.33,66.13,60.67,70.44
+tarde_16_18,15,R2_era5_sombra_completa,ERA5 corregido + sombra completa,4.94,3.91,6.13,95.06,93.87,96.09
+tarde_16_18,15,R3_local_sin_sombra,"meteorologia local, sin sombra",24.99,20.65,30.1,75.01,69.9,79.35
+tarde_16_18,15,R4_local_sombra_edificios,local + sombra de edificios,27.47,25.19,30.02,72.53,69.98,74.81
 tarde_16_18,15,R5_local_sombra_completa,referencia de informacion completa,0.0,0.0,0.0,100.0,100.0,100.0
-tarde_16_18,20,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",25.05,20.04,31.73,74.95,68.27,79.96
-tarde_16_18,20,R2_era5_sombra_completa,ERA5 corregido + sombra completa,5.79,3.9,8.24,94.21,91.76,96.1
-tarde_16_18,20,R3_local_sin_sombra,"meteorologia local, sin sombra",15.34,11.29,19.96,84.66,80.04,88.71
-tarde_16_18,20,R4_local_sombra_edificios,local + sombra de edificios,23.87,21.48,26.61,76.13,73.39,78.52
+tarde_16_18,20,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",28.3,24.69,32.51,71.7,67.49,75.31
+tarde_16_18,20,R2_era5_sombra_completa,ERA5 corregido + sombra completa,5.52,4.33,6.76,94.48,93.24,95.67
+tarde_16_18,20,R3_local_sin_sombra,"meteorologia local, sin sombra",18.43,15.65,21.71,81.57,78.29,84.35
+tarde_16_18,20,R4_local_sombra_edificios,local + sombra de edificios,24.59,23.06,26.26,75.41,73.74,76.94
 tarde_16_18,20,R5_local_sombra_completa,referencia de informacion completa,0.0,0.0,0.0,100.0,100.0,100.0
-tarde_16_18,25,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",20.37,16.07,25.51,79.63,74.49,83.93
-tarde_16_18,25,R2_era5_sombra_completa,ERA5 corregido + sombra completa,5.36,3.76,7.29,94.64,92.71,96.24
-tarde_16_18,25,R3_local_sin_sombra,"meteorologia local, sin sombra",12.41,9.56,16.44,87.59,83.56,90.44
-tarde_16_18,25,R4_local_sombra_edificios,local + sombra de edificios,22.54,20.85,24.54,77.46,75.46,79.15
+tarde_16_18,25,R1_era5_sin_sombra,"ERA5 corregido, sin sombra",23.09,19.83,26.74,76.91,73.26,80.17
+tarde_16_18,25,R2_era5_sombra_completa,ERA5 corregido + sombra completa,4.42,3.31,5.66,95.58,94.34,96.69
+tarde_16_18,25,R3_local_sin_sombra,"meteorologia local, sin sombra",15.01,13.11,17.44,84.99,82.56,86.89
+tarde_16_18,25,R4_local_sombra_edificios,local + sombra de edificios,22.52,21.37,23.68,77.48,76.32,78.63
 tarde_16_18,25,R5_local_sombra_completa,referencia de informacion completa,0.0,0.0,0.0,100.0,100.0,100.0

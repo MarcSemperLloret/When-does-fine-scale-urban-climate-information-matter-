@@ -51,10 +51,15 @@ def series_estaciones(horas):
     est = df.groupby("station_id")[["latitude", "longitude"]].first()
     ge = gpd.GeoDataFrame(est, geometry=gpd.points_from_xy(est["longitude"], est["latitude"]),
                           crs="EPSG:4326").to_crs(UTM)
-    piv = (hor[hor["hora"].isin(horas)]
-           .pivot_table(index=["date", "hora"], columns="station_id", values="t_qc")
-           .dropna()[list(ge.index)])
-    return piv, ge
+    # Aqui SI se exigen las seis simultaneamente, y no es un descuido: este
+    # script alimenta una comparacion **entre estaciones** (rango observado,
+    # excedencias por estacion) y el control del interpolador. Si cada estacion
+    # aportase horas distintas, el rango entre ellas mezclaria muestras y dejaria
+    # de medir heterogeneidad espacial. El campo sobre secciones de
+    # p2_comparar_era5land si renormaliza, porque alli lo que importa es la
+    # cobertura temporal y no el equilibrio entre estaciones.
+    from p2_comparar_era5land import pivot_estaciones
+    return pivot_estaciones(hor, horas, ge.index, min_estaciones=6), ge
 
 
 def idw(cent, ge, piv, potencia=2.0, k=None, excluir_mas_proxima=False):
@@ -70,7 +75,8 @@ def idw(cent, ge, piv, potencia=2.0, k=None, excluir_mas_proxima=False):
         umbral = np.partition(w, -k, axis=1)[:, -k][:, None]
         w = np.where(w >= umbral, w, 0.0)
     w = w / w.sum(axis=1, keepdims=True)
-    return w @ piv.to_numpy().T
+    from p2_comparar_era5land import idw_renormalizada
+    return idw_renormalizada(w, piv)
 
 
 def metricas(T, alcanzable, pob, ref=None):

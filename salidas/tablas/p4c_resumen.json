@@ -1,6 +1,6 @@
 {
   "phi_referencia": 0.4,
-  "anclaje": "60 % del recorrido en sombra como objetivo de diseno de itinerarios peatonales; Tomasi et al. 2023 Int J Biometeorol 68(1):17-31 formulan el umbral como fraccion expuesta y situan el presupuesto energetico de persona mayor en ~1/3 del de adulto joven",
+  "anclaje": "60 % del recorrido en sombra como objetivo de diseno de itinerarios peatonales (Tomasi et al. 2024, Building and Environment); el presupuesto energetico de la persona mayor se situa en ~1/3 del de adulto joven (Tomasi et al. 2024)",
   "tau": 0.1,
   "umbral_c": 30.0,
   "presupuestos_k": [

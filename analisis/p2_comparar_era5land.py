@@ -51,7 +51,58 @@ N_BOOT = 400
 
 
 # ------------------------------------------------------------------ campos
-def campo_avamet(cent, horas):
+MIN_ESTACIONES = 3
+
+
+def pivot_estaciones(hor, horas, orden, min_estaciones=MIN_ESTACIONES):
+    """Horas x estaciones, conservando las horas con al menos `min_estaciones`.
+
+    Sustituye al `.dropna()` que exigia las seis simultaneamente. Vive aqui, y
+    no copiada en cada script, porque justamente el problema fue que cuatro
+    ficheros repetian el mismo filtro y ninguno declaraba lo que descartaba.
+    """
+    piv = (hor[hor["hora"].isin(horas)]
+           .pivot_table(index=["date", "hora"], columns="station_id", values="t_qc")
+           .reindex(columns=list(orden)))
+    return piv[(~piv.isna()).sum(axis=1) >= min_estaciones]
+
+
+def idw_renormalizada(w, piv):
+    """Aplica pesos IDW repartiendo el de cada estacion ausente entre las presentes.
+
+    Devuelve NaN donde ninguna estacion con peso no nulo tiene dato, que puede
+    ocurrir cuando el llamante ademas restringe los pesos (k vecinos, excluir la
+    mas proxima) y no debe confundirse con un cero.
+    """
+    A = piv.to_numpy()
+    M = ~np.isnan(A)
+    den = w @ M.astype(float).T
+    num = w @ np.where(M, A, 0.0).T
+    return np.divide(num, den, out=np.full_like(num, np.nan), where=den > 0)
+
+
+def campo_avamet(cent, horas, min_estaciones=MIN_ESTACIONES):
+    """IDW p=2 sobre las seis estaciones urbanas, renormalizada en cada instante.
+
+    Esta funcion hacia `.dropna()`, es decir exigia que las **seis** estaciones
+    reportasen simultaneamente. Como l'Olivereta (c15m250e11) no entra en el
+    archivo hasta junio de 2021, aquello dejaba 2019 y 2020 sin una sola hora y
+    retenia el 32 % de las disponibles, sin que nada en la salida lo delatase:
+    el campo se construia, las cifras salian plausibles y dos de los seis
+    veranos no estaban. Es el mismo tipo de fallo silencioso que documenta S2.
+
+    Ahora se usan las estaciones presentes en cada instante y los pesos se
+    renormalizan sobre ellas, que es lo que haria un servicio real. Se exige un
+    minimo de `min_estaciones` porque con menos de tres el campo no puede
+    expresar un gradiente en dos dimensiones y se aplanaria hacia la estacion
+    superviviente. Con tres se conservan practicamente todas las horas de los
+    seis veranos.
+
+    La contrapartida es que la composicion de la red varia en el tiempo --- la
+    mediana de estaciones disponibles es 3 en 2020 y 5 o 6 en los demas
+    veranos ---. Se declara en las limitaciones y se acompana del subconjunto
+    estricto de seis estaciones como analisis de sensibilidad.
+    """
     df = pd.read_parquet(DATOS / "valencia_verano_qc.parquet")
     df = df[df["station_id"].isin(BARRIOS)].copy()
     df["hora"] = df["observed_local"].dt.hour
@@ -64,10 +115,14 @@ def campo_avamet(cent, horas):
                 + (cent.y.values[:, None] - ge.geometry.y.values[None, :]) ** 2)
     w = 1.0 / np.maximum(d, 50.0) ** 2
     w /= w.sum(axis=1, keepdims=True)
-    piv = (hor[hor["hora"].isin(horas)]
-           .pivot_table(index=["date", "hora"], columns="station_id", values="t_qc")
-           .dropna()[list(ge.index)])
-    return w @ piv.to_numpy().T, piv.index
+    piv = pivot_estaciones(hor, horas, ge.index, min_estaciones)
+    M = ~np.isnan(piv.to_numpy())
+    anos = pd.to_datetime(piv.index.get_level_values("date")).year
+    print(f"  AVAMET: {len(piv)} horas, estaciones por hora "
+          f"mediana {int(np.median(M.sum(axis=1)))}, "
+          f"minimo {int(M.sum(axis=1).min())}; por verano "
+          + ", ".join(f"{y}:{(anos == y).sum()}" for y in sorted(set(anos))))
+    return idw_renormalizada(w, piv), piv.index
 
 
 def campo_era5(cent_ll, horas):
