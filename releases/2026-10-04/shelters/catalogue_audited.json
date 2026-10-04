@@ -1,0 +1,1141 @@
+[
+  {
+    "name": "Biblioteca Municipal de Benimaclet – Carola Reig",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.app.goo.gl/uL9JrHud2RWLXmhLA"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-carola-reig-salva-benimaclet-/-benimaclet-"
+      }
+    ],
+    "id": 0,
+    "map_name": "Biblioteca Municipal Carola Reig Salvà",
+    "lon": -0.3582031,
+    "lat": 39.4881002,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Biblioteca Municipal del Grau – Constantí Llombart",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=16605891539443400367"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-constanti-llombart-poblats-maritims-/-el-grao-"
+      }
+    ],
+    "id": 1,
+    "map_name": "Biblioteca del Grao – Constantí Llombart",
+    "lon": -0.3305413,
+    "lat": 39.4626905,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Biblioteca Municipal de Malilla - Roís de Corella",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=5328170968403907106"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-rois-de-corella-quatre-carreres-/-malilla-cas"
+      }
+    ],
+    "id": 2,
+    "map_name": "Biblioteca Municipal Roís de Corella",
+    "lon": -0.377251,
+    "lat": 39.4487188,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Biblioteca Municipal de Tres Forques - Lluís Fullana i Mira",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=11813380240405069003"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-de-tres-forques-llu%C3%ADs-fullana-i-mira-cas"
+      }
+    ],
+    "id": 3,
+    "map_name": "BIBLIOTECA MUNICIPAL LLUÍS FULLANA I MIRA (TRES FORQUES)",
+    "lon": -0.4021573,
+    "lat": 39.4652721,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.5
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Biblioteca Municipal Sant Marcel·lí - Camí Real - Clara Santiró i Font",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=9475210308731845316"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-sant-marcel.li-cami-real-clara-santiro-i-font"
+      }
+    ],
+    "id": 4,
+    "map_name": "Biblioteca Clara Santiró i Font",
+    "lon": -0.3926459,
+    "lat": 39.447147,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Biblioteca Municipal d'Arrancapins - Eduard Escalante",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=13418221123011516115"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-eduard-escalante-extramurs-/-arrancapins-"
+      }
+    ],
+    "id": 5,
+    "map_name": "Biblioteca Eduardo Escalante",
+    "lon": -0.3877722,
+    "lat": 39.4676887,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Biblioteca Municipal de L'Amistat - Tomàs Vicent Tosca",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=7694841213109614404"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-tomas-vicent-tosca-algiros-/-de-la-amistad-"
+      }
+    ],
+    "id": 6,
+    "map_name": "Biblioteca Municipal Tomás Vicent Tosca",
+    "lon": -0.350849,
+    "lat": 39.4722847,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Biblioteca Municipal de Marxalenes - Joanot Martorell",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=3271479490493869650"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-joanot-martorell-la-saidia-/-marxalenes"
+      }
+    ],
+    "id": 7,
+    "map_name": "Biblioteca Municipal Joanot Martorell",
+    "lon": -0.3812411,
+    "lat": 39.4864537,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Biblioteca Municipal de Natzaret - del Mar",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=1700052073975967975"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-del-mar-poblats-maritims-natzaret"
+      }
+    ],
+    "id": 8,
+    "map_name": "Biblioteca Municipal de Nazaret",
+    "lon": -0.3312883,
+    "lat": 39.4489593,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Biblioteca Municipal de Russafa - Nova Al-Russafí",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=5661254238816807361"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-nova-al-russafi-l-eixample"
+      }
+    ],
+    "id": 9,
+    "map_name": "Biblioteca Municipal Nova Al-Russafí",
+    "lon": -0.3705437,
+    "lat": 39.4609171,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Biblioteca Municipal de la Creu del Grau - Gregori Maians i Síscar",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=4758880000529743135"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-gregori-maians-i-siscar-camins-al-grau-la-creu-del-grau-cas"
+      }
+    ],
+    "id": 10,
+    "map_name": "Biblioteca Municipal Gregori Maians i Ciscar",
+    "lon": -0.3456048,
+    "lat": 39.4616271,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Biblioteca Municipal dels Orriols - Josep Maria Bayarri",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=12361751140565420269"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-josep-maria-bayarri-rascanya-/-els-orriols-"
+      }
+    ],
+    "id": 11,
+    "map_name": "Biblioteca Municipal Josep María Bayarri",
+    "lon": -0.3685271,
+    "lat": 39.4969592,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Biblioteca Municipal Palacio de la Exposición",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=13881769582790925088"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-palau-de-l-exposicio-el-pla-del-real-/-exposicio-"
+      }
+    ],
+    "id": 12,
+    "map_name": "Biblioteca Municipal Palacio de la Exposición",
+    "lon": -0.3625154,
+    "lat": 39.4735463,
+    "ordinary_intervals": [
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "CCCC (Centre del Carme Cultura Contemporània)",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.app.goo.gl/kyR3ZnFPk6tMGWkV7"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.consorcimuseus.gva.es/centro-del-carmen/"
+      }
+    ],
+    "id": 13,
+    "map_name": "CCCC (Centro del Carmen de Cultura Contemporánea)",
+    "lon": -0.3790181,
+    "lat": 39.4796725,
+    "ordinary_intervals": [
+      [
+        10,
+        20
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "uncertain_CCCC",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Institut Valencià d’Art Modern (IVAM)",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.app.goo.gl/s6r7SxE7Sw6Bfd3A9"
+      },
+      {
+        "text": "Más información",
+        "url": "http://www.ivam.es"
+      }
+    ],
+    "id": 14,
+    "map_name": "Instituto Valenciano de Arte Moderno (IVAM)",
+    "lon": -0.3827567,
+    "lat": 39.4796137,
+    "ordinary_intervals": [
+      [
+        10,
+        19
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "after_event",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Museo de las Ciencias",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=942362019465718817"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-museo-de-las-ciencias"
+      }
+    ],
+    "id": 15,
+    "map_name": "Museo de las Ciencias Príncipe Felipe",
+    "lon": -0.3520842,
+    "lat": 39.4561074,
+    "ordinary_intervals": [
+      [
+        10,
+        21
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "free_refuge_area_unconfirmed",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Museo de la Ciudad",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=17021411207088571064"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-museo-de-la-ciudad"
+      }
+    ],
+    "id": 16,
+    "map_name": "Palacio del Marqués de Campo, Museo de la Ciudad de Valencia",
+    "lon": -0.3738419,
+    "lat": 39.475975,
+    "ordinary_intervals": [
+      [
+        10,
+        19
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Museo de Historia de València",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=154962768531330814"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-museo-de-historia-de-val%C3%A8ncia"
+      }
+    ],
+    "id": 17,
+    "map_name": "Museu d'Història de València",
+    "lon": -0.4084227,
+    "lat": 39.4724948,
+    "ordinary_intervals": [
+      [
+        10,
+        19
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Museo de Ciencias Naturales (antiguo Paleontològic)",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=7892905446275393569"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-museo-de-ciencias-naturales"
+      }
+    ],
+    "id": 18,
+    "map_name": "Museo de Ciencias Naturales",
+    "lon": -0.3687317,
+    "lat": 39.4793155,
+    "ordinary_intervals": [
+      [
+        10,
+        19
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Centro Cultural Municipal Chalet Aben Al Abbar",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=10700966913379555981"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-centro-cultural-municipal-chalet-aben-al-abbar"
+      }
+    ],
+    "id": 19,
+    "map_name": "CC Aben al-Abbar (El chalet de la República)",
+    "lon": -0.352664,
+    "lat": 39.4671609,
+    "ordinary_intervals": [
+      [
+        10,
+        14.5
+      ],
+      [
+        17,
+        21.5
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Centro Cultural Municipal Nave 3 Ribes",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=6072474709354584280"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-centro-cultural-municipal-nave-3-ribes"
+      }
+    ],
+    "id": 20,
+    "map_name": "Centro Cultural Nave 3 Ribes",
+    "lon": -0.3781626,
+    "lat": 39.458894,
+    "ordinary_intervals": [
+      [
+        9,
+        14
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Centro Cultural Municipal Escorxador",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=6134741944376141091"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-centro-cultural-municipal-escorxador"
+      }
+    ],
+    "id": 21,
+    "map_name": "Centre Cultural Escorxador",
+    "lon": -0.3319005,
+    "lat": 39.4692167,
+    "ordinary_intervals": [
+      [
+        10,
+        14.5
+      ],
+      [
+        17,
+        21.5
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Centro Cultural Municipal Alqueria Albors",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.app.goo.gl/TkdXtc1MdtYQq5189"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-centro-cultural-municipal-alquer%C3%ADa-albors"
+      }
+    ],
+    "id": 22,
+    "map_name": "Centro Cultural Municipal Alquería Albors",
+    "lon": -0.3685271,
+    "lat": 39.4969592,
+    "ordinary_intervals": [
+      [
+        10,
+        14.5
+      ],
+      [
+        17,
+        21.5
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Centro Cultural Municipal Reina 121",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=11524889065526231617"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-centro-cultural-municipal-reina-121"
+      }
+    ],
+    "id": 23,
+    "map_name": "Centro Cultural Reina 121",
+    "lon": -0.32873,
+    "lat": 39.4690813,
+    "ordinary_intervals": [
+      [
+        10,
+        14.5
+      ],
+      [
+        17,
+        21.5
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Las Naves",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=4013196252611695738"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-las-naves.-espacio-de-creaci%C3%B3n-contemporanea"
+      }
+    ],
+    "id": 24,
+    "map_name": "Las Naves | Centro de innovación social y urbana",
+    "lon": -0.3382737,
+    "lat": 39.4587039,
+    "ordinary_intervals": [
+      [
+        8,
+        21
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Palacio de Congresos",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=6336730815903214651"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-palacio-de-congresos-de-valencia"
+      }
+    ],
+    "id": 25,
+    "map_name": "Palacio de Congresos de Valencia",
+    "lon": -0.4020685,
+    "lat": 39.4962485,
+    "ordinary_intervals": [
+      [
+        9,
+        14
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Observatori del Canvi Climàtic",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=7937444383579432428"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-observatorio-del-cambio-climatico"
+      }
+    ],
+    "id": 26,
+    "map_name": "Observatori del Canvi Climàtic - València Sostenible",
+    "lon": -0.3275222,
+    "lat": 39.4670238,
+    "ordinary_intervals": [
+      [
+        8.5,
+        15
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Oficina de l'Energia Ayora",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=17942095351634664939"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-oficina-de-la-energ%C3%ADa-ayora"
+      }
+    ],
+    "id": 27,
+    "map_name": "Oficina de l'Energia - Ayora - València Sostenible",
+    "lon": -0.3391224,
+    "lat": 39.4681089,
+    "ordinary_intervals": [
+      [
+        9,
+        14.5
+      ],
+      [
+        15,
+        18
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Oficina de l'Energia Torrefiel",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=3899401133309970007"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-oficina-de-la-energ%C3%ADa-mercado-de-torrefiel"
+      }
+    ],
+    "id": 28,
+    "map_name": "Oficina de l'Energia - Mercat de Torrefiel - València Sostenible",
+    "lon": -0.3752323,
+    "lat": 39.4977125,
+    "ordinary_intervals": [
+      [
+        10,
+        14
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Oficina de l'Energia Parc de l'Oest",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=12819767736663143631"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-oficina-de-la-energ%C3%ADa-parque-del-oeste"
+      }
+    ],
+    "id": 29,
+    "map_name": "Oficina de l'Energia Parc de l'Oest- València Sostenible",
+    "lon": -0.3953647,
+    "lat": 39.4664786,
+    "ordinary_intervals": [
+      [
+        9,
+        14.5
+      ],
+      [
+        15,
+        18
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Centro Municipal de Servicios Sociales Patraix",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=17562731470246015289"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-centro-municipal-de-servicios-sociales-patraix"
+      }
+    ],
+    "id": 30,
+    "map_name": "Centro Asuntos Sociales Patraix",
+    "lon": -0.3941432,
+    "lat": 39.4626607,
+    "ordinary_intervals": [
+      [
+        9,
+        14
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Centro Municipal de actividades para Personas Mayores Nou Benicalap",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=4016075388558452260"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-centro-municipal-de-actividades-para-personas-mayores-nou-benicalap"
+      }
+    ],
+    "id": 31,
+    "map_name": "Centro Municipal De Actividades Para Personas Mayores Nou Benicalap",
+    "lon": -0.3868915,
+    "lat": 39.4938692,
+    "ordinary_intervals": [
+      [
+        9,
+        20
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "older_people_facility",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Centro Municipal de actividades para Personas Mayores Nou Moles",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.app.goo.gl/s8e5NebWRQmg3KbQ7"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-centro-municipal-de-actividades-para-personas-mayores-nou-moles"
+      }
+    ],
+    "id": 32,
+    "map_name": "CENTRO MUNICIPAL DE ACTIVIDADES PARA PERSONAS MAYORES NOU MOLES(CMAPM)",
+    "lon": -0.3988836,
+    "lat": 39.4705054,
+    "ordinary_intervals": [
+      [
+        9,
+        20
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "older_people_facility",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Centro Municipal de actividades para Personas Mayores Patraix",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=17562731470246015289"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-centro-municipal-de-actividades-para-personas-mayores-patraix"
+      }
+    ],
+    "id": 33,
+    "map_name": "Centro Municipal de Actividades para Personas Mayores Patraix",
+    "lon": -0.3941432,
+    "lat": 39.4626607,
+    "ordinary_intervals": [
+      [
+        9.5,
+        13
+      ],
+      [
+        16,
+        20
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "older_people_facility",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Centro Municipal de actividades para Personas Mayores Campanar",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=3066408168476182574"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-centro-municipal-de-actividades-para-personas-mayores-campanar"
+      }
+    ],
+    "id": 34,
+    "map_name": "Centro Municipal De Actividades Para Personas Mayores Campanar",
+    "lon": -0.3969816,
+    "lat": 39.4811577,
+    "ordinary_intervals": [
+      [
+        9.5,
+        13
+      ],
+      [
+        16,
+        20
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "older_people_facility",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  },
+  {
+    "name": "Junta Municipal Dels Pobles de Benimàmet-Beniferri",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=16658565030556915641"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-junta-municipal-dels-pobles-de-benimamet-beniferri-cas"
+      }
+    ],
+    "id": 35,
+    "map_name": "Junta Municipal Dels Pobles De Benimàmet-Beniferri",
+    "lon": -0.4238519,
+    "lat": 39.5018651,
+    "ordinary_intervals": [
+      [
+        8,
+        14.5
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Junta Municipal de Pobles del Nord (Carpesa)",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=12934051297497616678"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-junta-municipal-de-pobles-del-nord-cas"
+      }
+    ],
+    "id": 36,
+    "map_name": "Junta Municipal De Pobles Del Nord",
+    "lon": -0.3780851,
+    "lat": 39.51727,
+    "ordinary_intervals": [
+      [
+        8,
+        14.5
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Junta Municipal de Pobles del Sud (Castellar)",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=18008261703379835194"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-junta-municipal-de-pobles-del-sud-cas"
+      }
+    ],
+    "id": 37,
+    "map_name": "Junta Municipal De Pobles Del Sud",
+    "lon": -0.362147,
+    "lat": 39.428029,
+    "ordinary_intervals": [
+      [
+        8,
+        14.5
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Centro Cívico Ayora",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=4491708927601320172"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-centro-c%C3%ADvico-aiora"
+      }
+    ],
+    "id": 38,
+    "map_name": "Centre Cívic Aiora - Francisco Javier Goerlich Lleó",
+    "lon": -0.3423002,
+    "lat": 39.4654778,
+    "ordinary_intervals": [
+      [
+        9,
+        20
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Complex Esportiu Cultural Petxina",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.google.com/?cid=3390473609586216108"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/-/infociudad-complex-esportiu-cultural-petxina"
+      }
+    ],
+    "id": 39,
+    "map_name": "Complejo Deportivo-Cultural Pechina",
+    "lon": -0.393788,
+    "lat": 39.4757916,
+    "ordinary_intervals": [
+      [
+        8,
+        20
+      ]
+    ],
+    "announced_extension": false,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "No specific extension in named list."
+  },
+  {
+    "name": "Oficina turística playa del Cabanyal",
+    "links": [
+      {
+        "text": "Ubicación",
+        "url": "https://maps.app.goo.gl/Jo3WTixmvYGqerBn8"
+      },
+      {
+        "text": "Más información",
+        "url": "https://www.valencia.es/cas/actualidad/-/content/nueva-oficina-turismo-playa-cabanyal"
+      }
+    ],
+    "id": 40,
+    "map_name": "Oficina de Turismo playa de Valencia",
+    "lon": -0.3240008,
+    "lat": 39.4676491,
+    "ordinary_intervals": [
+      [
+        10,
+        15
+      ]
+    ],
+    "announced_extension": true,
+    "historical_status": "reconstructed_39",
+    "access_status": "listed_public_refuge",
+    "interpretation": "Announced until 21:00; continuous afternoon reopening not explicitly timed."
+  }
+]

@@ -1,12 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this artefact, please cite it as below."
-title: "When does fine-scale urban climate information matter? Analysis artefact"
+title: "When does intra-urban temperature information change heat-adaptation priorities? Analysis code and derived-data companion"
 abstract: >-
-  Analysis code and derived results for a decision-focused evaluation of urban
-  climate information: thermal exposure and pedestrian accessibility to
-  primary-care centres for adults aged 65 and over in Valencia, Spain. Contains
-  no raw meteorological observations; AVAMET data must be requested from the
-  network directly.
+  Code and derived-data companion for heat-adaptation priorities in Valencia
+  and Madrid, including independent-site spatial checks and climate-shelter
+  opening-hour resource analysis. Raw restricted sensor records are excluded.
 type: software
 authors:
   - family-names: "Semper Lloret"
@@ -21,13 +19,14 @@ authors:
     given-names: "Jose F."
     email: "jvicent@ua.es"
     affiliation: "Universitat d'Alacant"
+  - family-names: "Oliver"
+    given-names: "Jose Luis"
+    affiliation: "Universitat d'Alacant"
+  - family-names: "Olcina"
+    given-names: "Jorge"
+    affiliation: "Universitat d'Alacant"
 license: MIT
-doi: "10.5281/zenodo.21851740"
 repository-code: "https://github.com/MarcSemperLloret/When-does-fine-scale-urban-climate-information-matter-"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.21851740"
-    description: "Archived artefact on Zenodo"
 keywords:
   - urban heat
   - pedestrian accessibility
@@ -35,3 +34,5 @@ keywords:
   - urban shade
   - value of information
   - decision analysis
+version: "2026.10.04"
+date-released: "2026-10-04"

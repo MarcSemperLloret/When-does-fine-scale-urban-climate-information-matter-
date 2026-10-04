@@ -1,0 +1,13 @@
+city,mode,window,cases,feasible,infeasible,uncertified,max_required_loss
+Madrid,connectors_shade,Afternoon,24,24,0,0,0.12728579973367
+Madrid,connectors_shade,Morning,24,19,5,0,2.7428172350901434
+Madrid,connectors_sun,Afternoon,24,24,0,0,0.12728579973367
+Madrid,connectors_sun,Morning,24,22,2,0,2.7428172350901434
+Madrid,network,Afternoon,24,24,0,0,0.1318133736502744
+Madrid,network,Morning,24,21,3,0,2.8366459646789224
+Valencia,connectors_shade,Afternoon,24,17,7,0,1.5007328600400172
+Valencia,connectors_shade,Morning,24,21,3,0,1.2479065977881874
+Valencia,connectors_sun,Afternoon,24,21,3,0,1.5007328600400172
+Valencia,connectors_sun,Morning,24,22,2,0,1.2479065977881874
+Valencia,network,Afternoon,24,19,5,0,1.697052673336913
+Valencia,network,Morning,24,22,2,0,1.4654150738776792

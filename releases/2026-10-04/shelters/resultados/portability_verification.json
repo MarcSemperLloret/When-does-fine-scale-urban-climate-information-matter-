@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "utc": "2026-09-21T17:05:02.172048+00:00",
+  "commands": [
+    "evaluate_coverage.py",
+    "optimise_extensions.py",
+    "robust_extensions.py",
+    "budget_thresholds.py"
+  ],
+  "comparisons": [
+    {
+      "file": "coverage_summary.json",
+      "field": "incremental_person_hours",
+      "original": 166468.099,
+      "portable": 166468.099
+    },
+    {
+      "file": "robust_results.json",
+      "field": "worst_capture",
+      "original": 94.4983415905598,
+      "portable": 94.4983415905598
+    },
+    {
+      "file": "budget_thresholds.json",
+      "field": "minimum_centre_hours",
+      "original": 88.0,
+      "portable": 88.0
+    }
+  ],
+  "scope": "Offline derived-input pipeline; raw network reconstruction requires upstream inputs."
+}

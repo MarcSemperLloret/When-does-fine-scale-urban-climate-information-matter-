@@ -1,0 +1,8 @@
+{
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "dominance_cuts": 1728,
+  "mip_gap": 0.0,
+  "objective_bound": 32.07627718059795,
+  "objective": 32.07627718059795
+}

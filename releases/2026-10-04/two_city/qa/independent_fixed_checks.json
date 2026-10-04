@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "matrices": 12,
+  "optimisations": 108,
+  "independent_resolves": 108,
+  "baseline_checks": 864,
+  "exhaustive_oracles": 4,
+  "configurations": [
+    {
+      "city": "Madrid",
+      "window": "Afternoon",
+      "mode": "connectors_shade",
+      "first_incompatible": null,
+      "passed": true
+    },
+    {
+      "city": "Madrid",
+      "window": "Afternoon",
+      "mode": "connectors_sun",
+      "first_incompatible": null,
+      "passed": true
+    },
+    {
+      "city": "Madrid",
+      "window": "Afternoon",
+      "mode": "network",
+      "first_incompatible": null,
+      "passed": true
+    },
+    {
+      "city": "Madrid",
+      "window": "Morning",
+      "mode": "connectors_shade",
+      "first_incompatible": 1.0,
+      "passed": true
+    },
+    {
+      "city": "Madrid",
+      "window": "Morning",
+      "mode": "connectors_sun",
+      "first_incompatible": 2.0,
+      "passed": true
+    },
+    {
+      "city": "Madrid",
+      "window": "Morning",
+      "mode": "network",
+      "first_incompatible": 1.25,
+      "passed": true
+    },
+    {
+      "city": "Valencia",
+      "window": "Afternoon",
+      "mode": "connectors_shade",
+      "first_incompatible": 0.5,
+      "passed": true
+    },
+    {
+      "city": "Valencia",
+      "window": "Afternoon",
+      "mode": "connectors_sun",
+      "first_incompatible": 1.0,
+      "passed": true
+    },
+    {
+      "city": "Valencia",
+      "window": "Afternoon",
+      "mode": "network",
+      "first_incompatible": 0.5,
+      "passed": true
+    },
+    {
+      "city": "Valencia",
+      "window": "Morning",
+      "mode": "connectors_shade",
+      "first_incompatible": 1.25,
+      "passed": true
+    },
+    {
+      "city": "Valencia",
+      "window": "Morning",
+      "mode": "connectors_sun",
+      "first_incompatible": 1.75,
+      "passed": true
+    },
+    {
+      "city": "Valencia",
+      "window": "Morning",
+      "mode": "network",
+      "first_incompatible": 1.5,
+      "passed": true
+    }
+  ],
+  "scope": "Decision layer only; upstream weather and observation validity are outside this audit."
+}

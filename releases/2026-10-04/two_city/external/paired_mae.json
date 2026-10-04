@@ -1,0 +1,182 @@
+[
+  {
+    "clock": "as_local_CEST",
+    "window": "Afternoon",
+    "comparator": "Uniform",
+    "mae_IDW_minus_comparator": -0.02295723273347261,
+    "ci95": [
+      -0.03716024503563093,
+      -0.009368513845922554
+    ]
+  },
+  {
+    "clock": "as_local_CEST",
+    "window": "Afternoon",
+    "comparator": "Nearest",
+    "mae_IDW_minus_comparator": -0.011437571864173823,
+    "ci95": [
+      -0.020157271697721066,
+      -0.0030187172080302365
+    ]
+  },
+  {
+    "clock": "as_local_CEST",
+    "window": "Afternoon",
+    "comparator": "ERA5_corrected",
+    "mae_IDW_minus_comparator": -0.6297797686031169,
+    "ci95": [
+      -0.8910437666028876,
+      -0.41857375832208404
+    ]
+  },
+  {
+    "clock": "as_local_CEST",
+    "window": "Morning",
+    "comparator": "Uniform",
+    "mae_IDW_minus_comparator": -0.005823299548821659,
+    "ci95": [
+      -0.02131551727776001,
+      0.005588330012640785
+    ]
+  },
+  {
+    "clock": "as_local_CEST",
+    "window": "Morning",
+    "comparator": "Nearest",
+    "mae_IDW_minus_comparator": -0.021368517982358615,
+    "ci95": [
+      -0.028499379012244454,
+      -0.013981253203897249
+    ]
+  },
+  {
+    "clock": "as_local_CEST",
+    "window": "Morning",
+    "comparator": "ERA5_corrected",
+    "mae_IDW_minus_comparator": -0.10626105895631,
+    "ci95": [
+      -0.26421002689724105,
+      0.05597756702958407
+    ]
+  },
+  {
+    "clock": "as_fixed_CET",
+    "window": "Afternoon",
+    "comparator": "Uniform",
+    "mae_IDW_minus_comparator": -0.02485313263280131,
+    "ci95": [
+      -0.04467703082836248,
+      -0.006216623516064538
+    ]
+  },
+  {
+    "clock": "as_fixed_CET",
+    "window": "Afternoon",
+    "comparator": "Nearest",
+    "mae_IDW_minus_comparator": -0.015118859920537742,
+    "ci95": [
+      -0.02211163914542106,
+      -0.009180606281306224
+    ]
+  },
+  {
+    "clock": "as_fixed_CET",
+    "window": "Afternoon",
+    "comparator": "ERA5_corrected",
+    "mae_IDW_minus_comparator": -0.575730485467266,
+    "ci95": [
+      -0.8340813068564766,
+      -0.33321183876647303
+    ]
+  },
+  {
+    "clock": "as_fixed_CET",
+    "window": "Morning",
+    "comparator": "Uniform",
+    "mae_IDW_minus_comparator": -0.0024801304736967733,
+    "ci95": [
+      -0.014969808012914304,
+      0.007484102237676804
+    ]
+  },
+  {
+    "clock": "as_fixed_CET",
+    "window": "Morning",
+    "comparator": "Nearest",
+    "mae_IDW_minus_comparator": -0.026612707261398638,
+    "ci95": [
+      -0.03410168632161115,
+      -0.018686162994199326
+    ]
+  },
+  {
+    "clock": "as_fixed_CET",
+    "window": "Morning",
+    "comparator": "ERA5_corrected",
+    "mae_IDW_minus_comparator": -0.15555079605409206,
+    "ci95": [
+      -0.3019107771887256,
+      0.010371481970709202
+    ]
+  },
+  {
+    "clock": "as_UTC",
+    "window": "Afternoon",
+    "comparator": "Uniform",
+    "mae_IDW_minus_comparator": -0.006939080278886234,
+    "ci95": [
+      -0.025725343643924082,
+      0.009962550486243496
+    ]
+  },
+  {
+    "clock": "as_UTC",
+    "window": "Afternoon",
+    "comparator": "Nearest",
+    "mae_IDW_minus_comparator": -0.018420320182298555,
+    "ci95": [
+      -0.02946423128847624,
+      -0.008761101991288642
+    ]
+  },
+  {
+    "clock": "as_UTC",
+    "window": "Afternoon",
+    "comparator": "ERA5_corrected",
+    "mae_IDW_minus_comparator": -0.3855392797555146,
+    "ci95": [
+      -0.6353584535595681,
+      -0.12088426659343207
+    ]
+  },
+  {
+    "clock": "as_UTC",
+    "window": "Morning",
+    "comparator": "Uniform",
+    "mae_IDW_minus_comparator": -0.007844117778196269,
+    "ci95": [
+      -0.018463957516802416,
+      0.0024243220485385057
+    ]
+  },
+  {
+    "clock": "as_UTC",
+    "window": "Morning",
+    "comparator": "Nearest",
+    "mae_IDW_minus_comparator": -0.036934132380618045,
+    "ci95": [
+      -0.04971852553046405,
+      -0.0255313766587848
+    ]
+  },
+  {
+    "clock": "as_UTC",
+    "window": "Morning",
+    "comparator": "ERA5_corrected",
+    "mae_IDW_minus_comparator": -0.2797537846800566,
+    "ci95": [
+      -0.42646813030757763,
+      -0.12866062067120834
+    ]
+  }
+]

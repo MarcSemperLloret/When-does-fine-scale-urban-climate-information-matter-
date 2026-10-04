@@ -1,0 +1,7 @@
+city,catalogue,layer,mode,weights,reachable,quota,reachable_population_65,unreachable_population_65
+Valencia,working,Full,connectors_shade,21,398,59,117290.589,57374.626000000004
+Valencia,working,Full,connectors_shade,41,398,59,117290.589,57374.626000000004
+Valencia,working,Full,connectors_sun,21,398,59,117290.589,57374.626000000004
+Valencia,working,Full,connectors_sun,41,398,59,117290.589,57374.626000000004
+Valencia,working,Full,network,21,442,66,129963.16799999999,44702.047
+Valencia,working,Full,network,41,442,66,129963.16799999999,44702.047

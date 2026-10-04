@@ -1,0 +1,59 @@
+﻿policy,id,name,additional_centre_hours
+central_optimum,0,Biblioteca Municipal de Benimaclet – Carola Reig,6.25
+central_optimum,2,Biblioteca Municipal de Malilla - Roís de Corella,6.25
+central_optimum,3,Biblioteca Municipal de Tres Forques - Lluís Fullana i Mira,6.5
+central_optimum,4,Biblioteca Municipal Sant Marcel·lí - Camí Real - Clara Santiró i Font,6.25
+central_optimum,5,Biblioteca Municipal d'Arrancapins - Eduard Escalante,6.25
+central_optimum,6,Biblioteca Municipal de L'Amistat - Tomàs Vicent Tosca,6.25
+central_optimum,7,Biblioteca Municipal de Marxalenes - Joanot Martorell,6.25
+central_optimum,9,Biblioteca Municipal de Russafa - Nova Al-Russafí,6.25
+central_optimum,16,Museo de la Ciudad,2.0
+central_optimum,18,Museo de Ciencias Naturales (antiguo Paleontològic),2.0
+central_optimum,20,Centro Cultural Municipal Nave 3 Ribes,7.0
+central_optimum,28,Oficina de l'Energia Torrefiel,7.0
+central_optimum,31,Centro Municipal de actividades para Personas Mayores Nou Benicalap,1.0
+central_optimum,32,Centro Municipal de actividades para Personas Mayores Nou Moles,1.0
+central_optimum,33,Centro Municipal de actividades para Personas Mayores Patraix,1.0
+central_optimum,34,Centro Municipal de actividades para Personas Mayores Campanar,1.0
+central_optimum,38,Centro Cívico Ayora,1.0
+common_robust,0,Biblioteca Municipal de Benimaclet – Carola Reig,6.25
+common_robust,2,Biblioteca Municipal de Malilla - Roís de Corella,6.25
+common_robust,4,Biblioteca Municipal Sant Marcel·lí - Camí Real - Clara Santiró i Font,6.25
+common_robust,5,Biblioteca Municipal d'Arrancapins - Eduard Escalante,6.25
+common_robust,6,Biblioteca Municipal de L'Amistat - Tomàs Vicent Tosca,6.25
+common_robust,7,Biblioteca Municipal de Marxalenes - Joanot Martorell,6.25
+common_robust,9,Biblioteca Municipal de Russafa - Nova Al-Russafí,6.25
+common_robust,16,Museo de la Ciudad,2.0
+common_robust,18,Museo de Ciencias Naturales (antiguo Paleontològic),2.0
+common_robust,27,Oficina de l'Energia Ayora,3.0
+common_robust,28,Oficina de l'Energia Torrefiel,7.0
+common_robust,29,Oficina de l'Energia Parc de l'Oest,3.0
+common_robust,31,Centro Municipal de actividades para Personas Mayores Nou Benicalap,1.0
+common_robust,32,Centro Municipal de actividades para Personas Mayores Nou Moles,1.0
+common_robust,33,Centro Municipal de actividades para Personas Mayores Patraix,1.0
+common_robust,34,Centro Municipal de actividades para Personas Mayores Campanar,1.0
+common_robust,35,Junta Municipal Dels Pobles de Benimàmet-Beniferri,6.5
+common_robust,38,Centro Cívico Ayora,1.0
+common_robust,39,Complex Esportiu Cultural Petxina,1.0
+minimum_budget_99,0,Biblioteca Municipal de Benimaclet – Carola Reig,6.25
+minimum_budget_99,2,Biblioteca Municipal de Malilla - Roís de Corella,6.25
+minimum_budget_99,4,Biblioteca Municipal Sant Marcel·lí - Camí Real - Clara Santiró i Font,6.25
+minimum_budget_99,5,Biblioteca Municipal d'Arrancapins - Eduard Escalante,6.25
+minimum_budget_99,6,Biblioteca Municipal de L'Amistat - Tomàs Vicent Tosca,6.25
+minimum_budget_99,7,Biblioteca Municipal de Marxalenes - Joanot Martorell,6.25
+minimum_budget_99,8,Biblioteca Municipal de Natzaret - del Mar,6.25
+minimum_budget_99,9,Biblioteca Municipal de Russafa - Nova Al-Russafí,6.25
+minimum_budget_99,16,Museo de la Ciudad,2.0
+minimum_budget_99,17,Museo de Historia de València,2.0
+minimum_budget_99,18,Museo de Ciencias Naturales (antiguo Paleontològic),2.0
+minimum_budget_99,27,Oficina de l'Energia Ayora,3.0
+minimum_budget_99,28,Oficina de l'Energia Torrefiel,7.0
+minimum_budget_99,29,Oficina de l'Energia Parc de l'Oest,3.0
+minimum_budget_99,31,Centro Municipal de actividades para Personas Mayores Nou Benicalap,1.0
+minimum_budget_99,32,Centro Municipal de actividades para Personas Mayores Nou Moles,1.0
+minimum_budget_99,33,Centro Municipal de actividades para Personas Mayores Patraix,1.0
+minimum_budget_99,34,Centro Municipal de actividades para Personas Mayores Campanar,1.0
+minimum_budget_99,35,Junta Municipal Dels Pobles de Benimàmet-Beniferri,6.5
+minimum_budget_99,37,Junta Municipal de Pobles del Sud (Castellar),6.5
+minimum_budget_99,38,Centro Cívico Ayora,1.0
+minimum_budget_99,39,Complex Esportiu Cultural Petxina,1.0

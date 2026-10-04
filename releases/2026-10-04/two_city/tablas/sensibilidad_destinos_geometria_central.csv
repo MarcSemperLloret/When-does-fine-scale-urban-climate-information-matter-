@@ -1,0 +1,17 @@
+mode,window,scenario,layer,baseline_quota,alternative_quota,removed,added,baseline_selected_no_longer_reachable,jaccard
+connectors_shade,Afternoon,coordinates,Full,244,243,1,0,0,0.9959016393442623
+connectors_shade,Afternoon,inclusion,Full,244,245,0,1,0,0.9959183673469387
+connectors_shade,Morning,coordinates,Full,244,243,6,5,5,0.9558232931726908
+connectors_shade,Morning,inclusion,Full,244,245,0,1,0,0.9959183673469387
+connectors_sun,Afternoon,coordinates,Full,244,243,1,0,0,0.9959016393442623
+connectors_sun,Afternoon,inclusion,Full,244,245,0,1,0,0.9959183673469387
+connectors_sun,Afternoon,working,Buildings,244,244,41,41,0,0.712280701754386
+connectors_sun,Morning,coordinates,Full,244,243,3,2,3,0.9796747967479674
+connectors_sun,Morning,inclusion,Full,244,245,0,1,0,0.9959183673469387
+connectors_sun,Morning,working,Buildings,244,244,125,125,0,0.3224932249322493
+network,Afternoon,coordinates,Full,262,261,1,0,1,0.9961832061068703
+network,Afternoon,inclusion,Full,262,263,0,1,0,0.9961977186311787
+network,Afternoon,working,Buildings,262,262,39,39,0,0.7408637873754153
+network,Morning,coordinates,Full,262,261,6,5,6,0.9588014981273408
+network,Morning,inclusion,Full,262,263,0,1,0,0.9961977186311787
+network,Morning,working,Buildings,262,262,137,137,0,0.3132832080200501

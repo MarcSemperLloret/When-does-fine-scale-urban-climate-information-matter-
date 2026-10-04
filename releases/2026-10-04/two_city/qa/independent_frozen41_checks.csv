@@ -1,0 +1,13 @@
+city,mode,window,passed
+Valencia,connectors_shade,Afternoon,True
+Valencia,connectors_shade,Morning,True
+Valencia,connectors_sun,Afternoon,True
+Valencia,connectors_sun,Morning,True
+Valencia,network,Afternoon,True
+Valencia,network,Morning,True
+Madrid,connectors_shade,Afternoon,True
+Madrid,connectors_shade,Morning,True
+Madrid,connectors_sun,Afternoon,True
+Madrid,connectors_sun,Morning,True
+Madrid,network,Afternoon,True
+Madrid,network,Morning,True

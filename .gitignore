@@ -19,3 +19,25 @@ datos/
 *.log
 *.out
 manuscrito.pdf
+
+# Current reviewed derived-data companions (raw data stay excluded).
+!releases/
+!releases/2026-10-04/
+!releases/2026-10-04/**/
+!releases/2026-10-04/**/*.parquet
+!releases/2026-10-04/**/*.gpkg
+!releases/2026-10-04/**/datos/
+!releases/2026-10-04/**/datos/**
+# Keep authoring material, restricted inputs and new rerun outputs private.
+source/
+supplement/
+archivos_envio/
+control_interno/
+**/matched_pairs.parquet
+**/stations_selected.parquet
+**/city_fields_*.npz
+**/*Cover_Letter*
+**/*Highlights*
+**/*Manuscript*
+**/*Supplementary_Material_1*
+releases/2026-10-04/**/qa/revision_observacional/

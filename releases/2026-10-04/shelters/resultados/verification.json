@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "All hourly unions, independent explicit sets",
+      "rows": 675,
+      "maximum_absolute_error": 2.0372681319713593e-10
+    },
+    {
+      "check": "Distance alignment, uniqueness and finite values",
+      "passed": true
+    },
+    {
+      "check": "Quarter-hour integration including 30-minute dwell",
+      "passed": true
+    },
+    {
+      "check": "Real-data exhaustive 256-subset oracle",
+      "brute_force": 70427.94,
+      "milp": 70427.94
+    },
+    {
+      "check": "All archived objective values and budgets from raw demands",
+      "policies": 81
+    },
+    {
+      "check": "Uncompressed quarter-hour primary MILP optimality",
+      "worst_capture": 94.4983415905598,
+      "gap": 0.0
+    }
+  ],
+  "environment": {
+    "python": "3.13.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.5",
+      "pandas": "2.2.3",
+      "scipy": "1.15.3",
+      "pyarrow": "19.0.1",
+      "geopandas": "1.0.1",
+      "shapely": "2.1.0",
+      "pyogrio": "0.11.0",
+      "matplotlib": "3.10.1",
+      "requests": "2.32.3",
+      "beautifulsoup4": "4.14.3"
+    }
+  }
+}

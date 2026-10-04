@@ -1,0 +1,10 @@
+{
+  "policy_cases_verified": 288,
+  "capacity_cases_verified": 8640,
+  "dual_allocations_verified": 256,
+  "infeasible_cases": 32,
+  "exhaustive_oracles": 8,
+  "independently_resolved_minima": 44,
+  "frozen41_cases_verified": 12,
+  "status": "PASS; decision layer only"
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "budget_fraction": 0.25,
+    "budget": 18.3125,
+    "cost": 17.5,
+    "selected_ids": [
+      6,
+      9,
+      16,
+      31,
+      32,
+      33
+    ],
+    "worst_capture": 83.3883798784789,
+    "upper_capture": 83.3883798784789,
+    "mip_gap": 0.0,
+    "scenarios": [
+      {
+        "speed": 0.6,
+        "minutes": 10,
+        "distance_m": 360.0,
+        "gain": 20367.936999999998,
+        "capture": 83.3883798784789
+      },
+      {
+        "speed": 0.6,
+        "minutes": 15,
+        "distance_m": 540.0,
+        "gain": 45458.858,
+        "capture": 88.74254395540723
+      },
+      {
+        "speed": 0.6,
+        "minutes": 20,
+        "distance_m": 720.0,
+        "gain": 79575.15600000002,
+        "capture": 92.97663853054412
+      },
+      {
+        "speed": 0.9,
+        "minutes": 15,
+        "distance_m": 810.0,
+        "gain": 105604.919,
+        "capture": 96.99969486015485
+      },
+      {
+        "speed": 0.9,
+        "minutes": 20,
+        "distance_m": 1080.0,
+        "gain": 146439.81099999996,
+        "capture": 92.29984696572336
+      },
+      {
+        "speed": 1.2,
+        "minutes": 20,
+        "distance_m": 1440.0,
+        "gain": 176018.62300000002,
+        "capture": 84.37566302487583
+      }
+    ]
+  },
+  {
+    "budget_fraction": 0.5,
+    "budget": 36.625,
+    "cost": 36.0,
+    "selected_ids": [
+      0,
+      4,
+      6,
+      9,
+      16,
+      18,
+      27,
+      31,
+      32,
+      33,
+      34
+    ],
+    "worst_capture": 89.59427961166656,
+    "upper_capture": 89.5942796116679,
+    "mip_gap": 0.0,
+    "scenarios": [
+      {
+        "speed": 0.6,
+        "minutes": 10,
+        "distance_m": 360.0,
+        "gain": 37722.238,
+        "capture": 93.99310786342497
+      },
+      {
+        "speed": 0.6,
+        "minutes": 15,
+        "distance_m": 540.0,
+        "gain": 81416.273,
+        "capture": 95.04896109484977
+      },
+      {
+        "speed": 0.6,
+        "minutes": 20,
+        "distance_m": 720.0,
+        "gain": 133786.022,
+        "capture": 90.99320640259451
+      },
+      {
+        "speed": 0.9,
+        "minutes": 15,
+        "distance_m": 810.0,
+        "gain": 169656.85700000002,
+        "capture": 90.85631672732465
+      },
+      {
+        "speed": 0.9,
+        "minutes": 20,
+        "distance_m": 1080.0,
+        "gain": 234030.55899999998,
+        "capture": 89.59427961166656
+      },
+      {
+        "speed": 1.2,
+        "minutes": 20,
+        "distance_m": 1440.0,
+        "gain": 249031.484,
+        "capture": 95.72401309757153
+      }
+    ]
+  },
+  {
+    "budget_fraction": 1.0,
+    "budget": 73.25,
+    "cost": 73.25,
+    "selected_ids": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      7,
+      9,
+      16,
+      18,
+      27,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      38,
+      39
+    ],
+    "worst_capture": 94.4983415905598,
+    "upper_capture": 94.49834159055982,
+    "mip_gap": 0.0,
+    "scenarios": [
+      {
+        "speed": 0.6,
+        "minutes": 10,
+        "distance_m": 360.0,
+        "gain": 55664.464,
+        "capture": 95.03451203896465
+      },
+      {
+        "speed": 0.6,
+        "minutes": 15,
+        "distance_m": 540.0,
+        "gain": 126081.119,
+        "capture": 94.4983415905598
+      },
+      {
+        "speed": 0.6,
+        "minutes": 20,
+        "distance_m": 720.0,
+        "gain": 212265.115,
+        "capture": 95.55615307598991
+      },
+      {
+        "speed": 0.9,
+        "minutes": 15,
+        "distance_m": 810.0,
+        "gain": 258186.25800000003,
+        "capture": 95.52957652466957
+      },
+      {
+        "speed": 0.9,
+        "minutes": 20,
+        "distance_m": 1080.0,
+        "gain": 337448.03599999996,
+        "capture": 95.97874888149762
+      },
+      {
+        "speed": 1.2,
+        "minutes": 20,
+        "distance_m": 1440.0,
+        "gain": 283483.424,
+        "capture": 95.51976278606449
+      }
+    ]
+  }
+]

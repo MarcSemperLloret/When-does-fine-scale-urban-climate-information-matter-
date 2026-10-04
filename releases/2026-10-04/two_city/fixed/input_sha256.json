@@ -1,0 +1,12 @@
+{
+  "Madrid_2026-09-07/datos/campos_central_Morning.npz": "41abf7d5e436f04f4d71f4e67c411805d43046ee290b76825a7aa8d5e7e3240e",
+  "Madrid_2026-09-07/datos/rutas_central_Madrid_working_Full.parquet": "51f4c339aba30d3bf3a725e7d1723378044ac333b5189c07326b09b3b65554bf",
+  "SCS_ampliado_2026-09-07/datos_ampliacion/fields_Afternoon.npz": "7330600baa2d739f00077f44350ee22fbdd766db5c9ed66c4c8c2ab638467e6c",
+  "SCS_mecanismos_2026-09-07/datos/secciones_Madrid.csv": "f7df810e7baae2f7ab5d46f716ed29abeca14cffa2333c8d7a2b0c8798e3944a",
+  "Madrid_2026-09-07/datos/campos_central_Afternoon.npz": "847d8bed30e8f25e508d8cc94e9c3c3375c736aee03b343dce7e64e111afb60d",
+  "Madrid_2026-09-07/datos/rutas_central_Valencia_working_Full.parquet": "d29a95aa35246378296178dcbdca365d356e3cea5bd0b1771337b22468d627a9",
+  "SCS_ampliado_2026-09-07/datos_ampliacion/fields_Morning.npz": "35925bab9df1fd8a653201bad288e611865a4daa85012483d099b678779111a9",
+  "SCS_mecanismos_2026-09-07/datos/secciones_Valencia.csv": "79797913ccb94f41faa7455f68a40d0e8fbfa87d626f2b09f2dccb1c7cd1d233",
+  "SCS_mecanismos_2026-09-07/datos/policy_scores_two_cities.parquet": "0be6b556ddd4dec7bc7a55ebd10355b648e78fabd76437f2e63afb6b6d4c96d9",
+  "SCS_mecanismos_2026-09-07/datos/score_components.parquet": "ee8c2316a7665694d29112974311b2578c1e1de31d8693f5ea19eb0e61afd900"
+}

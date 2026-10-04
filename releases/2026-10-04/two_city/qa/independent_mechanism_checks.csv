@@ -1,0 +1,289 @@
+city,mode,window,threshold,phi,partition,benchmarks,exchange,stage
+Madrid,connectors_shade,Afternoon,28,0.1,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,28,0.2,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,28,0.3,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,28,0.4,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,28,0.5,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,28,0.6,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,28,0.7,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,28,1.0,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,30,0.1,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Afternoon,30,0.2,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Afternoon,30,0.3,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Afternoon,30,0.4,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,30,0.5,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,30,0.6,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,30,0.7,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,30,1.0,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,32,0.1,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Afternoon,32,0.2,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Afternoon,32,0.3,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Afternoon,32,0.4,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Afternoon,32,0.5,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Afternoon,32,0.6,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,32,0.7,True,True,True,Population sufficient
+Madrid,connectors_shade,Afternoon,32,1.0,True,True,True,Population sufficient
+Madrid,connectors_shade,Morning,28,0.1,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,28,0.2,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,28,0.3,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,28,0.4,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,28,0.5,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,28,0.6,True,True,True,Other common selection
+Madrid,connectors_shade,Morning,28,0.7,True,True,True,Other common selection
+Madrid,connectors_shade,Morning,28,1.0,True,True,True,Other common selection
+Madrid,connectors_shade,Morning,30,0.1,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,30,0.2,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,30,0.3,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,30,0.4,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,30,0.5,True,True,True,Other common selection
+Madrid,connectors_shade,Morning,30,0.6,True,True,True,Other common selection
+Madrid,connectors_shade,Morning,30,0.7,True,True,True,Incompatible
+Madrid,connectors_shade,Morning,30,1.0,True,True,True,Incompatible
+Madrid,connectors_shade,Morning,32,0.1,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,32,0.2,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,32,0.3,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,32,0.4,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,32,0.5,True,True,True,Uniform sufficient
+Madrid,connectors_shade,Morning,32,0.6,True,True,True,Incompatible
+Madrid,connectors_shade,Morning,32,0.7,True,True,True,Incompatible
+Madrid,connectors_shade,Morning,32,1.0,True,True,True,Incompatible
+Madrid,connectors_sun,Afternoon,28,0.1,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,28,0.2,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,28,0.3,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,28,0.4,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,28,0.5,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,28,0.6,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,28,0.7,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,28,1.0,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,30,0.1,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,30,0.2,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Afternoon,30,0.3,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Afternoon,30,0.4,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Afternoon,30,0.5,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,30,0.6,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,30,0.7,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,30,1.0,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,32,0.1,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Afternoon,32,0.2,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Afternoon,32,0.3,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Afternoon,32,0.4,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Afternoon,32,0.5,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Afternoon,32,0.6,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Afternoon,32,0.7,True,True,True,Population sufficient
+Madrid,connectors_sun,Afternoon,32,1.0,True,True,True,Population sufficient
+Madrid,connectors_sun,Morning,28,0.1,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,28,0.2,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,28,0.3,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,28,0.4,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,28,0.5,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,28,0.6,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,28,0.7,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,28,1.0,True,True,True,Other common selection
+Madrid,connectors_sun,Morning,30,0.1,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,30,0.2,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,30,0.3,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,30,0.4,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,30,0.5,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,30,0.6,True,True,True,Other common selection
+Madrid,connectors_sun,Morning,30,0.7,True,True,True,Other common selection
+Madrid,connectors_sun,Morning,30,1.0,True,True,True,Incompatible
+Madrid,connectors_sun,Morning,32,0.1,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,32,0.2,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,32,0.3,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,32,0.4,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,32,0.5,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,32,0.6,True,True,True,Uniform sufficient
+Madrid,connectors_sun,Morning,32,0.7,True,True,True,Other common selection
+Madrid,connectors_sun,Morning,32,1.0,True,True,True,Incompatible
+Madrid,network,Afternoon,28,0.1,True,True,True,Population sufficient
+Madrid,network,Afternoon,28,0.2,True,True,True,Population sufficient
+Madrid,network,Afternoon,28,0.3,True,True,True,Population sufficient
+Madrid,network,Afternoon,28,0.4,True,True,True,Population sufficient
+Madrid,network,Afternoon,28,0.5,True,True,True,Population sufficient
+Madrid,network,Afternoon,28,0.6,True,True,True,Population sufficient
+Madrid,network,Afternoon,28,0.7,True,True,True,Population sufficient
+Madrid,network,Afternoon,28,1.0,True,True,True,Population sufficient
+Madrid,network,Afternoon,30,0.1,True,True,True,Uniform sufficient
+Madrid,network,Afternoon,30,0.2,True,True,True,Uniform sufficient
+Madrid,network,Afternoon,30,0.3,True,True,True,Uniform sufficient
+Madrid,network,Afternoon,30,0.4,True,True,True,Population sufficient
+Madrid,network,Afternoon,30,0.5,True,True,True,Population sufficient
+Madrid,network,Afternoon,30,0.6,True,True,True,Population sufficient
+Madrid,network,Afternoon,30,0.7,True,True,True,Population sufficient
+Madrid,network,Afternoon,30,1.0,True,True,True,Population sufficient
+Madrid,network,Afternoon,32,0.1,True,True,True,Uniform sufficient
+Madrid,network,Afternoon,32,0.2,True,True,True,Uniform sufficient
+Madrid,network,Afternoon,32,0.3,True,True,True,Uniform sufficient
+Madrid,network,Afternoon,32,0.4,True,True,True,Uniform sufficient
+Madrid,network,Afternoon,32,0.5,True,True,True,Uniform sufficient
+Madrid,network,Afternoon,32,0.6,True,True,True,Population sufficient
+Madrid,network,Afternoon,32,0.7,True,True,True,Population sufficient
+Madrid,network,Afternoon,32,1.0,True,True,True,Population sufficient
+Madrid,network,Morning,28,0.1,True,True,True,Uniform sufficient
+Madrid,network,Morning,28,0.2,True,True,True,Uniform sufficient
+Madrid,network,Morning,28,0.3,True,True,True,Uniform sufficient
+Madrid,network,Morning,28,0.4,True,True,True,Uniform sufficient
+Madrid,network,Morning,28,0.5,True,True,True,Uniform sufficient
+Madrid,network,Morning,28,0.6,True,True,True,Uniform sufficient
+Madrid,network,Morning,28,0.7,True,True,True,Uniform sufficient
+Madrid,network,Morning,28,1.0,True,True,True,Other common selection
+Madrid,network,Morning,30,0.1,True,True,True,Uniform sufficient
+Madrid,network,Morning,30,0.2,True,True,True,Uniform sufficient
+Madrid,network,Morning,30,0.3,True,True,True,Uniform sufficient
+Madrid,network,Morning,30,0.4,True,True,True,Uniform sufficient
+Madrid,network,Morning,30,0.5,True,True,True,Other common selection
+Madrid,network,Morning,30,0.6,True,True,True,Other common selection
+Madrid,network,Morning,30,0.7,True,True,True,Other common selection
+Madrid,network,Morning,30,1.0,True,True,True,Incompatible
+Madrid,network,Morning,32,0.1,True,True,True,Uniform sufficient
+Madrid,network,Morning,32,0.2,True,True,True,Uniform sufficient
+Madrid,network,Morning,32,0.3,True,True,True,Uniform sufficient
+Madrid,network,Morning,32,0.4,True,True,True,Uniform sufficient
+Madrid,network,Morning,32,0.5,True,True,True,Uniform sufficient
+Madrid,network,Morning,32,0.6,True,True,True,Other common selection
+Madrid,network,Morning,32,0.7,True,True,True,Incompatible
+Madrid,network,Morning,32,1.0,True,True,True,Incompatible
+Valencia,connectors_shade,Afternoon,28,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Afternoon,28,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Afternoon,28,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Afternoon,28,0.4,True,True,True,Other common selection
+Valencia,connectors_shade,Afternoon,28,0.5,True,True,True,Other common selection
+Valencia,connectors_shade,Afternoon,28,0.6,True,True,True,Other common selection
+Valencia,connectors_shade,Afternoon,28,0.7,True,True,True,Other common selection
+Valencia,connectors_shade,Afternoon,28,1.0,True,True,True,Other common selection
+Valencia,connectors_shade,Afternoon,30,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Afternoon,30,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Afternoon,30,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Afternoon,30,0.4,True,True,True,Other common selection
+Valencia,connectors_shade,Afternoon,30,0.5,True,True,True,Incompatible
+Valencia,connectors_shade,Afternoon,30,0.6,True,True,True,Incompatible
+Valencia,connectors_shade,Afternoon,30,0.7,True,True,True,Incompatible
+Valencia,connectors_shade,Afternoon,30,1.0,True,True,True,Incompatible
+Valencia,connectors_shade,Afternoon,32,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Afternoon,32,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Afternoon,32,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Afternoon,32,0.4,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Afternoon,32,0.5,True,True,True,Other common selection
+Valencia,connectors_shade,Afternoon,32,0.6,True,True,True,Incompatible
+Valencia,connectors_shade,Afternoon,32,0.7,True,True,True,Incompatible
+Valencia,connectors_shade,Afternoon,32,1.0,True,True,True,Incompatible
+Valencia,connectors_shade,Morning,28,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,28,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,28,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,28,0.4,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,28,0.5,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,28,0.6,True,True,True,Other common selection
+Valencia,connectors_shade,Morning,28,0.7,True,True,True,Other common selection
+Valencia,connectors_shade,Morning,28,1.0,True,True,True,Population sufficient
+Valencia,connectors_shade,Morning,30,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,30,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,30,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,30,0.4,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,30,0.5,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,30,0.6,True,True,True,Other common selection
+Valencia,connectors_shade,Morning,30,0.7,True,True,True,Incompatible
+Valencia,connectors_shade,Morning,30,1.0,True,True,True,Incompatible
+Valencia,connectors_shade,Morning,32,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,32,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,32,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,32,0.4,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,32,0.5,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,32,0.6,True,True,True,Uniform sufficient
+Valencia,connectors_shade,Morning,32,0.7,True,True,True,Other common selection
+Valencia,connectors_shade,Morning,32,1.0,True,True,True,Incompatible
+Valencia,connectors_sun,Afternoon,28,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,28,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,28,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,28,0.4,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,28,0.5,True,True,True,Other common selection
+Valencia,connectors_sun,Afternoon,28,0.6,True,True,True,Other common selection
+Valencia,connectors_sun,Afternoon,28,0.7,True,True,True,Other common selection
+Valencia,connectors_sun,Afternoon,28,1.0,True,True,True,Other common selection
+Valencia,connectors_sun,Afternoon,30,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,30,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,30,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,30,0.4,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,30,0.5,True,True,True,Other common selection
+Valencia,connectors_sun,Afternoon,30,0.6,True,True,True,Other common selection
+Valencia,connectors_sun,Afternoon,30,0.7,True,True,True,Incompatible
+Valencia,connectors_sun,Afternoon,30,1.0,True,True,True,Incompatible
+Valencia,connectors_sun,Afternoon,32,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,32,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,32,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,32,0.4,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,32,0.5,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Afternoon,32,0.6,True,True,True,Other common selection
+Valencia,connectors_sun,Afternoon,32,0.7,True,True,True,Other common selection
+Valencia,connectors_sun,Afternoon,32,1.0,True,True,True,Incompatible
+Valencia,connectors_sun,Morning,28,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,28,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,28,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,28,0.4,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,28,0.5,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,28,0.6,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,28,0.7,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,28,1.0,True,True,True,Population sufficient
+Valencia,connectors_sun,Morning,30,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,30,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,30,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,30,0.4,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,30,0.5,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,30,0.6,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,30,0.7,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,30,1.0,True,True,True,Incompatible
+Valencia,connectors_sun,Morning,32,0.1,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,32,0.2,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,32,0.3,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,32,0.4,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,32,0.5,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,32,0.6,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,32,0.7,True,True,True,Uniform sufficient
+Valencia,connectors_sun,Morning,32,1.0,True,True,True,Incompatible
+Valencia,network,Afternoon,28,0.1,True,True,True,Uniform sufficient
+Valencia,network,Afternoon,28,0.2,True,True,True,Uniform sufficient
+Valencia,network,Afternoon,28,0.3,True,True,True,Uniform sufficient
+Valencia,network,Afternoon,28,0.4,True,True,True,Other common selection
+Valencia,network,Afternoon,28,0.5,True,True,True,Other common selection
+Valencia,network,Afternoon,28,0.6,True,True,True,Other common selection
+Valencia,network,Afternoon,28,0.7,True,True,True,Other common selection
+Valencia,network,Afternoon,28,1.0,True,True,True,Other common selection
+Valencia,network,Afternoon,30,0.1,True,True,True,Uniform sufficient
+Valencia,network,Afternoon,30,0.2,True,True,True,Uniform sufficient
+Valencia,network,Afternoon,30,0.3,True,True,True,Uniform sufficient
+Valencia,network,Afternoon,30,0.4,True,True,True,Other common selection
+Valencia,network,Afternoon,30,0.5,True,True,True,Other common selection
+Valencia,network,Afternoon,30,0.6,True,True,True,Incompatible
+Valencia,network,Afternoon,30,0.7,True,True,True,Incompatible
+Valencia,network,Afternoon,30,1.0,True,True,True,Incompatible
+Valencia,network,Afternoon,32,0.1,True,True,True,Uniform sufficient
+Valencia,network,Afternoon,32,0.2,True,True,True,Uniform sufficient
+Valencia,network,Afternoon,32,0.3,True,True,True,Uniform sufficient
+Valencia,network,Afternoon,32,0.4,True,True,True,Uniform sufficient
+Valencia,network,Afternoon,32,0.5,True,True,True,Other common selection
+Valencia,network,Afternoon,32,0.6,True,True,True,Other common selection
+Valencia,network,Afternoon,32,0.7,True,True,True,Incompatible
+Valencia,network,Afternoon,32,1.0,True,True,True,Incompatible
+Valencia,network,Morning,28,0.1,True,True,True,Uniform sufficient
+Valencia,network,Morning,28,0.2,True,True,True,Uniform sufficient
+Valencia,network,Morning,28,0.3,True,True,True,Uniform sufficient
+Valencia,network,Morning,28,0.4,True,True,True,Uniform sufficient
+Valencia,network,Morning,28,0.5,True,True,True,Uniform sufficient
+Valencia,network,Morning,28,0.6,True,True,True,Uniform sufficient
+Valencia,network,Morning,28,0.7,True,True,True,Other common selection
+Valencia,network,Morning,28,1.0,True,True,True,Population sufficient
+Valencia,network,Morning,30,0.1,True,True,True,Uniform sufficient
+Valencia,network,Morning,30,0.2,True,True,True,Uniform sufficient
+Valencia,network,Morning,30,0.3,True,True,True,Uniform sufficient
+Valencia,network,Morning,30,0.4,True,True,True,Uniform sufficient
+Valencia,network,Morning,30,0.5,True,True,True,Uniform sufficient
+Valencia,network,Morning,30,0.6,True,True,True,Uniform sufficient
+Valencia,network,Morning,30,0.7,True,True,True,Other common selection
+Valencia,network,Morning,30,1.0,True,True,True,Incompatible
+Valencia,network,Morning,32,0.1,True,True,True,Uniform sufficient
+Valencia,network,Morning,32,0.2,True,True,True,Uniform sufficient
+Valencia,network,Morning,32,0.3,True,True,True,Uniform sufficient
+Valencia,network,Morning,32,0.4,True,True,True,Uniform sufficient
+Valencia,network,Morning,32,0.5,True,True,True,Uniform sufficient
+Valencia,network,Morning,32,0.6,True,True,True,Uniform sufficient
+Valencia,network,Morning,32,0.7,True,True,True,Uniform sufficient
+Valencia,network,Morning,32,1.0,True,True,True,Incompatible

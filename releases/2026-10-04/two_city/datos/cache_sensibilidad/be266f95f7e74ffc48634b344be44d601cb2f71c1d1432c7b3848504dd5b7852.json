@@ -1,0 +1,6 @@
+{
+  "minimum_status": "optimal",
+  "minimum_common_loss_percent": 2.8366459646789224,
+  "balance_status": "infeasible_by_minimum_loss",
+  "local_top_TV": 0.325716176673203
+}

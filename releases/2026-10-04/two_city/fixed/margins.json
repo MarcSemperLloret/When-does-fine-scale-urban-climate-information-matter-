@@ -1,0 +1,98 @@
+[
+  {
+    "city": "Valencia",
+    "window": "Morning",
+    "mode": "network",
+    "first_incompatible_grid_amplitude": 1.5,
+    "loss_a1": 0.49088022406053206,
+    "loss_a2": 2.694698195418894
+  },
+  {
+    "city": "Valencia",
+    "window": "Morning",
+    "mode": "connectors_sun",
+    "first_incompatible_grid_amplitude": 1.75,
+    "loss_a1": 0.46003928186277604,
+    "loss_a2": 1.55911033502079
+  },
+  {
+    "city": "Valencia",
+    "window": "Morning",
+    "mode": "connectors_shade",
+    "first_incompatible_grid_amplitude": 1.25,
+    "loss_a1": 0.545992821610582,
+    "loss_a2": 3.031984390822288
+  },
+  {
+    "city": "Valencia",
+    "window": "Afternoon",
+    "mode": "network",
+    "first_incompatible_grid_amplitude": 0.5,
+    "loss_a1": 2.855456913409568,
+    "loss_a2": 7.157407105476579
+  },
+  {
+    "city": "Valencia",
+    "window": "Afternoon",
+    "mode": "connectors_sun",
+    "first_incompatible_grid_amplitude": 1.0,
+    "loss_a1": 1.669545775893865,
+    "loss_a2": 5.160767259939448
+  },
+  {
+    "city": "Valencia",
+    "window": "Afternoon",
+    "mode": "connectors_shade",
+    "first_incompatible_grid_amplitude": 0.5,
+    "loss_a1": 2.5067661199636433,
+    "loss_a2": 5.366157760581515
+  },
+  {
+    "city": "Madrid",
+    "window": "Morning",
+    "mode": "network",
+    "first_incompatible_grid_amplitude": 1.25,
+    "loss_a1": 0.85028788731465,
+    "loss_a2": 2.360811080433663
+  },
+  {
+    "city": "Madrid",
+    "window": "Morning",
+    "mode": "connectors_sun",
+    "first_incompatible_grid_amplitude": 2.0,
+    "loss_a1": 0.27604713976342005,
+    "loss_a2": 1.152911478865888
+  },
+  {
+    "city": "Madrid",
+    "window": "Morning",
+    "mode": "connectors_shade",
+    "first_incompatible_grid_amplitude": 1.0,
+    "loss_a1": 1.058888668327512,
+    "loss_a2": 3.134254227651482
+  },
+  {
+    "city": "Madrid",
+    "window": "Afternoon",
+    "mode": "network",
+    "first_incompatible_grid_amplitude": null,
+    "loss_a1": 0.07180979011673101,
+    "loss_a2": 0.315601461794969
+  },
+  {
+    "city": "Madrid",
+    "window": "Afternoon",
+    "mode": "connectors_sun",
+    "first_incompatible_grid_amplitude": null,
+    "loss_a1": 0.10296932402516701,
+    "loss_a2": 0.47504877807587303
+  },
+  {
+    "city": "Madrid",
+    "window": "Afternoon",
+    "mode": "connectors_shade",
+    "first_incompatible_grid_amplitude": null,
+    "loss_a1": 0.06733021084311,
+    "loss_a2": 0.246050401156395
+  }
+]

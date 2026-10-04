@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "heap_dijkstra_pairs": 1182,
+  "max_absolute_error_metres": 0.0,
+  "brute_force_destination_snaps": 41,
+  "brute_force_origin_snaps": 12,
+  "caveat": "Checks computational distances only; physical entrances and route traversability remain unverified."
+}

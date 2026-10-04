@@ -1,0 +1,26 @@
+[
+  {
+    "name": "catalogue",
+    "url": "https://valenciasostenible.com/es/portfolio/refugios-climaticos/",
+    "retrieved_utc": "2026-09-21T16:40:25.766005+00:00",
+    "sha256": "0f13368f184584d60e18d78608f4807423d60a90b8209049709079865f57ce5d"
+  },
+  {
+    "name": "extension",
+    "url": "https://valenciasostenible.com/es/los-refugios-climaticos-de-valencia-amplian-su-horario-por-el-aviso-rojo-de-aemet/",
+    "retrieved_utc": "2026-09-21T16:40:25.971057+00:00",
+    "sha256": "9b3a95a98891af5515bf4c6045849068b25344009b419587a6ddd02a775c9a0d"
+  },
+  {
+    "name": "municipal_event",
+    "url": "https://www.valencia.es/cas/actualidad/-/content/medidas-alerta-roja-por-calor-val%C3%A8ncia",
+    "retrieved_utc": "2026-09-21T16:40:26.417835+00:00",
+    "sha256": "0aaf0c887012f0745c142da8149edef0d943e8c23d435bc07ad4f55bd078fce4"
+  },
+  {
+    "name": "ivam_join",
+    "url": "https://valenciasostenible.com/es/el-ivam-se-une-a-la-red-de-refugios-climaticos-de-valencia/",
+    "retrieved_utc": "2026-09-21T16:40:27.162945+00:00",
+    "sha256": "e3dd8e952f9de899b8b38a478ea2da70585d8194e915f300e6151e201e01da39"
+  }
+]

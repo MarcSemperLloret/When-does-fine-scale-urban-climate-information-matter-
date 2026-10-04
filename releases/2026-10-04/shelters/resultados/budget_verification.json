@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "checked": "Independent raw section-hour union, costs and target feasibility for both minimum-budget solutions. Optimality bounds are from HiGHS.",
+  "targets": [
+    {
+      "target_percent": 95.0,
+      "minimum_centre_hours": 74.25,
+      "lower_bound": 74.25,
+      "gap": 0.0,
+      "reference_budget": 73.25,
+      "selected_ids": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        16,
+        17,
+        18,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        38
+      ],
+      "captures": [
+        96.01890082467156,
+        95.41100024235222,
+        95.17345823934346,
+        95.43298587626226,
+        96.93938243309893,
+        96.23227877594637
+      ]
+    },
+    {
+      "target_percent": 99.0,
+      "minimum_centre_hours": 88.0,
+      "lower_bound": 88.0,
+      "gap": 0.0,
+      "reference_budget": 73.25,
+      "selected_ids": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        16,
+        17,
+        18,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39
+      ],
+      "captures": [
+        100.84812951192066,
+        99.1247146309199,
+        100.52890987462206,
+        99.8385260726004,
+        99.85308553066075,
+        99.87765342545174
+      ]
+    }
+  ]
+}

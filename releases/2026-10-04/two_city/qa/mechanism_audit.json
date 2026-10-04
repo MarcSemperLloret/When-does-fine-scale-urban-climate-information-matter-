@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "cases": 288,
+  "section_case_rows": 437904,
+  "baseline_checks": 1728,
+  "stages": {
+    "Population sufficient": 50,
+    "Uniform sufficient": 162,
+    "Other common selection": 44,
+    "Incompatible": 32
+  },
+  "pooled_feasible": 253,
+  "feasible_without_passing_fixed_baseline": [
+    [
+      "Madrid",
+      "connectors_sun",
+      "Morning",
+      32,
+      0.7
+    ],
+    [
+      "Valencia",
+      "connectors_sun",
+      "Afternoon",
+      30,
+      0.6
+    ],
+    [
+      "Valencia",
+      "network",
+      "Afternoon",
+      32,
+      0.6
+    ]
+  ],
+  "TV_gain_min": 0.03371896548352998,
+  "TV_gain_max": 0.13559322033898305,
+  "scope": "Derived partition identities and decision layer; not independent physical validation or hourly regeneration."
+}
