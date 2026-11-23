@@ -7,8 +7,9 @@ information change heat-adaptation priorities? Evidence from Valencia and Madrid
   of the 2026-10-04 release, unchanged, plus `two_city/revision_R1/` with the scripts and outputs of the
   analyses added in response to the reviewers: capacity, contrast amplification, residual-informed
   spatial errors, alternative score forms, walking speed, station-network sensitivity, canopy
-  transmittance, population-allocation errors, exceedance skill at the independent sites and the
-  all-hours disagreement map. See `two_city/revision_R1/README.md` for what runs from the package.
+  transmittance, population-allocation errors, exceedance skill at the independent sites, the
+  all-hours disagreement map, exact walking-speed and budget sensitivity, the inferred VITUclim
+  timestamp convention (UTC), the near-coast station check, alternative interpolators and unequal costs. See `two_city/revision_R1/README.md` for what runs from the package.
 - `shelters/` is identical to the 2026-10-04 release.
 - `SHA256SUMS.txt` lists a hash for every file in this release.
 

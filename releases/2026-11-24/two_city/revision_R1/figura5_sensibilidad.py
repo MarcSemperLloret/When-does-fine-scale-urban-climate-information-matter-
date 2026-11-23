@@ -11,8 +11,8 @@ am=pd.read_csv(R/'amplificacion/amplificacion_288.csv');am['simple']=(am.pop_los
 pe=pd.read_parquet(R/'perturbaciones/perturbaciones_100.parquet');pe['simple']=(pe.pop_loss<=e)|(pe.uni_loss<=e)
 fig,axs=plt.subplots(1,2,figsize=(7.4,3.4),sharey=True)
 ax=axs[0]
-ax.axvspan(0.75,1.34,color='0.85',lw=0,zorder=0);ax.axvspan(1.34,2.24,color='0.93',lw=0,zorder=0)
-ax.text(1.17,2,'PM',ha='center',va='bottom',fontsize=8,color='0.3');ax.text(1.79,2,'AM',ha='center',va='bottom',fontsize=8,color='0.3')
+ax.axvspan(0.75,2.24,color='0.9',lw=0,zorder=0);ax.axvline(1.3,color='0.35',lw=1,ls='--',zorder=1)
+ax.text(1.8,2,'all clocks',ha='center',va='bottom',fontsize=8,color='0.3');ax.text(1.36,74.5,'UTC',ha='left',va='bottom',fontsize=8,color='0.3')
 for c,w,col,lab in SER:
     s=am[(am.city==c)&(am.window==w)].groupby('a').simple.sum()
     ax.plot(s.index,s.values,'-o',color=col,ms=3.5,lw=1.6,label=lab)
