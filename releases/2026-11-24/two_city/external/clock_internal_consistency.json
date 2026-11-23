@@ -1,0 +1,1252 @@
+[
+  {
+    "station_id": 27,
+    "shift_hours": -12,
+    "days": 90,
+    "mean_abs_difference": 0.2351615729137659,
+    "mean_equal_to_rounding": 3,
+    "max_equal": 40,
+    "min_equal": 73,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": -11,
+    "days": 90,
+    "mean_abs_difference": 0.17225960155017186,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 59,
+    "min_equal": 73,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": -10,
+    "days": 90,
+    "mean_abs_difference": 0.11793192471920567,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 80,
+    "min_equal": 75,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": -9,
+    "days": 90,
+    "mean_abs_difference": 0.07578503550543031,
+    "mean_equal_to_rounding": 8,
+    "max_equal": 89,
+    "min_equal": 76,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": -8,
+    "days": 90,
+    "mean_abs_difference": 0.04067721386800329,
+    "mean_equal_to_rounding": 3,
+    "max_equal": 90,
+    "min_equal": 76,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": -7,
+    "days": 90,
+    "mean_abs_difference": 0.002613930659983173,
+    "mean_equal_to_rounding": 90,
+    "max_equal": 90,
+    "min_equal": 90,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": -6,
+    "days": 90,
+    "mean_abs_difference": 0.040042879188712556,
+    "mean_equal_to_rounding": 10,
+    "max_equal": 90,
+    "min_equal": 57,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": -5,
+    "days": 90,
+    "mean_abs_difference": 0.07861353615520288,
+    "mean_equal_to_rounding": 5,
+    "max_equal": 90,
+    "min_equal": 21,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": -4,
+    "days": 90,
+    "mean_abs_difference": 0.11557744476933093,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 90,
+    "min_equal": 6,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": -3,
+    "days": 90,
+    "mean_abs_difference": 0.15271743595098844,
+    "mean_equal_to_rounding": 4,
+    "max_equal": 89,
+    "min_equal": 5,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": -2,
+    "days": 90,
+    "mean_abs_difference": 0.1901524470899471,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 89,
+    "min_equal": 5,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": -1,
+    "days": 90,
+    "mean_abs_difference": 0.22545295530492934,
+    "mean_equal_to_rounding": 4,
+    "max_equal": 89,
+    "min_equal": 5,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 0,
+    "days": 90,
+    "mean_abs_difference": 0.26315715794114924,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 89,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 1,
+    "days": 90,
+    "mean_abs_difference": 0.29943458762647396,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 89,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 2,
+    "days": 90,
+    "mean_abs_difference": 0.334153079457904,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 89,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 3,
+    "days": 90,
+    "mean_abs_difference": 0.3663954678362572,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 89,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 4,
+    "days": 90,
+    "mean_abs_difference": 0.39659432145177786,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 89,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 5,
+    "days": 90,
+    "mean_abs_difference": 0.42821596235960274,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 89,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 6,
+    "days": 90,
+    "mean_abs_difference": 0.4666128051610509,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 85,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 7,
+    "days": 90,
+    "mean_abs_difference": 0.5111945488721804,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 82,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 8,
+    "days": 90,
+    "mean_abs_difference": 0.5608673999814348,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 78,
+    "min_equal": 3,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 9,
+    "days": 90,
+    "mean_abs_difference": 0.6116820175438596,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 67,
+    "min_equal": 3,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 10,
+    "days": 90,
+    "mean_abs_difference": 0.6602554476033151,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 51,
+    "min_equal": 3,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 11,
+    "days": 90,
+    "mean_abs_difference": 0.7157355790030745,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 32,
+    "min_equal": 3,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 27,
+    "shift_hours": 12,
+    "days": 90,
+    "mean_abs_difference": 0.7674472233825307,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 9,
+    "min_equal": 3,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -12,
+    "days": 90,
+    "mean_abs_difference": 0.2237947530864198,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 40,
+    "min_equal": 83,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -11,
+    "days": 90,
+    "mean_abs_difference": 0.17617206790123466,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 53,
+    "min_equal": 83,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -10,
+    "days": 90,
+    "mean_abs_difference": 0.12649305555555543,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 67,
+    "min_equal": 85,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -9,
+    "days": 90,
+    "mean_abs_difference": 0.08192669753086443,
+    "mean_equal_to_rounding": 6,
+    "max_equal": 82,
+    "min_equal": 86,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -8,
+    "days": 90,
+    "mean_abs_difference": 0.04174228395061701,
+    "mean_equal_to_rounding": 6,
+    "max_equal": 87,
+    "min_equal": 86,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -7,
+    "days": 90,
+    "mean_abs_difference": 0.0027368827160493938,
+    "mean_equal_to_rounding": 90,
+    "max_equal": 90,
+    "min_equal": 90,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -6,
+    "days": 90,
+    "mean_abs_difference": 0.04064506172839511,
+    "mean_equal_to_rounding": 7,
+    "max_equal": 89,
+    "min_equal": 68,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -5,
+    "days": 90,
+    "mean_abs_difference": 0.07585725308641973,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 89,
+    "min_equal": 25,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -4,
+    "days": 90,
+    "mean_abs_difference": 0.11114737654320996,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 89,
+    "min_equal": 7,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -3,
+    "days": 90,
+    "mean_abs_difference": 0.1485910493827162,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 88,
+    "min_equal": 5,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -2,
+    "days": 90,
+    "mean_abs_difference": 0.18512345679012357,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 88,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": -1,
+    "days": 90,
+    "mean_abs_difference": 0.22103626543209876,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 88,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 0,
+    "days": 90,
+    "mean_abs_difference": 0.2513472222222222,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 88,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 1,
+    "days": 90,
+    "mean_abs_difference": 0.2798641975308642,
+    "mean_equal_to_rounding": 3,
+    "max_equal": 88,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 2,
+    "days": 90,
+    "mean_abs_difference": 0.3064151234567901,
+    "mean_equal_to_rounding": 3,
+    "max_equal": 88,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 3,
+    "days": 90,
+    "mean_abs_difference": 0.33303703703703713,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 87,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 4,
+    "days": 90,
+    "mean_abs_difference": 0.3584791666666665,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 87,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 5,
+    "days": 90,
+    "mean_abs_difference": 0.3850979938271607,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 85,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 6,
+    "days": 90,
+    "mean_abs_difference": 0.4176566358024693,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 83,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 7,
+    "days": 90,
+    "mean_abs_difference": 0.4527500000000002,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 82,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 8,
+    "days": 90,
+    "mean_abs_difference": 0.4888935185185187,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 72,
+    "min_equal": 3,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 9,
+    "days": 90,
+    "mean_abs_difference": 0.5312592592592592,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 56,
+    "min_equal": 3,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 10,
+    "days": 90,
+    "mean_abs_difference": 0.5688641975308643,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 33,
+    "min_equal": 3,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 11,
+    "days": 90,
+    "mean_abs_difference": 0.6064737654320989,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 23,
+    "min_equal": 3,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 30,
+    "shift_hours": 12,
+    "days": 90,
+    "mean_abs_difference": 0.6416041666666668,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 15,
+    "min_equal": 3,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -12,
+    "days": 90,
+    "mean_abs_difference": 0.2582438271604938,
+    "mean_equal_to_rounding": 4,
+    "max_equal": 31,
+    "min_equal": 83,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -11,
+    "days": 90,
+    "mean_abs_difference": 0.1857847222222224,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 56,
+    "min_equal": 83,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -10,
+    "days": 90,
+    "mean_abs_difference": 0.12071141975308654,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 69,
+    "min_equal": 85,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -9,
+    "days": 90,
+    "mean_abs_difference": 0.07428549382716049,
+    "mean_equal_to_rounding": 3,
+    "max_equal": 87,
+    "min_equal": 86,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -8,
+    "days": 90,
+    "mean_abs_difference": 0.038321759259259264,
+    "mean_equal_to_rounding": 9,
+    "max_equal": 89,
+    "min_equal": 86,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -7,
+    "days": 90,
+    "mean_abs_difference": 0.002342592592592475,
+    "mean_equal_to_rounding": 90,
+    "max_equal": 90,
+    "min_equal": 90,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -6,
+    "days": 90,
+    "mean_abs_difference": 0.03965200617283955,
+    "mean_equal_to_rounding": 12,
+    "max_equal": 90,
+    "min_equal": 64,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -5,
+    "days": 90,
+    "mean_abs_difference": 0.08338966049382732,
+    "mean_equal_to_rounding": 4,
+    "max_equal": 90,
+    "min_equal": 23,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -4,
+    "days": 90,
+    "mean_abs_difference": 0.1267021604938274,
+    "mean_equal_to_rounding": 4,
+    "max_equal": 90,
+    "min_equal": 8,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -3,
+    "days": 90,
+    "mean_abs_difference": 0.1750787037037039,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 89,
+    "min_equal": 5,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -2,
+    "days": 90,
+    "mean_abs_difference": 0.22126774691358067,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 89,
+    "min_equal": 5,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": -1,
+    "days": 90,
+    "mean_abs_difference": 0.26286111111111127,
+    "mean_equal_to_rounding": 3,
+    "max_equal": 89,
+    "min_equal": 5,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 0,
+    "days": 90,
+    "mean_abs_difference": 0.3029814814814818,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 89,
+    "min_equal": 5,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 1,
+    "days": 90,
+    "mean_abs_difference": 0.3386805555555555,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 89,
+    "min_equal": 5,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 2,
+    "days": 90,
+    "mean_abs_difference": 0.37072762345679033,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 89,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 3,
+    "days": 90,
+    "mean_abs_difference": 0.39907870370370346,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 89,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 4,
+    "days": 90,
+    "mean_abs_difference": 0.4264691358024695,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 89,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 5,
+    "days": 90,
+    "mean_abs_difference": 0.4541952160493824,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 89,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 6,
+    "days": 90,
+    "mean_abs_difference": 0.4855370370370371,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 86,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 7,
+    "days": 90,
+    "mean_abs_difference": 0.524817901234568,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 84,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 8,
+    "days": 90,
+    "mean_abs_difference": 0.5737345679012346,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 75,
+    "min_equal": 4,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 9,
+    "days": 90,
+    "mean_abs_difference": 0.6263248456790123,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 67,
+    "min_equal": 3,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 10,
+    "days": 90,
+    "mean_abs_difference": 0.678868827160494,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 54,
+    "min_equal": 3,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 11,
+    "days": 90,
+    "mean_abs_difference": 0.7364104938271607,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 34,
+    "min_equal": 3,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 36,
+    "shift_hours": 12,
+    "days": 90,
+    "mean_abs_difference": 0.7946550925925923,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 20,
+    "min_equal": 3,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -12,
+    "days": 83,
+    "mean_abs_difference": 0.27137759370816605,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 23,
+    "min_equal": 77,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -11,
+    "days": 83,
+    "mean_abs_difference": 0.20897974249940948,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 30,
+    "min_equal": 77,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -10,
+    "days": 83,
+    "mean_abs_difference": 0.14364513609995538,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 46,
+    "min_equal": 79,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -9,
+    "days": 83,
+    "mean_abs_difference": 0.09335728880433992,
+    "mean_equal_to_rounding": 4,
+    "max_equal": 61,
+    "min_equal": 80,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -8,
+    "days": 83,
+    "mean_abs_difference": 0.04761204341174229,
+    "mean_equal_to_rounding": 7,
+    "max_equal": 82,
+    "min_equal": 80,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -7,
+    "days": 83,
+    "mean_abs_difference": 0.002637003236827952,
+    "mean_equal_to_rounding": 83,
+    "max_equal": 83,
+    "min_equal": 83,
+    "counts_equal": 83
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -6,
+    "days": 83,
+    "mean_abs_difference": 0.0488200054003895,
+    "mean_equal_to_rounding": 3,
+    "max_equal": 82,
+    "min_equal": 66,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -5,
+    "days": 83,
+    "mean_abs_difference": 0.09367488366390257,
+    "mean_equal_to_rounding": 3,
+    "max_equal": 82,
+    "min_equal": 31,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -4,
+    "days": 83,
+    "mean_abs_difference": 0.13926219244795285,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 82,
+    "min_equal": 9,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -3,
+    "days": 83,
+    "mean_abs_difference": 0.18009305403431905,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 82,
+    "min_equal": 5,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -2,
+    "days": 83,
+    "mean_abs_difference": 0.22368975903614474,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 82,
+    "min_equal": 3,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": -1,
+    "days": 83,
+    "mean_abs_difference": 0.26497841706963887,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 82,
+    "min_equal": 3,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 0,
+    "days": 83,
+    "mean_abs_difference": 0.3044948998894129,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 82,
+    "min_equal": 3,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 1,
+    "days": 83,
+    "mean_abs_difference": 0.3398952593319013,
+    "mean_equal_to_rounding": 3,
+    "max_equal": 82,
+    "min_equal": 3,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 2,
+    "days": 83,
+    "mean_abs_difference": 0.3690645917001341,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 81,
+    "min_equal": 2,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 3,
+    "days": 83,
+    "mean_abs_difference": 0.39515908227504637,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 80,
+    "min_equal": 2,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 4,
+    "days": 83,
+    "mean_abs_difference": 0.41941978699110194,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 80,
+    "min_equal": 2,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 5,
+    "days": 83,
+    "mean_abs_difference": 0.4470060888716154,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 79,
+    "min_equal": 2,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 6,
+    "days": 83,
+    "mean_abs_difference": 0.4797470835723847,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 75,
+    "min_equal": 2,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 7,
+    "days": 83,
+    "mean_abs_difference": 0.5174222222222221,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 74,
+    "min_equal": 2,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 8,
+    "days": 83,
+    "mean_abs_difference": 0.5606444718267012,
+    "mean_equal_to_rounding": 3,
+    "max_equal": 68,
+    "min_equal": 1,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 9,
+    "days": 83,
+    "mean_abs_difference": 0.6083965687310647,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 57,
+    "min_equal": 1,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 10,
+    "days": 83,
+    "mean_abs_difference": 0.6547209672021422,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 51,
+    "min_equal": 1,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 11,
+    "days": 83,
+    "mean_abs_difference": 0.6978236664607149,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 36,
+    "min_equal": 1,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 62,
+    "shift_hours": 12,
+    "days": 83,
+    "mean_abs_difference": 0.7413067269076306,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 27,
+    "min_equal": 1,
+    "counts_equal": 81
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -12,
+    "days": 90,
+    "mean_abs_difference": 0.22504883773633771,
+    "mean_equal_to_rounding": 2,
+    "max_equal": 18,
+    "min_equal": 85,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -11,
+    "days": 90,
+    "mean_abs_difference": 0.17432701480618162,
+    "mean_equal_to_rounding": 4,
+    "max_equal": 35,
+    "min_equal": 85,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -10,
+    "days": 90,
+    "mean_abs_difference": 0.12449058965725644,
+    "mean_equal_to_rounding": 8,
+    "max_equal": 47,
+    "min_equal": 86,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -9,
+    "days": 90,
+    "mean_abs_difference": 0.09136785590952247,
+    "mean_equal_to_rounding": 3,
+    "max_equal": 66,
+    "min_equal": 87,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -8,
+    "days": 90,
+    "mean_abs_difference": 0.05191777281360592,
+    "mean_equal_to_rounding": 9,
+    "max_equal": 89,
+    "min_equal": 87,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -7,
+    "days": 90,
+    "mean_abs_difference": 0.0025570502028835385,
+    "mean_equal_to_rounding": 90,
+    "max_equal": 90,
+    "min_equal": 90,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -6,
+    "days": 90,
+    "mean_abs_difference": 0.04463365492532168,
+    "mean_equal_to_rounding": 9,
+    "max_equal": 90,
+    "min_equal": 67,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -5,
+    "days": 90,
+    "mean_abs_difference": 0.09029803375636716,
+    "mean_equal_to_rounding": 4,
+    "max_equal": 90,
+    "min_equal": 26,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -4,
+    "days": 90,
+    "mean_abs_difference": 0.13723222610722632,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 90,
+    "min_equal": 9,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -3,
+    "days": 90,
+    "mean_abs_difference": 0.18913412975913002,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 90,
+    "min_equal": 2,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -2,
+    "days": 90,
+    "mean_abs_difference": 0.2379528565570237,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 89,
+    "min_equal": 1,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": -1,
+    "days": 90,
+    "mean_abs_difference": 0.28113107571440926,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 89,
+    "min_equal": 1,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 0,
+    "days": 90,
+    "mean_abs_difference": 0.3155903371320043,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 89,
+    "min_equal": 1,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 1,
+    "days": 90,
+    "mean_abs_difference": 0.3479487341362342,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 89,
+    "min_equal": 1,
+    "counts_equal": 90
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 2,
+    "days": 90,
+    "mean_abs_difference": 0.3793501845376847,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 89,
+    "min_equal": 1,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 3,
+    "days": 90,
+    "mean_abs_difference": 0.40685888802555514,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 89,
+    "min_equal": 1,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 4,
+    "days": 90,
+    "mean_abs_difference": 0.43068001597168265,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 89,
+    "min_equal": 1,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 5,
+    "days": 90,
+    "mean_abs_difference": 0.45258096995597014,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 88,
+    "min_equal": 1,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 6,
+    "days": 90,
+    "mean_abs_difference": 0.4804217171717172,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 85,
+    "min_equal": 1,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 7,
+    "days": 90,
+    "mean_abs_difference": 0.5160908335491671,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 81,
+    "min_equal": 1,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 8,
+    "days": 90,
+    "mean_abs_difference": 0.5570160094535099,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 75,
+    "min_equal": 0,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 9,
+    "days": 90,
+    "mean_abs_difference": 0.6032188390313393,
+    "mean_equal_to_rounding": 0,
+    "max_equal": 65,
+    "min_equal": 0,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 10,
+    "days": 90,
+    "mean_abs_difference": 0.6412861035569374,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 54,
+    "min_equal": 0,
+    "counts_equal": 88
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 11,
+    "days": 90,
+    "mean_abs_difference": 0.6779093930760601,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 44,
+    "min_equal": 0,
+    "counts_equal": 86
+  },
+  {
+    "station_id": 104,
+    "shift_hours": 12,
+    "days": 90,
+    "mean_abs_difference": 0.714441131399465,
+    "mean_equal_to_rounding": 1,
+    "max_equal": 34,
+    "min_equal": 0,
+    "counts_equal": 86
+  }
+]

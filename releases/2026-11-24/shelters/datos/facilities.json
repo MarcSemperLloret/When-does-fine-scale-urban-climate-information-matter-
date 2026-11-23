@@ -1,0 +1,854 @@
+[
+  {
+    "name":"Biblioteca Municipal de Benimaclet – Carola Reig",
+    "text":"Junio Hasta el 14\/06: abierta 24 horas, incluidos fines de semana Del 15 al 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábado y domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio y septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Agosto cerrado Ubicación · Más información",
+    "id":0,
+    "map_name":"Biblioteca Municipal Carola Reig Salvà",
+    "lon":-0.3582031,
+    "lat":39.4881002,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":3008657704,
+    "connector_m":44.4116395329
+  },
+  {
+    "name":"Biblioteca Municipal del Grau – Constantí Llombart",
+    "text":"Junio Hasta el 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábado 20\/06: 09:30 a 13:30 h (resto de sábados cerrado) Domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio y septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Agosto cerrado Ubicación . Más información",
+    "id":1,
+    "map_name":"Biblioteca del Grao – Constantí Llombart",
+    "lon":-0.3305413,
+    "lat":39.4626905,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":10139283399,
+    "connector_m":20.8663801738
+  },
+  {
+    "name":"Biblioteca Municipal de Malilla - Roís de Corella",
+    "text":"Junio Hasta el 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábado y domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio y septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Agosto cerrado Ubicación . Más información",
+    "id":2,
+    "map_name":"Biblioteca Municipal Roís de Corella",
+    "lon":-0.377251,
+    "lat":39.4487188,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":4034183812,
+    "connector_m":36.3710981674
+  },
+  {
+    "name":"Biblioteca Municipal de Tres Forques - Lluís Fullana i Mira",
+    "text":"Junio Hasta el 21\/06: Lunes a viernes: 08:45 a 14:30 h y 16:15 a 19:45 h Sábado y domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:30 h (24\/06 cerrado) Sábado y domingo: cerrado Julio y septiembre Lunes a viernes: 08:45 a 14:30 h Sábado y domingo: cerrado Agosto cerrado Ubicación . Más información",
+    "id":3,
+    "map_name":"BIBLIOTECA MUNICIPAL LLUÍS FULLANA I MIRA (TRES FORQUES)",
+    "lon":-0.4021573,
+    "lat":39.4652721,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.5
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":11037392844,
+    "connector_m":16.3070694652
+  },
+  {
+    "name":"Biblioteca Municipal Sant Marcel·lí - Camí Real - Clara Santiró i Font",
+    "text":"Junio Hasta el 14\/06: abierta 24 horas, incluidos fines de semana Del 15 al 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábado y domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio a septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":4,
+    "map_name":"Biblioteca Clara Santiró i Font",
+    "lon":-0.3926459,
+    "lat":39.447147,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":10293227143,
+    "connector_m":22.5308903588
+  },
+  {
+    "name":"Biblioteca Municipal d'Arrancapins - Eduard Escalante",
+    "text":"Junio Hasta el 14\/06: abierta 24 horas, incluidos fines de semana Del 15 al 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábado y domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio a septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":5,
+    "map_name":"Biblioteca Eduardo Escalante",
+    "lon":-0.3877722,
+    "lat":39.4676887,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":10869012482,
+    "connector_m":39.7784802029
+  },
+  {
+    "name":"Biblioteca Municipal de L'Amistat - Tomàs Vicent Tosca",
+    "text":"Junio Hasta el 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábado y domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio a septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":6,
+    "map_name":"Biblioteca Municipal Tomás Vicent Tosca",
+    "lon":-0.350849,
+    "lat":39.4722847,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":11466508552,
+    "connector_m":23.0430982203
+  },
+  {
+    "name":"Biblioteca Municipal de Marxalenes - Joanot Martorell",
+    "text":"Junio Hasta el 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábado 20\/06: 09:30 a 13:30 h (resto de sábados cerrado) Domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio a septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":7,
+    "map_name":"Biblioteca Municipal Joanot Martorell",
+    "lon":-0.3812411,
+    "lat":39.4864537,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":1981173608,
+    "connector_m":17.3426504929
+  },
+  {
+    "name":"Biblioteca Municipal de Natzaret - del Mar",
+    "text":"Junio Hasta el 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábados 06\/06 y 13\/06: 09:30 a 13:30 h (resto de sábados cerrado) Domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio a septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":8,
+    "map_name":"Biblioteca Municipal de Nazaret",
+    "lon":-0.3312883,
+    "lat":39.4489593,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":254744479,
+    "connector_m":43.0999402558
+  },
+  {
+    "name":"Biblioteca Municipal de Russafa - Nova Al-Russafí",
+    "text":"Junio Hasta el 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábados 06\/06 y 13\/06: 09:30 a 13:30 h (resto de sábados cerrado) Domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio a septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":9,
+    "map_name":"Biblioteca Municipal Nova Al-Russafí",
+    "lon":-0.3705437,
+    "lat":39.4609171,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":1336585202,
+    "connector_m":17.0209413608
+  },
+  {
+    "name":"Biblioteca Municipal de la Creu del Grau - Gregori Maians i Síscar",
+    "text":"Junio Hasta el 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábado y domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio a septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":10,
+    "map_name":"Biblioteca Municipal Gregori Maians i Ciscar",
+    "lon":-0.3456048,
+    "lat":39.4616271,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":253705198,
+    "connector_m":80.2773334929
+  },
+  {
+    "name":"Biblioteca Municipal dels Orriols - Josep Maria Bayarri",
+    "text":"Junio Hasta el 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábados 06\/06 y 13\/06: 09:30 a 13:30 h (resto de sábados cerrado) Domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio a septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":11,
+    "map_name":"Biblioteca Municipal Josep María Bayarri",
+    "lon":-0.3685271,
+    "lat":39.4969592,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":11585687307,
+    "connector_m":13.2649669541
+  },
+  {
+    "name":"Biblioteca Municipal Palacio de la Exposición",
+    "text":"Junio Hasta el 21\/06: Lunes a viernes: 08:45 a 14:45 h y 16:15 a 19:45 h Sábado y domingo: cerrado Del 22 al 30\/06: Lunes a viernes: 08:45 a 14:45 h (24\/06 cerrado) Sábado y domingo: cerrado Julio y septiembre Lunes a viernes: 08:45 a 14:45 h Sábado y domingo: cerrado Agosto cerrado Ubicación . Más información",
+    "id":12,
+    "map_name":"Biblioteca Municipal Palacio de la Exposición",
+    "lon":-0.3625154,
+    "lat":39.4735463,
+    "ordinary_intervals":[
+      [
+        8.75,
+        14.75
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":11568973210,
+    "connector_m":26.097297879
+  },
+  {
+    "name":"CCCC (Centre del Carme Cultura Contemporània)",
+    "text":"Junio a s eptiembre Martes a domingo: 10:00 a 20:00 h Lunes cerrado Ubicación . Más información",
+    "id":13,
+    "map_name":"CCCC (Centro del Carmen de Cultura Contemporánea)",
+    "lon":-0.3790181,
+    "lat":39.4796725,
+    "ordinary_intervals":[
+      [
+        10,
+        20
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"uncertain_CCCC",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":103166148,
+    "connector_m":20.5714522348
+  },
+  {
+    "name":"Institut Valencià d’Art Modern (IVAM)",
+    "text":"Junio a s eptiembre Martes a domingo: 10:00 a 19:00 h Lunes cerrado Ubicación . Más información",
+    "id":14,
+    "map_name":"Instituto Valenciano de Arte Moderno (IVAM)",
+    "lon":-0.3827567,
+    "lat":39.4796137,
+    "ordinary_intervals":[
+      [
+        10,
+        19
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"after_event",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":7667387723,
+    "connector_m":13.3157867089
+  },
+  {
+    "name":"Museo de las Ciencias",
+    "text":"Junio Del 1\/06 al 19\/06: Lunes a domingo: 10:00 a 19:00 h A partir del 20\/06: Lunes a domingo: 10:00 a 21:00 h Julio y agosto Lunes a domingo: 10:00 a 21:00 h Septiembre Del 1\/09 al 6\/09: Lunes a domingo: 10:00 a 21:00 h A partir del 7\/09: Lunes a domingo: 10:00 a 19:00 h Ubicación . Más información",
+    "id":15,
+    "map_name":"Museo de las Ciencias Príncipe Felipe",
+    "lon":-0.3520842,
+    "lat":39.4561074,
+    "ordinary_intervals":[
+      [
+        10,
+        21
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"free_refuge_area_unconfirmed",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":253925417,
+    "connector_m":52.9119503608
+  },
+  {
+    "name":"Museo de la Ciudad",
+    "text":"Junio a septiembre Lunes cerrado Martes a sábados: 10:00 a 19:00 h Domingos y festivos: 10:00 a 14:00 h Ubicación . Más información",
+    "id":16,
+    "map_name":"Palacio del Marqués de Campo, Museo de la Ciudad de Valencia",
+    "lon":-0.3738419,
+    "lat":39.475975,
+    "ordinary_intervals":[
+      [
+        10,
+        19
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":60707967,
+    "connector_m":9.4528447158
+  },
+  {
+    "name":"Museo de Historia de València",
+    "text":"Junio a septiembre Lunes cerrado Martes a sábados: 10:00 a 19:00 h Domingos y festivos: 10:00 a 14:00 h Ubicación . Más información",
+    "id":17,
+    "map_name":"Museu d'Història de València",
+    "lon":-0.4084227,
+    "lat":39.4724948,
+    "ordinary_intervals":[
+      [
+        10,
+        19
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":13383753785,
+    "connector_m":14.9424576573
+  },
+  {
+    "name":"Museo de Ciencias Naturales (antiguo Paleontològic)",
+    "text":"Junio a septiembre Lunes cerrado Martes a domingo: 10:00 a 19:00 h Ubicación . Más información",
+    "id":18,
+    "map_name":"Museo de Ciencias Naturales",
+    "lon":-0.3687317,
+    "lat":39.4793155,
+    "ordinary_intervals":[
+      [
+        10,
+        19
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":6403945674,
+    "connector_m":24.7620910084
+  },
+  {
+    "name":"Centro Cultural Municipal Chalet Aben Al Abbar",
+    "text":"Junio, julio y septiembre Lunes: cerrado Martes a viernes: 10:00 a 14:30 h y 17:00 a 21:30 h Sábado: 10:00 a 14:00 h y 16:30 a 21:30 h Domingo: 10:00 a 15:00 h Agosto cerrado Ubicación . Más información",
+    "id":19,
+    "map_name":"CC Aben al-Abbar (El chalet de la República)",
+    "lon":-0.352664,
+    "lat":39.4671609,
+    "ordinary_intervals":[
+      [
+        10,
+        14.5
+      ],
+      [
+        17,
+        21.5
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":7021924278,
+    "connector_m":6.6900325178
+  },
+  {
+    "name":"Centro Cultural Municipal Nave 3 Ribes",
+    "text":"Junio, julio y septiembre Lunes: cerrado Martes a viernes: 09:00 a 14:00 h Sábado y domingo: 10:00 a 14:00 h y 16:00 a 22:00 h Agosto cerrado Ubicación . Más información",
+    "id":20,
+    "map_name":"Centro Cultural Nave 3 Ribes",
+    "lon":-0.3781626,
+    "lat":39.458894,
+    "ordinary_intervals":[
+      [
+        9,
+        14
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":7232573464,
+    "connector_m":21.4308229222
+  },
+  {
+    "name":"Centro Cultural Municipal Escorxador",
+    "text":"Junio, julio y septiembre Lunes: cerrado Martes a viernes: 10:00 a 14:30 h i 17:00 a 21:30 h Sábado: 10:00 a 14:00 h i 16:30 a 21:30 h Domingo: 10:00 a 15:00 h Agosto cerrado Ubicación . Más información",
+    "id":21,
+    "map_name":"Centre Cultural Escorxador",
+    "lon":-0.3319005,
+    "lat":39.4692167,
+    "ordinary_intervals":[
+      [
+        10,
+        14.5
+      ],
+      [
+        17,
+        21.5
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":254020161,
+    "connector_m":15.264031988
+  },
+  {
+    "name":"Centro Cultural Municipal Alqueria Albors",
+    "text":"Junio, julio y septiembre Lunes: cerrado Martes a viernes: 10:00 a 14:30 h i 17:00 a 21:30 h Sábado: 10:00 a 14:00 h i 16:30 a 21:30 h Domingo: 10:00 a 15:00 h Agosto cerrado Ubicación . Más información",
+    "id":22,
+    "map_name":"Centro Cultural Municipal Alquería Albors",
+    "lon":-0.3685271,
+    "lat":39.4969592,
+    "ordinary_intervals":[
+      [
+        10,
+        14.5
+      ],
+      [
+        17,
+        21.5
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":11585687307,
+    "connector_m":13.2649669541
+  },
+  {
+    "name":"Centro Cultural Municipal Reina 121",
+    "text":"Junio, julio y septiembre Lunes: cerrado Martes a viernes: 10:00 a 14:30 h i 17:00 a 21:30 h Sábado: 10:00 a 14:00 h i 16:30 a 21:30 h Domingo: 10:00 a 15:00 h Agosto cerrado Ubicación . Más información",
+    "id":23,
+    "map_name":"Centro Cultural Reina 121",
+    "lon":-0.32873,
+    "lat":39.4690813,
+    "ordinary_intervals":[
+      [
+        10,
+        14.5
+      ],
+      [
+        17,
+        21.5
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":11556499158,
+    "connector_m":22.0965056886
+  },
+  {
+    "name":"Las Naves",
+    "text":"Junio a septiembre Lunes a viernes: 8:00 a 21:00 h (24\/06 cerrado) Sábado y domingo: cerrado Ubicación . Más información",
+    "id":24,
+    "map_name":"Las Naves | Centro de innovación social y urbana",
+    "lon":-0.3382737,
+    "lat":39.4587039,
+    "ordinary_intervals":[
+      [
+        8,
+        21
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":12739547010,
+    "connector_m":17.7451602632
+  },
+  {
+    "name":"Palacio de Congresos",
+    "text":"Junio, julio y septiembre Lunes a viernes: 09:00 a 14:00 h Sábado y domingo: cerrado Agosto cerrado Ubicación . Más información",
+    "id":25,
+    "map_name":"Palacio de Congresos de Valencia",
+    "lon":-0.4020685,
+    "lat":39.4962485,
+    "ordinary_intervals":[
+      [
+        9,
+        14
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":10723716405,
+    "connector_m":38.8012544223
+  },
+  {
+    "name":"Observatori del Canvi Climàtic",
+    "text":"Junio, julio y septiembre Lunes a viernes: 8:30 a 15:00 h Sábado y domingo: cerrado Agosto Lunes a viernes: 10:00 a 15:00 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":26,
+    "map_name":"Observatori del Canvi Climàtic - València Sostenible",
+    "lon":-0.3275222,
+    "lat":39.4670238,
+    "ordinary_intervals":[
+      [
+        8.5,
+        15
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":9235336893,
+    "connector_m":14.8533157141
+  },
+  {
+    "name":"Oficina de l'Energia Ayora",
+    "text":"Junio a septiembre Lunes a viernes: 09:00 a 14:30 h Martes: 09:00 a 14:30 h Miércoles: 09:00 a 14:30 h y 15:00 a 18:00 h Jueves: 09:00 a 14:30 h Viernes: 09:00 a 14:30 h y 15:00 a 18:00 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":27,
+    "map_name":"Oficina de l'Energia - Ayora - València Sostenible",
+    "lon":-0.3391224,
+    "lat":39.4681089,
+    "ordinary_intervals":[
+      [
+        9,
+        14.5
+      ],
+      [
+        15,
+        18
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":11557745628,
+    "connector_m":1.4201910768
+  },
+  {
+    "name":"Oficina de l'Energia Torrefiel",
+    "text":"Junio, julio y septiembre Lunes: 10:00 a 14:00 h Martes: 10:00 a 14:00 h Miércoles: 10:00 a 14:00 h Jueves: 10:00 a 14:00 h y 17:00 a 19:00 h Viernes: 10:00 a 14:00 h Sábado: 10:00 a 13:00 h Domingo: cerrado Agosto cerrado por obras en el mercado municipal Ubicación . Más información",
+    "id":28,
+    "map_name":"Oficina de l'Energia - Mercat de Torrefiel - València Sostenible",
+    "lon":-0.3752323,
+    "lat":39.4977125,
+    "ordinary_intervals":[
+      [
+        10,
+        14
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":11593092973,
+    "connector_m":16.3807185601
+  },
+  {
+    "name":"Oficina de l'Energia Parc de l'Oest",
+    "text":"Junio a septiembre Lunes a viernes: 09:00 a 14:30 h y 15:00 a 18:00 h Martes: 09:00 a 14:30 h Miércoles: 09:00 a 14:30 h y 15:00 a 18:00 h Jueves: 09:00 a 14:30 h Viernes: 09:00 a 14:30 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":29,
+    "map_name":"Oficina de l'Energia Parc de l'Oest- València Sostenible",
+    "lon":-0.3953647,
+    "lat":39.4664786,
+    "ordinary_intervals":[
+      [
+        9,
+        14.5
+      ],
+      [
+        15,
+        18
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":7673833751,
+    "connector_m":20.0471257501
+  },
+  {
+    "name":"Centro Municipal de Servicios Sociales Patraix",
+    "text":"Junio a septiembre Lunes a viernes: 09:00 a 14:00 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":30,
+    "map_name":"Centro Asuntos Sociales Patraix",
+    "lon":-0.3941432,
+    "lat":39.4626607,
+    "ordinary_intervals":[
+      [
+        9,
+        14
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":13840947646,
+    "connector_m":23.8291280188
+  },
+  {
+    "name":"Centro Municipal de actividades para Personas Mayores Nou Benicalap",
+    "text":"Junio, julio y septiembre Lunes a domingo: 09:00 a 20:00 h Agosto Lunes a viernes: 09:00 a 20:00 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":31,
+    "map_name":"Centro Municipal De Actividades Para Personas Mayores Nou Benicalap",
+    "lon":-0.3868915,
+    "lat":39.4938692,
+    "ordinary_intervals":[
+      [
+        9,
+        20
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"older_people_facility",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":11763748778,
+    "connector_m":8.6485948952
+  },
+  {
+    "name":"Centro Municipal de actividades para Personas Mayores Nou Moles",
+    "text":"Junio a septiembre Lunes a domingo: 09:00 a 20:00 h Ubicación . Más información",
+    "id":32,
+    "map_name":"CENTRO MUNICIPAL DE ACTIVIDADES PARA PERSONAS MAYORES NOU MOLES(CMAPM)",
+    "lon":-0.3988836,
+    "lat":39.4705054,
+    "ordinary_intervals":[
+      [
+        9,
+        20
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"older_people_facility",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":10130674974,
+    "connector_m":20.6333130204
+  },
+  {
+    "name":"Centro Municipal de actividades para Personas Mayores Patraix",
+    "text":"Junio, julio y septiembre Lunes a domingo: 09:30 a 13:00 h, 16:00 a 20:00 Agosto cerrado Ubicación . Más información",
+    "id":33,
+    "map_name":"Centro Municipal de Actividades para Personas Mayores Patraix",
+    "lon":-0.3941432,
+    "lat":39.4626607,
+    "ordinary_intervals":[
+      [
+        9.5,
+        13
+      ],
+      [
+        16,
+        20
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"older_people_facility",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":13840947646,
+    "connector_m":23.8291280188
+  },
+  {
+    "name":"Centro Municipal de actividades para Personas Mayores Campanar",
+    "text":"Junio, julio y septiembre Lunes a domingo: 09:30 a 13:00 h, 16:00 a 20:00 Agosto cerrado Ubicación . Más información",
+    "id":34,
+    "map_name":"Centro Municipal De Actividades Para Personas Mayores Campanar",
+    "lon":-0.3969816,
+    "lat":39.4811577,
+    "ordinary_intervals":[
+      [
+        9.5,
+        13
+      ],
+      [
+        16,
+        20
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"older_people_facility",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":11661585413,
+    "connector_m":10.7114911461
+  },
+  {
+    "name":"Junta Municipal Dels Pobles de Benimàmet-Beniferri",
+    "text":"Junio a septiembre Lunes a viernes: 08:00 a 14:30 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":35,
+    "map_name":"Junta Municipal Dels Pobles De Benimàmet-Beniferri",
+    "lon":-0.4238519,
+    "lat":39.5018651,
+    "ordinary_intervals":[
+      [
+        8,
+        14.5
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":12810670749,
+    "connector_m":7.4187437983
+  },
+  {
+    "name":"Junta Municipal de Pobles del Nord (Carpesa)",
+    "text":"Junio a septiembre Lunes a viernes: 08:00 a 14:30 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":36,
+    "map_name":"Junta Municipal De Pobles Del Nord",
+    "lon":-0.3780851,
+    "lat":39.51727,
+    "ordinary_intervals":[
+      [
+        8,
+        14.5
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":1666173016,
+    "connector_m":11.290492595
+  },
+  {
+    "name":"Junta Municipal de Pobles del Sud (Castellar)",
+    "text":"Junio a septiembre Lunes a viernes: 08:00 a 14:30 h Sábado y domingo: cerrado Ubicación . Más información",
+    "id":37,
+    "map_name":"Junta Municipal De Pobles Del Sud",
+    "lon":-0.362147,
+    "lat":39.428029,
+    "ordinary_intervals":[
+      [
+        8,
+        14.5
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":14068108764,
+    "connector_m":16.2411371464
+  },
+  {
+    "name":"Centro Cívico Ayora",
+    "text":"Junio, julio y septiembre Lunes a domingo: 09:00 a 20:00 h Sábado: 09:30 a 13:30 h Domingo: cerrado Agosto cerrado Ubicación . Más información",
+    "id":38,
+    "map_name":"Centre Cívic Aiora - Francisco Javier Goerlich Lleó",
+    "lon":-0.3423002,
+    "lat":39.4654778,
+    "ordinary_intervals":[
+      [
+        9,
+        20
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":3447496641,
+    "connector_m":48.6915652448
+  },
+  {
+    "name":"Complex Esportiu Cultural Petxina",
+    "text":"Junio a septiembre Lunes a viernes: 08:00 a 20:00 h Sábado: 09:00 a 17:00 h Domingo: cerrado Ubicación . Más información",
+    "id":39,
+    "map_name":"Complejo Deportivo-Cultural Pechina",
+    "lon":-0.393788,
+    "lat":39.4757916,
+    "ordinary_intervals":[
+      [
+        8,
+        20
+      ]
+    ],
+    "announced_extension":false,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"No specific extension in named list.",
+    "node":10082921196,
+    "connector_m":44.5182074253
+  },
+  {
+    "name":"Oficina turística playa del Cabanyal",
+    "text":"Julio a septiembre Martes a domingo: 10:00 a 15:00 h Ubicación . Más información",
+    "id":40,
+    "map_name":"Oficina de Turismo playa de Valencia",
+    "lon":-0.3240008,
+    "lat":39.4676491,
+    "ordinary_intervals":[
+      [
+        10,
+        15
+      ]
+    ],
+    "announced_extension":true,
+    "historical_status":"reconstructed_39",
+    "access_status":"listed_public_refuge",
+    "interpretation":"Announced until 21:00; continuous afternoon reopening not explicitly timed.",
+    "node":10169380094,
+    "connector_m":64.5803377441
+  }
+]

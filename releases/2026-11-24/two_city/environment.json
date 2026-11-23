@@ -1,0 +1,15 @@
+{
+  "python": "3.13.2",
+  "platform": "Windows",
+  "packages": {
+    "numpy": "2.4.5",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "pyarrow": "19.0.1",
+    "matplotlib": "3.10.1",
+    "geopandas": "1.0.1",
+    "shapely": "2.1.0",
+    "pyogrio": "0.11.0",
+    "pyproj": "3.7.1"
+  }
+}

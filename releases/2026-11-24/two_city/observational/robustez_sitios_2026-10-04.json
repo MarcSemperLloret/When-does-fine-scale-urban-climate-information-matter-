@@ -1,0 +1,170 @@
+{
+ "Afternoon_as_UTC": {
+  "distinct_era5_cells": 3,
+  "complete_site_hours_for_cell_count": 254,
+  "distinct_era5_site_anomalies": 4,
+  "loo_range": {
+   "rho_east_obs": [
+    -0.735632183908046,
+    -0.659551176792556
+   ],
+   "slope_obs_per10km": [
+    -2.2474856543150934,
+    -1.8897087505335657
+   ],
+   "rho_obs_IDW": [
+    0.5331143951833607,
+    0.6907498631636563
+   ],
+   "rho_obs_ERA5": [
+    -0.5984657344547035,
+    -0.47287207134605785
+   ]
+  },
+  "spatial_mae_gain_pct": 13.727794863228915,
+  "spatial_mae_gain_ci95": [
+   10.768931863484333,
+   16.22027089988034
+  ]
+ },
+ "Morning_as_UTC": {
+  "distinct_era5_cells": 3,
+  "complete_site_hours_for_cell_count": 252,
+  "distinct_era5_site_anomalies": 4,
+  "loo_range": {
+   "rho_east_obs": [
+    -0.6814449917898193,
+    -0.5840175150519978
+   ],
+   "slope_obs_per10km": [
+    -1.457693029212813,
+    -1.1664569751851463
+   ],
+   "rho_obs_IDW": [
+    0.47947454844006565,
+    0.6031746031746031
+   ],
+   "rho_obs_ERA5": [
+    -0.48997577354733224,
+    -0.35346192166298723
+   ]
+  },
+  "spatial_mae_gain_pct": 11.307722912437013,
+  "spatial_mae_gain_ci95": [
+   9.058295250119452,
+   13.447464582822597
+  ]
+ },
+ "Afternoon_as_fixed_CET": {
+  "distinct_era5_cells": 3,
+  "complete_site_hours_for_cell_count": 255,
+  "distinct_era5_site_anomalies": 4,
+  "loo_range": {
+   "rho_east_obs": [
+    -0.7318007662835249,
+    -0.6633825944170771
+   ],
+   "slope_obs_per10km": [
+    -1.8559144069580182,
+    -1.550369318169997
+   ],
+   "rho_obs_IDW": [
+    0.5008210180623973,
+    0.6491516146688561
+   ],
+   "rho_obs_ERA5": [
+    -0.5345615328429689,
+    -0.4119173853678854
+   ]
+  },
+  "spatial_mae_gain_pct": 11.985414671644367,
+  "spatial_mae_gain_ci95": [
+   8.57056108181427,
+   14.888461450340607
+  ]
+ },
+ "Morning_as_fixed_CET": {
+  "distinct_era5_cells": 3,
+  "complete_site_hours_for_cell_count": 252,
+  "distinct_era5_site_anomalies": 5,
+  "loo_range": {
+   "rho_east_obs": [
+    -0.810071154898741,
+    -0.7367268746579091
+   ],
+   "slope_obs_per10km": [
+    -2.156728178836789,
+    -1.8338914916469362
+   ],
+   "rho_obs_IDW": [
+    0.6272577996715927,
+    0.735632183908046
+   ],
+   "rho_obs_ERA5": [
+    -0.6681487821099985,
+    -0.5601554297977349
+   ]
+  },
+  "spatial_mae_gain_pct": 11.662441595747886,
+  "spatial_mae_gain_ci95": [
+   8.98712658701132,
+   14.297385500194629
+  ]
+ },
+ "Afternoon_as_local_CEST": {
+  "distinct_era5_cells": 3,
+  "complete_site_hours_for_cell_count": 255,
+  "distinct_era5_site_anomalies": 4,
+  "loo_range": {
+   "rho_east_obs": [
+    -0.7022441160372195,
+    -0.5944170771756979
+   ],
+   "slope_obs_per10km": [
+    -1.4310716058296347,
+    -1.1702937030850133
+   ],
+   "rho_obs_IDW": [
+    0.40613026819923376,
+    0.571975916803503
+   ],
+   "rho_obs_ERA5": [
+    -0.5002083292308381,
+    -0.37467465995660343
+   ]
+  },
+  "spatial_mae_gain_pct": 8.841174037130628,
+  "spatial_mae_gain_ci95": [
+   4.869664873268883,
+   12.480296285126458
+  ]
+ },
+ "Morning_as_local_CEST": {
+  "distinct_era5_cells": 3,
+  "complete_site_hours_for_cell_count": 250,
+  "distinct_era5_site_anomalies": 5,
+  "loo_range": {
+   "rho_east_obs": [
+    -0.8253968253968254,
+    -0.7553366174055829
+   ],
+   "slope_obs_per10km": [
+    -2.648723529287187,
+    -2.2772232404288575
+   ],
+   "rho_obs_IDW": [
+    0.6163108921729611,
+    0.7285166940339354
+   ],
+   "rho_obs_ERA5": [
+    -0.6762464028043115,
+    -0.5575137394547987
+   ]
+  },
+  "spatial_mae_gain_pct": 10.249482022126966,
+  "spatial_mae_gain_ci95": [
+   7.432253481080973,
+   12.948576179416841
+  ]
+ }
+}

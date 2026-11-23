@@ -1,0 +1,119 @@
+{
+  "interpretation": "Conditional reconstruction using current published July-Wednesday ordinary hours and a dated announcement; not observed execution or health benefit.",
+  "primary_hourly": [
+    {
+      "origin": "centroid",
+      "speed": 0.9,
+      "minutes": 15,
+      "catalogue": "reconstructed39",
+      "hour": 16,
+      "ordinary_centres": 13,
+      "event_centres": 22,
+      "ordinary_older": 48758.416,
+      "event_older": 76202.47899999999,
+      "additional_older": 27444.062999999995,
+      "continuous_event_older": 82237.297,
+      "geographic_older": 111430.288,
+      "ordinary_sections": 163,
+      "event_sections": 263,
+      "total_older": 174665.215
+    },
+    {
+      "origin": "centroid",
+      "speed": 0.9,
+      "minutes": 15,
+      "catalogue": "reconstructed39",
+      "hour": 17,
+      "ordinary_centres": 17,
+      "event_centres": 26,
+      "ordinary_older": 59529.630000000005,
+      "event_older": 82237.297,
+      "additional_older": 22707.666999999998,
+      "continuous_event_older": 82237.297,
+      "geographic_older": 111430.288,
+      "ordinary_sections": 203,
+      "event_sections": 285,
+      "total_older": 174665.215
+    },
+    {
+      "origin": "centroid",
+      "speed": 0.9,
+      "minutes": 15,
+      "catalogue": "reconstructed39",
+      "hour": 18,
+      "ordinary_centres": 15,
+      "event_centres": 26,
+      "ordinary_older": 57884.311,
+      "event_older": 82237.297,
+      "additional_older": 24352.986,
+      "continuous_event_older": 82237.297,
+      "geographic_older": 111430.288,
+      "ordinary_sections": 198,
+      "event_sections": 285,
+      "total_older": 174665.215
+    },
+    {
+      "origin": "centroid",
+      "speed": 0.9,
+      "minutes": 15,
+      "catalogue": "reconstructed39",
+      "hour": 19,
+      "ordinary_centres": 12,
+      "event_centres": 26,
+      "ordinary_older": 50770.484,
+      "event_older": 82237.297,
+      "additional_older": 31466.813,
+      "continuous_event_older": 82237.297,
+      "geographic_older": 111430.288,
+      "ordinary_sections": 171,
+      "event_sections": 285,
+      "total_older": 174665.215
+    },
+    {
+      "origin": "centroid",
+      "speed": 0.9,
+      "minutes": 15,
+      "catalogue": "reconstructed39",
+      "hour": 20,
+      "ordinary_centres": 6,
+      "event_centres": 24,
+      "ordinary_older": 17806.688000000002,
+      "event_older": 78303.258,
+      "additional_older": 60496.57,
+      "continuous_event_older": 78303.258,
+      "geographic_older": 111430.288,
+      "ordinary_sections": 64,
+      "event_sections": 274,
+      "total_older": 174665.215
+    }
+  ],
+  "ordinary_person_hours": 234749.529,
+  "event_person_hours": 401217.628,
+  "incremental_person_hours": 166468.099,
+  "announced_centres": 23,
+  "announced_positive_cost_centres": 18,
+  "announced_extra_hours_8_21": 73.25,
+  "announced_extra_hours_16_21": 61.0,
+  "minimum_stay": [
+    {
+      "minimum_stay_hours": 0,
+      "event": false,
+      "potential_person_hours": 234749.52899999992
+    },
+    {
+      "minimum_stay_hours": 0,
+      "event": true,
+      "potential_person_hours": 401217.62799999997
+    },
+    {
+      "minimum_stay_hours": 0.5,
+      "event": false,
+      "potential_person_hours": 212092.76549999992
+    },
+    {
+      "minimum_stay_hours": 0.5,
+      "event": true,
+      "potential_person_hours": 367207.0309999999
+    }
+  ]
+}

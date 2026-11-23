@@ -1,0 +1,30 @@
+[
+  {
+    "city": "Valencia",
+    "window": "Morning",
+    "mode": "network",
+    "quota": 66,
+    "exchanges": 2
+  },
+  {
+    "city": "Valencia",
+    "window": "Afternoon",
+    "mode": "network",
+    "quota": 66,
+    "exchanges": 6
+  },
+  {
+    "city": "Madrid",
+    "window": "Morning",
+    "mode": "network",
+    "quota": 262,
+    "exchanges": 3
+  },
+  {
+    "city": "Madrid",
+    "window": "Afternoon",
+    "mode": "network",
+    "quota": 262,
+    "exchanges": 2
+  }
+]

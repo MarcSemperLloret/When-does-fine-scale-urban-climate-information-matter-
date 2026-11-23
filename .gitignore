@@ -28,6 +28,12 @@ manuscrito.pdf
 !releases/2026-10-04/**/*.gpkg
 !releases/2026-10-04/**/datos/
 !releases/2026-10-04/**/datos/**
+!releases/2026-11-24/
+!releases/2026-11-24/**/
+!releases/2026-11-24/**/*.parquet
+!releases/2026-11-24/**/*.gpkg
+!releases/2026-11-24/**/datos/
+!releases/2026-11-24/**/datos/**
 # Keep authoring material, restricted inputs and new rerun outputs private.
 source/
 supplement/

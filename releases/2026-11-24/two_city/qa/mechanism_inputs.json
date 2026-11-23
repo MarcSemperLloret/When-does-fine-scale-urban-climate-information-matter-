@@ -1,0 +1,26 @@
+[
+  {
+    "source": "Madrid_2026-09-07/datos/campos_central_Afternoon.npz",
+    "sha256": "847d8bed30e8f25e508d8cc94e9c3c3375c736aee03b343dce7e64e111afb60d"
+  },
+  {
+    "source": "Madrid_2026-09-07/datos/campos_central_Morning.npz",
+    "sha256": "41abf7d5e436f04f4d71f4e67c411805d43046ee290b76825a7aa8d5e7e3240e"
+  },
+  {
+    "source": "Madrid_2026-09-07/datos/rutas_central_Madrid_working_Full.parquet",
+    "sha256": "51f4c339aba30d3bf3a725e7d1723378044ac333b5189c07326b09b3b65554bf"
+  },
+  {
+    "source": "Madrid_2026-09-07/datos/rutas_central_Valencia_working_Full.parquet",
+    "sha256": "d29a95aa35246378296178dcbdca365d356e3cea5bd0b1771337b22468d627a9"
+  },
+  {
+    "source": "SCS_ampliado_2026-09-07/datos_ampliacion/fields_Afternoon.npz",
+    "sha256": "7330600baa2d739f00077f44350ee22fbdd766db5c9ed66c4c8c2ab638467e6c"
+  },
+  {
+    "source": "SCS_ampliado_2026-09-07/datos_ampliacion/fields_Morning.npz",
+    "sha256": "35925bab9df1fd8a653201bad288e611865a4daa85012483d099b678779111a9"
+  }
+]

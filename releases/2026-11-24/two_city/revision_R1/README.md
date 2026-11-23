@@ -1,0 +1,41 @@
+# Analyses added in revision (R1)
+
+This folder adds the scripts and derived outputs of the analyses introduced in response to the reviewers. They are described in Methods 3.2–3.3, Sections 4.2 and 4.5, Fig. 5 and Supplementary Material 1, Section S12. Everything outside this folder is the original decision-level companion, unchanged.
+
+## Contents
+
+| Folder | Analysis | Main outputs |
+|---|---|---|
+| `amplificacion/` | Rescaling of the station field's hourly spatial anomalies by a factor *a* (Eq. 5), and the observational calibration of *a* at the 29 VITUclim sites | `amplificacion_288.csv` (288 cases × 9 values of *a*), `calibracion_amplificacion.csv`, `resumen_amplificacion.csv` |
+| `perturbaciones/` | Persistent site residuals and their empirical variograms; Gaussian-process section errors (σ = 0.4 and 0.6 °C, correlation length 0–5 km, 100 realisations) | `residuos_vituclim.csv`, `variogramas_empiricos.json`, `perturbaciones_100.parquet` (one row per case, setting and realisation), `resumen_*.csv` |
+| `capacidad/` | Full P/U/C/X classification at capacities of 5–25% with the common-loss MILP, shortlist overlap, and states under amplification | `capacidad_288x5_estados.csv`, `estados_capacidad.csv`, `estados_amplificacion.csv` |
+| `formulaciones/` | Continuous score forms, rank decomposition, routes near the shade threshold and slower walking speeds | `continuas.csv`, `descomposicion.csv`, `umbral_sombra.csv`, `velocidad.csv` |
+| `huecos/` | Central-case capture and turnover table, exceedance skill at the VITUclim sites, threshold frequencies, population-allocation errors, station-network sensitivity (Valencia leave-one-station-out, Madrid alternative networks), canopy transmittance and the all-hours disagreement map | `tabla_central.csv`, `excedencia_vituclim.csv`, `excedencia_mixtas.csv`, `umbrales_frecuencia.csv`, `poblacion_ruido.parquet`, `red_estaciones.csv`, `transmitancia.csv`, `mapa_sin_sombra.csv`, `Figure_S_temperature_only.pdf` |
+| `celdas_era5/` | Sites and mean anomalies per corrected ERA5-Land cell | `celdas_era5.csv` |
+| `figura5_sensibilidad.py`, `figuras/` | Fig. 5 from the outputs above | `figuras/Figure_5.pdf` |
+
+Column names follow the original companion. Losses and captures are percentages. `state` takes the values P (population sufficient), U (uniform sufficient), C (another common selection exists) and X (no common selection). `changed_*` columns count census sections that differ between two shortlists of the same size *k*.
+
+## What runs from this package
+
+The following run from the extracted package root, with the packages in `requirements_decision.txt`:
+
+```text
+python revision_R1/capacidad/capacidad.py
+python revision_R1/capacidad/resumir_capacidad.py
+python revision_R1/amplificacion/resumir.py
+python revision_R1/perturbaciones/resumir_perturbaciones.py revision_R1/perturbaciones/perturbaciones_100.parquet
+python revision_R1/formulaciones/resumir_formulaciones.py
+python revision_R1/figura5_sensibilidad.py
+```
+
+The summary scripts read the outputs in their own folders and should be run from that folder. `capacidad.py` reads `datos/policy_scores_two_cities.parquet` from this companion and reproduces the published 15% losses and states exactly before extending them to the other capacities.
+
+The other generators (`amplificar_contraste.py`, `estaciones_sombra_mapa.py`, `rapidos.py`, `estados_amplificacion.py`, `perturbar.py`, `formulaciones.py`, `residuos_vituclim.py`, `calibrar_amplificacion.py`, `celdas.py`) need the hourly station and ERA5-Land fields, the stored route tables and, for the observational parts, the matched VITUclim pairs. These upstream inputs derive from restricted AVAMET observations and from VITUclim records without documented redistribution terms, so they are not included (see `DATA_AVAILABILITY.md`). The scripts are supplied so that the computations can be inspected, and so that readers with authorised access can rerun them once the matched inputs have been prepared as described in the observational README. Each generator checks its reconstruction against the published scores before computing anything new: the 288 local, regional and uniform scores to 10⁻⁹, and the published 15% losses to 10⁻¹³.
+
+## Reproducibility notes
+
+- All optimisations (1,440 in the capacity sweep and 2,016 under amplification) terminated with certified optimality (`milp_status` = `optimal`).
+- Perturbations use the seed 20261123 and common random numbers across cases.
+- Madrid perturbations transfer the Valencia residual statistics, because Madrid has no independent panel.
+- The walking-speed analysis reuses stored routes. Hours whose chosen route no longer fits the shorter budget are treated as fully exposed (`conservative`) or unchanged (`optimistic`). Faster speeds are not evaluated.

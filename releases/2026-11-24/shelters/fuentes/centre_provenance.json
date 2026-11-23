@@ -1,0 +1,207 @@
+[
+  {
+    "id": 0,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-carola-reig-salva-benimaclet-/-benimaclet-",
+    "sha256": "701f7d8116e626a9bcbfc214765d72cbabe12b9b93c3cf376696861cab98f2c7"
+  },
+  {
+    "id": 1,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-constanti-llombart-poblats-maritims-/-el-grao-",
+    "sha256": "da5f950bd4e2256208e280582b2dd5845e7e51cc98f7849d589bf8fffc151aae"
+  },
+  {
+    "id": 2,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-rois-de-corella-quatre-carreres-/-malilla-cas",
+    "sha256": "6f382e6d132c7dfac43358ece044461d8caf6062bd019ad300e299848f85eeac"
+  },
+  {
+    "id": 3,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-de-tres-forques-llu%C3%ADs-fullana-i-mira-cas",
+    "sha256": "93f93c275f10fd34163e3f36315b5cca6679b26e2e192ee6ba8b3b7f466cc46f"
+  },
+  {
+    "id": 4,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-sant-marcel.li-cami-real-clara-santiro-i-font",
+    "sha256": "02dd529aa0112c1ebe5d895eecb44c51af651957818fc46f942075a83ec8e5f1"
+  },
+  {
+    "id": 5,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-eduard-escalante-extramurs-/-arrancapins-",
+    "sha256": "05c0fd367e796706d12475e53eb1fa3ca6f753b674eadbb695e4d9ec64a7e533"
+  },
+  {
+    "id": 6,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-tomas-vicent-tosca-algiros-/-de-la-amistad-",
+    "sha256": "ead3369d7bdc4461a64864c3f60ccec27d65764cd7c91c8a7de8a7564b65e006"
+  },
+  {
+    "id": 7,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-joanot-martorell-la-saidia-/-marxalenes",
+    "sha256": "46ac96fc7ca2963564b6728e213ef2d4a6e78155747fbf8520cf508e289b210b"
+  },
+  {
+    "id": 8,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-del-mar-poblats-maritims-natzaret",
+    "sha256": "76b54b5f7973681751364f14b98fdb2ce7ee8541a53590ddb04e43bb8663f7ce"
+  },
+  {
+    "id": 9,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-nova-al-russafi-l-eixample",
+    "sha256": "aa1b6efcd0a32c6cc84bd577d6a33e84a4b340386f6387f0395fff317b5d9323"
+  },
+  {
+    "id": 10,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-gregori-maians-i-siscar-camins-al-grau-la-creu-del-grau-cas",
+    "sha256": "4a478e345b53284abc009bac5117067cf99d139158a0f235c564224354a3d005"
+  },
+  {
+    "id": 11,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-josep-maria-bayarri-rascanya-/-els-orriols-",
+    "sha256": "33a083790f12d726f96e00491c7e95db3fa6ea5cf1987acd43464995e59444d5"
+  },
+  {
+    "id": 12,
+    "url": "https://www.valencia.es/-/infociudad-biblioteca-municipal-palau-de-l-exposicio-el-pla-del-real-/-exposicio-",
+    "sha256": "600e06ee709f3109b2066f8779e6e745b874c6566380063ead48f736f126419c"
+  },
+  {
+    "id": 13,
+    "url": "https://www.consorcimuseus.gva.es/centro-del-carmen/",
+    "sha256": "f2ab476e4b8b3923245afd7d083af75bdb3b9ec75884e67b6c3110934c2f68e4"
+  },
+  {
+    "id": 14,
+    "url": "http://www.ivam.es",
+    "sha256": "5846aa5734f2082abdac6a824aa9982da5a8bf5629f930f03d6441083a1c98d5"
+  },
+  {
+    "id": 15,
+    "url": "https://www.valencia.es/-/infociudad-museo-de-las-ciencias",
+    "sha256": "404c0dc324d754c25c6192fd853049cc53014353edf23d7f009ce3d4de223c57"
+  },
+  {
+    "id": 16,
+    "url": "https://www.valencia.es/-/infociudad-museo-de-la-ciudad",
+    "sha256": "7445078a0c2529983c11d59dea254576776df313d7a7f8197d195590e59a5d86"
+  },
+  {
+    "id": 17,
+    "url": "https://www.valencia.es/-/infociudad-museo-de-historia-de-val%C3%A8ncia",
+    "sha256": "2f92688958e03f195ce2b5f235e0bacf570b4f1aac8e9f6fa9bb97f4626e7453"
+  },
+  {
+    "id": 18,
+    "url": "https://www.valencia.es/-/infociudad-museo-de-ciencias-naturales",
+    "sha256": "ab6552c3339e9bdfebe745b6855a79e1b0e2635fc4305fdb2397d795d50a594a"
+  },
+  {
+    "id": 19,
+    "url": "https://www.valencia.es/-/infociudad-centro-cultural-municipal-chalet-aben-al-abbar",
+    "sha256": "b63273d47468bbbe22aacc872d1d5102344a3ed991f702afcdf30bb0d0f8fd89"
+  },
+  {
+    "id": 20,
+    "url": "https://www.valencia.es/-/infociudad-centro-cultural-municipal-nave-3-ribes",
+    "sha256": "0aedbdb7c7e0a743c67c3603ce41e54e322d2e18865ad2f2b706a8877d886b39"
+  },
+  {
+    "id": 21,
+    "url": "https://www.valencia.es/-/infociudad-centro-cultural-municipal-escorxador",
+    "sha256": "c7ebee0443e27617a1223f6de180ed857138e2ac723157af4c9cd74c1e580327"
+  },
+  {
+    "id": 22,
+    "url": "https://www.valencia.es/-/infociudad-centro-cultural-municipal-alquer%C3%ADa-albors",
+    "sha256": "f2863a9f173377b385157d037e7c0d42d66a64446bc15dfa29992e8617e38aa2"
+  },
+  {
+    "id": 23,
+    "url": "https://www.valencia.es/-/infociudad-centro-cultural-municipal-reina-121",
+    "sha256": "a39d97225b9cd7eae45c38f143f3a44512f09f31c3f6db8765aaffc190fa2c93"
+  },
+  {
+    "id": 24,
+    "url": "https://www.valencia.es/-/infociudad-las-naves.-espacio-de-creaci%C3%B3n-contemporanea",
+    "sha256": "ae4d3c916334382af62935068f762586e857e93d49f1c9ff987832c2d6dcd1da"
+  },
+  {
+    "id": 25,
+    "url": "https://www.valencia.es/-/infociudad-palacio-de-congresos-de-valencia",
+    "sha256": "abe7728f34d5baf9ce4cfc97ad517f959be34fc8f04866ad6e191bcb73ff94ea"
+  },
+  {
+    "id": 26,
+    "url": "https://www.valencia.es/-/infociudad-observatorio-del-cambio-climatico",
+    "sha256": "40fa3fa56b70fb4d00717e475472c9a559d4d44acbd67b7d8f35b51796547c2b"
+  },
+  {
+    "id": 27,
+    "url": "https://www.valencia.es/-/infociudad-oficina-de-la-energ%C3%ADa-ayora",
+    "sha256": "0aac05e9065309e689c99df5450ce988962ac6165bee34ce0fd9a3d68bed1efe"
+  },
+  {
+    "id": 28,
+    "url": "https://www.valencia.es/-/infociudad-oficina-de-la-energ%C3%ADa-mercado-de-torrefiel",
+    "sha256": "06f37ed5983fd7731eb205418f0ef99f24abe658c18a60469ee2fcd7edf6e645"
+  },
+  {
+    "id": 29,
+    "url": "https://www.valencia.es/-/infociudad-oficina-de-la-energ%C3%ADa-parque-del-oeste",
+    "sha256": "d34442709311b46ef2e4381d60beeff94e74b0a88cb5c68a8139a790dac9312a"
+  },
+  {
+    "id": 30,
+    "url": "https://www.valencia.es/-/infociudad-centro-municipal-de-servicios-sociales-patraix",
+    "sha256": "cc7360b6676de273383e425de77f76cf7abf20790ee66f871185fb0ec0466c23"
+  },
+  {
+    "id": 31,
+    "url": "https://www.valencia.es/-/infociudad-centro-municipal-de-actividades-para-personas-mayores-nou-benicalap",
+    "sha256": "963d4268b77fdcd8d8abaa4adfa62e541ca3d9ed13aa4bcad79778526da48266"
+  },
+  {
+    "id": 32,
+    "url": "https://www.valencia.es/-/infociudad-centro-municipal-de-actividades-para-personas-mayores-nou-moles",
+    "sha256": "9159c31244fe177a3956980f6391ec86995dd5f16ef9ac4bc65f046760dbb60d"
+  },
+  {
+    "id": 33,
+    "url": "https://www.valencia.es/-/infociudad-centro-municipal-de-actividades-para-personas-mayores-patraix",
+    "sha256": "d979c1acac37d0a65f66830a59e0989735b94458fca9212d40b62b20006997bb"
+  },
+  {
+    "id": 34,
+    "url": "https://www.valencia.es/-/infociudad-centro-municipal-de-actividades-para-personas-mayores-campanar",
+    "sha256": "10f4f984664a8d664500f8e16600a5e5684f556e384a22c80ace18c5a34f89ed"
+  },
+  {
+    "id": 35,
+    "url": "https://www.valencia.es/-/infociudad-junta-municipal-dels-pobles-de-benimamet-beniferri-cas",
+    "sha256": "c7429d4f531e1d85180ae3d15ae8b1ac5d660089533c4905ca7ac4dbd010e56d"
+  },
+  {
+    "id": 36,
+    "url": "https://www.valencia.es/-/infociudad-junta-municipal-de-pobles-del-nord-cas",
+    "sha256": "47386527885f6d723668758873b57826df4f9da38476246d8a16b3f7a4647784"
+  },
+  {
+    "id": 37,
+    "url": "https://www.valencia.es/-/infociudad-junta-municipal-de-pobles-del-sud-cas",
+    "sha256": "47db818794d454182738c0898ed37ec95fc689dd247c0aa3611b0bab9420e864"
+  },
+  {
+    "id": 38,
+    "url": "https://www.valencia.es/-/infociudad-centro-c%C3%ADvico-aiora",
+    "sha256": "8ece33ac6ede5669e478734c0a7c7b56017f07c29191630ef0561d3acc126edd"
+  },
+  {
+    "id": 39,
+    "url": "https://www.valencia.es/-/infociudad-complex-esportiu-cultural-petxina",
+    "sha256": "17c7533483b97bb8b664f96577e5e76524a8dbbc9628f3092ea99d686b7548e6"
+  },
+  {
+    "id": 40,
+    "url": "https://www.valencia.es/cas/actualidad/-/content/nueva-oficina-turismo-playa-cabanyal",
+    "sha256": "f6ce12ef651b3d75ef2c550a663d316c6a2b8db6e1d87843f304c853414c348c"
+  }
+]

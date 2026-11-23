@@ -1,0 +1,82 @@
+{
+  "recorded_utc": "2026-09-21T11:47:43.581842+00:00",
+  "status": "retrospective analysis plan, recorded before model-error analysis; three one-day samples examined in feasibility",
+  "year": 2025,
+  "station_ids": [
+    9,
+    27,
+    28,
+    30,
+    31,
+    32,
+    33,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    43,
+    45,
+    46,
+    48,
+    52,
+    56,
+    57,
+    62,
+    69,
+    80,
+    89,
+    101,
+    104,
+    105,
+    106,
+    107
+  ],
+  "selection": "VLC inside original 591 sections; >=90% reported ten-minute counts JJA2025; no selection by prediction error",
+  "windows": {
+    "morning": [
+      10,
+      11,
+      12
+    ],
+    "afternoon": [
+      16,
+      17,
+      18
+    ]
+  },
+  "threshold_c": 30,
+  "model": "original six-station IDW p=2, distance floor50m, minimum3 stations; no VITUclim fitting",
+  "comparators": [
+    "uniform mean of original city-origin IDW field (manuscript definition)",
+    "nearest available original AVAMET station",
+    "ERA5-Land with original pooled window correction"
+  ],
+  "undocumented_clock_scenarios": {
+    "as_local_CEST": 0,
+    "as_fixed_CET": 1,
+    "as_UTC": 2
+  },
+  "primary_hour_aggregation": "mean of >=5 valid ten-minute observations in each clock hour; strict6 sensitivity",
+  "qc": "retain unique timestamps with T between5 and50C; drop conflicting duplicates; flag isolated >4C jumps/reversals and 12h constant temperature; report sensitivity excluding flags, no tuning by model errors",
+  "metrics": [
+    "paired bias MAE RMSE",
+    "T>=30 confusion and frequency bias",
+    "instantaneous spatial Spearman at >=10 sites",
+    "site-specific and daily error distribution"
+  ],
+  "uncertainty": "paired7-day circular block bootstrap across whole network,1000replicates seed20260921, conditional on monitored sites; site variability separately",
+  "decision_extension": "observed threshold failure frequencies at sensor sites; city score sensitivity to observed model-error summaries, clearly modelled and not measured section/routing truth",
+  "publication_limits": [
+    "timezone unresolved unless documentary evidence obtained",
+    "sensor installation/QC metadata incomplete",
+    "data reuse licence not confirmed",
+    "no2024observations"
+  ],
+  "input_sha256": {
+    "analisis\\p2_comparar_era5land.py": "475c7761b550a073037a44cddf24d4f7d022fc5b8019814f4b92be5354dc861c",
+    "datos\\valencia_verano_qc.parquet": "b8727404f33e7cfa3f45bfdb39fcb3c148fce3e12016086b248c56b7c0fe7dce",
+    "SCS_ampliado_2026-09-07\\soporte\\secciones.gpkg": "48d9159789ae6ea2e119cbd8d67383d611decb99bc5d248a2d819f44ac0688ba"
+  }
+}

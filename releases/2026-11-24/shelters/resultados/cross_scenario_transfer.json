@@ -1,0 +1,83 @@
+[
+  {
+    "speed": 0.6,
+    "minutes": 10,
+    "central_selection_gain": 52056.683000000005,
+    "scenario_optimum": 58572.894,
+    "capture_percent": 88.87504004838827,
+    "announced_gain": 42011.68199999999,
+    "greedy_capture_percent": 98.51253550831892
+  },
+  {
+    "speed": 0.6,
+    "minutes": 15,
+    "central_selection_gain": 115964.975,
+    "scenario_optimum": 133421.515,
+    "capture_percent": 86.91624810286406,
+    "announced_gain": 87838.02100000001,
+    "greedy_capture_percent": 97.5255535061193
+  },
+  {
+    "speed": 0.6,
+    "minutes": 20,
+    "central_selection_gain": 220001.14800000002,
+    "scenario_optimum": 222136.522,
+    "capture_percent": 99.03871097792735,
+    "announced_gain": 137326.94999999998,
+    "greedy_capture_percent": 99.82714818952644
+  },
+  {
+    "speed": 0.9,
+    "minutes": 10,
+    "central_selection_gain": 115964.975,
+    "scenario_optimum": 133421.515,
+    "capture_percent": 86.91624810286406,
+    "announced_gain": 87838.02100000001,
+    "greedy_capture_percent": 97.5255535061193
+  },
+  {
+    "speed": 0.9,
+    "minutes": 15,
+    "central_selection_gain": 270268.4,
+    "scenario_optimum": 270268.4,
+    "capture_percent": 100.0,
+    "announced_gain": 166468.099,
+    "greedy_capture_percent": 97.77245397538148
+  },
+  {
+    "speed": 0.9,
+    "minutes": 20,
+    "central_selection_gain": 329314.58099999995,
+    "scenario_optimum": 351586.19999999995,
+    "capture_percent": 93.66538874392681,
+    "announced_gain": 230499.783,
+    "greedy_capture_percent": 97.97427174331642
+  },
+  {
+    "speed": 1.2,
+    "minutes": 10,
+    "central_selection_gain": 220001.14800000002,
+    "scenario_optimum": 222136.522,
+    "capture_percent": 99.03871097792735,
+    "announced_gain": 137326.94999999998,
+    "greedy_capture_percent": 99.82714818952644
+  },
+  {
+    "speed": 1.2,
+    "minutes": 15,
+    "central_selection_gain": 329314.58099999995,
+    "scenario_optimum": 351586.19999999995,
+    "capture_percent": 93.66538874392681,
+    "announced_gain": 230499.783,
+    "greedy_capture_percent": 97.97427174331642
+  },
+  {
+    "speed": 1.2,
+    "minutes": 20,
+    "central_selection_gain": 274222.18299999996,
+    "scenario_optimum": 296779.8659999999,
+    "capture_percent": 92.39918687745484,
+    "announced_gain": 212963.236,
+    "greedy_capture_percent": 98.55973383315703
+  }
+]

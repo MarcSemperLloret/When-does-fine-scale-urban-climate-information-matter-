@@ -1,0 +1,22 @@
+{
+  "sections": 591,
+  "population65": 174665.215,
+  "nodes": 65887,
+  "raw_edges": 201386,
+  "undirected_min_edges": 99956,
+  "facilities": 41,
+  "distinct_mapped_positions": 39,
+  "centroids_outside": 4,
+  "site_connector_max": 80.27733349285951,
+  "site_connector_median": 20.571452234820413,
+  "origin_connector_median": 26.977760600405077,
+  "origin_connector_max": 1901.7556104327023,
+  "finite_pairs": 24231,
+  "total_pairs": 24231,
+  "input_sha256": {
+    "datos/red_peatonal_valencia.graphml": "c0429dec736e2270de6a83bdb5b561f866f66bdd94b87e4a617a2f085deabbe4",
+    "datos/aristas_con_sombra.parquet": "59f11b2ff65c3a6090ce80d1879e5ab520d0a0a5fc60248342de991d35fdd9fc",
+    "SCS_revisado_2026-09-07/soporte/secciones.gpkg": "48d9159789ae6ea2e119cbd8d67383d611decb99bc5d248a2d819f44ac0688ba",
+    "SCS_mecanismos_2026-09-07/datos/secciones_Valencia.csv": "79797913ccb94f41faa7455f68a40d0e8fbfa87d626f2b09f2dccb1c7cd1d233"
+  }
+}

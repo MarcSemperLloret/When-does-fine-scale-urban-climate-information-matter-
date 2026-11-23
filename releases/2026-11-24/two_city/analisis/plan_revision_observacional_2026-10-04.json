@@ -1,0 +1,42 @@
+{
+  "fecha": "2026-10-04",
+  "estado": "Fijado antes de calcular cualquiera de las métricas nuevas. No es un prerregistro externo.",
+  "datos": {
+    "sitios": "validacion_vituclim_2025/matched_pairs.parquet (29 sitios VITUclim, junio-agosto 2025, tres relojes, mismos pares para todos los predictores)",
+    "coordenadas": "validacion_vituclim_2025/stations_selected.parquet",
+    "puntuaciones": "Supplementary Material 2: datos/policy_scores_two_cities.parquet y datos/score_components.parquet"
+  },
+  "A_descomposicion_error": {
+    "pregunta": "Punto 3. Separar el error en un desplazamiento común (lo que representan los márgenes de la Tabla 1) y un residuo espacial (lo que distingue a las referencias).",
+    "definicion": "e_sh = pred - obs; común_h = media sobre sitios de e_sh en la hora h (horas con >= 20 sitios); residuo r_sh = e_sh - común_h.",
+    "metricas": ["sesgo medio (media de común_h)", "media de |común_h|", "MAE espacial = media de |r_sh|"],
+    "predictores": ["IDW", "Uniform", "Nearest", "ERA5_corrected"],
+    "estratos": "ventana x reloj"
+  },
+  "B_patron_espacial": {
+    "pregunta": "Punto 1. ¿Reproduce cada campo el patrón espacial observado, promediado en el tiempo como en la Fig. 4?",
+    "definicion": "Anomalía horaria = valor - media sobre sitios en esa hora (horas con >= 20 sitios). Anomalía de sitio = media temporal.",
+    "metricas": [
+      "Spearman entre anomalía de sitio observada y anomalía de sitio de IDW y de ERA5_corrected",
+      "Pendiente (OLS) de anomalía predicha frente a observada a nivel de sitio, como medida de amplitud",
+      "Desviación típica entre sitios de la anomalía de sitio (observada, IDW, ERA5)"
+    ]
+  },
+  "C_gradiente_costero": {
+    "pregunta": "Punto 2. ¿Muestran las observaciones independientes el gradiente costa-interior de la tarde de Valencia, y es más fuerte por la tarde que por la mañana?",
+    "definicion": "Posición oeste-este = coordenada X UTM 25830 del sitio; mismo indicador que la Fig. 4.",
+    "metricas": [
+      "Spearman(X, anomalía de sitio observada) por ventana y reloj; signo esperado negativo (más fresco al este)",
+      "Lo mismo para IDW y ERA5_corrected",
+      "Pendiente OLS de la anomalía observada frente a X en °C por 10 km",
+      "Diferencia tarde menos mañana del Spearman observado"
+    ],
+    "criterio_lectura": "Apoyo al patrón si el Spearman observado de la tarde es negativo con intervalo bootstrap que excluye cero en los tres relojes y es más negativo que el de la mañana. Si no se cumple, se informa igualmente."
+  },
+  "incertidumbre": "1000 réplicas bootstrap de bloques circulares de siete días compartidos por todos los sitios, semilla 20260921 (igual que S9). Condicionales al panel y al reloj; los 29 sitios no son independientes espacialmente.",
+  "D_suficiencia_una_referencia": {
+    "pregunta": "Punto 1. ¿Cuánto del recuento 212/50/44/32 depende de exigir también la referencia regional?",
+    "procedimiento": "Reproducir primero los recuentos de dos referencias (50 población, 162 uniforme). Después clasificar los 288 casos exigiendo el 99 % solo del óptimo local, y solo del regional.",
+    "orden": "población por P_i; uniforme por puntuación uniforme; empates por CUSEC ascendente; K = cuota del caso"
+  }
+}

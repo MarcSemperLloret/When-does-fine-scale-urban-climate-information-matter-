@@ -1,0 +1,13 @@
+# Public retrieval specification and limits
+
+Provider: CEAM, VITUclim. Service: https://vituclim.org/geoserver/ceam/wfs . Only anonymous public GetFeature requests were used for the analysis. No login or embedded credentials are required by this specification.
+
+WFS parameters: `service=WFS`, `version=2.0.0`, `request=GetFeature`, `typeNames=ceam:vp_reporte_estaciones_10min`, `outputFormat=application/json`, `count=20000`. For each station/month, `viewparams=station_id:<id>;fecha_inicio:2025-<month>-01T00:00:00;fecha_fin:2025-<month>-<last-day>T23:59:59`. Months are June, July and August 2025 only. Station identifiers and the selection plan are in `panel_specification.json`. Service availability and provider revisions can change; archived raw input hashes, without raw payloads, are in `retrieval_manifest.json`.
+
+The panel contains 29 sites in 28 census sections with at least 90% summer coverage. The 87 station-month responses contained 396,353 rows, reduced to 383,122 unique station/time records; 13,231 exact duplicates arose from one site assigned to multiple subnetworks. One observation failed the 5–50°C range check. Persistence and isolated-spike checks flagged none. These are analyst checks, not provider calibration certificates.
+
+Hourly means require at least five of six ten-minute observations. This yields 63,852 usable site-hours; requiring six gives 63,845. Raw timestamps lack a documented timezone. The analysis retains three interpretations: local summer time, fixed standard time (add one hour to reach local summer time), and UTC (add two hours). It does not choose a clock by minimising errors. Internal agreement between reported daily aggregates and a raw 07:00–06:50 interval does not establish the physical clock or justify a seven-hour correction.
+
+Pairing, station coverage, time windows, range checks and bootstrap details are reported in Supplementary Material 1, Section S9. The retained aggregate outputs expose all clocks and predictors. Bootstrap intervals use 1,000 circular seven-day network-paired resamples (seed 20260921), conditional on the selected sites and assumed clock. They do not cover station siting, calibration, clock or spatial-sampling uncertainty. MAE and bias compare monitoring-site air temperatures, not walking-route thermal dose.
+
+The provider reports school-based installations and network maintenance, but per-observation timing, height, calibration, flags and redistribution conditions remain incompletely documented. No additional CEAM confirmation was available on 21 September 2026. Raw records are not redistributed. These outputs do not calibrate the principal numerical perturbation grid.

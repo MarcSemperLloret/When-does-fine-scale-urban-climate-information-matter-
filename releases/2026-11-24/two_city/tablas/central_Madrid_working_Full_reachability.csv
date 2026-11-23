@@ -1,0 +1,7 @@
+city,catalogue,layer,mode,weights,reachable,quota,reachable_population_65,unreachable_population_65
+Madrid,working,Full,connectors_shade,21,1632,244,453599.51399999997,224946.847
+Madrid,working,Full,connectors_shade,41,1632,244,453599.51399999997,224946.847
+Madrid,working,Full,connectors_sun,21,1632,244,453599.51399999997,224946.847
+Madrid,working,Full,connectors_sun,41,1632,244,453599.51399999997,224946.847
+Madrid,working,Full,network,21,1750,262,486745.07499999995,191801.28600000002
+Madrid,working,Full,network,41,1750,262,486745.07499999995,191801.28600000002
