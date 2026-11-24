@@ -11,7 +11,8 @@ information change heat-adaptation priorities? Evidence from Valencia and Madrid
   all-hours disagreement map, exact walking-speed and budget sensitivity, the inferred VITUclim
   timestamp convention (UTC), the near-coast station check, alternative interpolators, unequal costs,
   alternative pedestrian origins, a targeted route enumeration near the shade threshold, a UTCI-based
-  score, and the VITUclim preparation scripts. All sufficiency counts use the two-reference criterion. See `two_city/revision_R1/README.md` for what runs from the package.
+  score, and the VITUclim preparation scripts. All sufficiency counts use the two-reference criterion. `robustez/` adds
+  sufficiency by the weight of local temperature and shortlist agreement beyond chance. See `two_city/revision_R1/README.md` for what runs from the package.
 - `shelters/` is identical to the 2026-10-04 release.
 - `SHA256SUMS.txt` lists a hash for every file in this release.
 

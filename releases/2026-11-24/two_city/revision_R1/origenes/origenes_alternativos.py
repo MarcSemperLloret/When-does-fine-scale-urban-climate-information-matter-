@@ -114,7 +114,7 @@ def main(city):
                     rows.append(dict(city=city, window=w, draw=j, threshold=thr, phi=phi, N=len(ix), k=k,
                                      pop_loss=loss(sl, top(p, k), k), uni_loss=loss(sl, top(su, k), k), pop_loss_R=loss(sr, top(p, k), k), uni_loss_R=loss(sr, top(su, k), k),
                                      jaccard_vs_centroid=len(lL & base[thr, phi]) / len(lL | base[thr, phi]),
-                                     median_snap_m=float(np.median(snaps[j]))))
+                                     median_snap_m=float(np.median(snaps[j])), shortlist=';'.join(sorted(lL))))
     d = pd.DataFrame(rows); d.to_csv(HERE / f'origenes_{city}.csv', index=False)
     d['simple'] = ((d.pop_loss <= E) & (d.pop_loss_R <= E)) | ((d.uni_loss <= E) & (d.uni_loss_R <= E))
     print(d.groupby(['draw', 'window']).simple.sum().unstack().to_string())

@@ -179,7 +179,8 @@ def main():
                         lB = top(o.local.to_numpy()[ix], k)
                         rows.append(dict(city=city, window=w, mode=mode, wind_factor=wf, utci_threshold=thr, k=k, pop_loss=lo(top(p, k)), uni_loss=lo(top(uU, k)), pop_loss_R=loR(top(p, k)), uni_loss_R=loR(top(uU, k)),
                                          minimum_common_loss=ml, milp=stt, changed_local_regional=k - len(np.intersect1d(lL, top(uR, k))),
-                                         changed_vs_binary=k - len(np.intersect1d(lL, lB)), rho_population=float(pd.Series(uL).corr(pd.Series(p), method='spearman'))))
+                                         changed_vs_binary=k - len(np.intersect1d(lL, lB)), rho_population=float(pd.Series(uL).corr(pd.Series(p), method='spearman')),
+                                         shortlist=';'.join(sorted(sec.CUSEC.to_numpy()[ix][lL])), binary_shortlist=';'.join(sorted(sec.CUSEC.to_numpy()[ix][lB]))))
                 print(city, w, wf, flush=True)
     d = pd.DataFrame(rows); d.to_csv(HERE / f'utci_estados{SUFFIX}.csv', index=False); pd.DataFrame(diag).to_csv(HERE / f'utci_diagnostico{SUFFIX}.csv', index=False)
     d['state'] = np.select([(d.pop_loss <= E) & (d.pop_loss_R <= E), (d.uni_loss <= E) & (d.uni_loss_R <= E), d.minimum_common_loss <= E], ['P', 'U', 'C'], 'X')
