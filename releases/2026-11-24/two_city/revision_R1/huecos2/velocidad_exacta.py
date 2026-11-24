@@ -11,7 +11,7 @@ import numpy as np, pandas as pd
 
 HERE = Path(__file__).resolve().parent
 M3 = HERE.parents[1]
-REL = M3 / 'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city'
+REL=(lambda r:r if (r/'datos/policy_scores_two_cities.parquet').exists() else Path(__file__).resolve().parents[2]/'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city')(Path(__file__).resolve().parents[2])
 CACHE = M3 / 'Madrid_2026-09-07/datos/rutas_cache'
 E = 1 + 1e-7
 SETTINGS = [(0.9, 15), (1.1, 15), (1.25, 15), (0.75, 15), (0.6, 15), (0.9, 10), (0.9, 20)]

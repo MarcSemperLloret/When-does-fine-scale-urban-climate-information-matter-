@@ -6,7 +6,7 @@ This folder adds the scripts and derived outputs of the analyses introduced in r
 
 | Folder | Analysis | Main outputs |
 |---|---|---|
-| `amplificacion/` | Rescaling of the station field's hourly spatial anomalies by a factor *a* (Eq. 5), and the observational calibration of *a* at the 29 VITUclim sites | `amplificacion_288.csv` (288 cases × 9 values of *a*), `calibracion_amplificacion.csv`, `resumen_amplificacion.csv` |
+| `amplificacion/` | Rescaling of the station field's hourly spatial anomalies by a factor *a* (Eq. 5), and the observational calibration of *a* at the 29 VITUclim sites | `amplificacion_288.csv` (288 cases × 10 values of *a*), `calibracion_amplificacion.csv`, `resumen_amplificacion.csv` |
 | `perturbaciones/` | Persistent site residuals and their empirical variograms; Gaussian-process section errors (σ = 0.4 and 0.6 °C, correlation length 0–5 km, 100 realisations) | `residuos_vituclim.csv`, `variogramas_empiricos.json`, `perturbaciones_100.parquet` (one row per case, setting and realisation), `resumen_*.csv` |
 | `capacidad/` | Full P/U/C/X classification at capacities of 5–25% with the common-loss MILP, shortlist overlap, and states under amplification | `capacidad_288x5_estados.csv`, `estados_capacidad.csv`, `estados_amplificacion.csv` |
 | `formulaciones/` | Continuous score forms, rank decomposition, routes near the shade threshold and slower walking speeds | `continuas.csv`, `descomposicion.csv`, `umbral_sombra.csv`, `velocidad.csv` |
@@ -21,7 +21,7 @@ Column names follow the original companion. Losses and captures are percentages.
 
 ## What runs from this package
 
-The following run from the extracted package root, with the packages in `requirements_decision.txt`:
+From the extracted package root, install `requirements_decision.txt` for the decision-only commands. To regenerate Figure 5, also install the dependencies in `requirements_figures.txt` (which includes `requirements_decision.txt`).
 
 ```text
 python revision_R1/capacidad/capacidad.py
@@ -34,12 +34,16 @@ cd revision_R1/formulaciones && python resumir_formulaciones.py && cd ../..
 
 The first two commands run from the package root. The summary scripts read the outputs in their own folders, so the block changes into each folder and back. `capacidad.py` reads `datos/policy_scores_two_cities.parquet` from this companion and reproduces the published 15% losses and states exactly before extending them to the other capacities.
 
-The other generators (`amplificar_contraste.py`, `velocidad_exacta.py`, `reloj_vituclim.py`, `estacion_costera.py`, `interpoladores.py`, `costes_desiguales.py`, `estaciones_sombra_mapa.py`, `rapidos.py`, `estados_amplificacion.py`, `perturbar.py`, `formulaciones.py`, `residuos_vituclim.py`, `calibrar_amplificacion.py`, `celdas.py`) need the hourly station and ERA5-Land fields, the stored route tables and, for the observational parts, the matched VITUclim pairs. These upstream inputs derive from restricted AVAMET observations and from VITUclim records without documented redistribution terms, so they are not included (see `DATA_AVAILABILITY.md`). The scripts are supplied so that the computations can be inspected, and so that readers with authorised access can rerun them once the matched inputs have been prepared as described in the observational README. Each generator checks its reconstruction against the published scores before computing anything new: the 288 local, regional and uniform scores to 10⁻⁹, and the published 15% losses to 10⁻¹³.
+The other generators (`amplificar_contraste.py`, `velocidad_exacta.py`, `reloj_vituclim.py`, `estacion_costera.py`, `interpoladores.py`, `estaciones_sombra_mapa.py`, `rapidos.py`, `estados_amplificacion.py`, `perturbar.py`, `formulaciones.py`, `residuos_vituclim.py`, `calibrar_amplificacion.py`, `celdas.py`) need the hourly station and ERA5-Land fields, the stored route tables and, for the observational parts, the matched VITUclim pairs. These upstream inputs derive from restricted AVAMET observations and from VITUclim records without documented redistribution terms, so they are not included (see `DATA_AVAILABILITY.md`). The scripts are supplied so that the computations can be inspected, and so that readers with authorised access can rerun them once the matched inputs have been prepared as described in the observational README. Where a sensitivity reuses the original construction, the generators report baseline reproduction checks for the corresponding scores, rankings or losses.
+
+The unequal-cost analysis can also run from the package root with the decision and geographic dependencies in `requirements_figures.txt`, using `python revision_R1/huecos2/costes_desiguales.py`.
+
+The origin, route and UTCI generators also require the archived walking graph, shade layers, route tables or hourly temperatures at the paths named in their scripts. The UTCI generator additionally uses `xarray` and `pythermalcomfort` (the latter supplied the UTCI calculation in version 4.8.1). `utci/descargar_openmeteo.py` obtains the citywide ERA5 weather series. The primary UTCI runs use the 10-m wind input and the sensitivity runs use half that input. Both runs weight sun and shade UTCI by their fractions of route time.
 
 ## Reproducibility notes
 
-- All optimisations (1,440 in the capacity sweep and 2,016 under amplification) terminated with certified optimality (`milp_status` = `optimal`); the unequal-cost knapsacks were solved to a relative gap of at most 10⁻⁶.
-- VITUclim timestamps are UTC, as inferred in `huecos2/reloj_vituclim.py`; analyses that use the matched pairs report the UTC rows as primary.
+- All optimisations (1,440 in the capacity sweep and 2,304 under amplification) terminated with certified optimality (`milp_status` = `optimal`); the unequal-cost knapsacks were solved to a relative gap of at most 10⁻⁶.
+- The timestamp alignment in `huecos2/reloj_vituclim.py` most strongly supports UTC. Analyses using matched pairs report UTC as the primary convention and retain the other two conventions for sensitivity.
 - Perturbations use the seed 20261123 and common random numbers across cases.
 - Madrid perturbations transfer the Valencia residual statistics, because Madrid has no independent panel.
 - `formulaciones/velocidad.csv` is an earlier approximation of slower walking speeds; it is superseded by the exact recomputation in `huecos2/velocidad_exacta.csv`.
@@ -50,6 +54,6 @@ The other generators (`amplificar_contraste.py`, `velocidad_exacta.py`, `reloj_v
 
 1. `descargar.py` downloads the 10-minute records of each selected site for June–August 2025 from the provider's anonymous WFS (`https://vituclim.org/geoserver/ceam/wfs`, layer `ceam:vp_reporte_estaciones_10min`), month by month, and stores a SHA-256 provenance record next to each file. The 2024 summer is not requested. Site selection (at least 90% of expected readings in June–August 2025, inside the Valencia study sections) follows `external/RETRIEVAL_AND_LIMITS.md`.
 2. `preparar.py` applies the quality control, aggregates readings to clock hours and builds `matched_pairs.parquet` and `stations_selected.parquet` with the schema given in `observational/README.md`, pairing each site-hour with the IDW, uniform, nearest-station and corrected ERA5-Land predictions under each of the three clock conventions.
-3. `analizar.py` computes the site metrics. `huecos2/reloj_vituclim.py` then infers the timestamp convention (UTC) from the same records.
+3. `analizar.py` computes the site metrics. `huecos2/reloj_vituclim.py` then assesses the timestamp convention against AVAMET and ERA5-Land. The alignment most strongly supports UTC.
 
 Paths at the top of each script point to the research archive and must be adapted. Whether the provider's terms allow a given reuse must be checked with the provider before downloading.

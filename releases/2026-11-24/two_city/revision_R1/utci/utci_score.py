@@ -8,11 +8,12 @@ no intra-urban fields of those variables exist. Mean radiant temperature (MRT) f
   sun:   I_n = direct normal irradiance (fdir / sin(elevation)), f_p = projected-area factor
   shade: I_n = 0
 with a_k = 0.7, eps_p = 0.97, alpha = 0.2 and L_up from a ground at air temperature (shade) or air
-temperature + 10 K (sun). UTCI uses pythermalcomfort (Brode et al. 2012 polynomial); 10-m wind is reduced
-by a factor of 0.5 to pedestrian level and clipped to the valid range.
+temperature + 10 K (sun). UTCI uses the Bröde et al. (2012) polynomial in pythermalcomfort. The primary
+calculation uses the ERA5 10-m wind speed. A separate sensitivity halves that input. Both inputs are clipped
+to the wind-speed range used by the implementation.
 
-A route's UTCI is the exposure-weighted mean q UTCI_sun + (1 - q) UTCI_shade, with q the chosen route's
-exposed fraction. A section-hour fails when route UTCI reaches the threshold (26 C, moderate heat stress; and
+The exploratory route score averages q UTCI_sun + (1 - q) UTCI_shade, with q the chosen route's exposed
+fraction. The weighted average represents the mix of sun and shade along the route. A section-hour fails when route UTCI reaches the threshold (26 C, moderate heat stress; and
 32 C, strong heat stress). The score is P_i times the failure frequency, the same structure as Eq. 1 with UTCI
 replacing the conjunction. Cases are classified P/U/C/X at 15% capacity as in the main analysis.
 """
@@ -22,7 +23,7 @@ from pythermalcomfort.models import utci
 
 HERE = Path(__file__).resolve().parent
 M3 = HERE.parents[1]
-REL = M3 / 'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city'
+REL=(lambda r:r if (r/'datos/policy_scores_two_cities.parquet').exists() else Path(__file__).resolve().parents[2]/'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city')(Path(__file__).resolve().parents[2])
 sys.path.insert(0, str(HERE.parent / 'capacidad')); from capacidad import common_loss, top
 E = 1 + 1e-7
 SIG = 5.670374e-8

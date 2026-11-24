@@ -17,7 +17,7 @@ from numba import njit
 HERE = Path(__file__).resolve().parent
 M3 = HERE.parents[1]
 MAD = M3 / 'Madrid_2026-09-07'
-REL = M3 / 'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city'
+REL=(lambda r:r if (r/'datos/policy_scores_two_cities.parquet').exists() else Path(__file__).resolve().parents[2]/'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city')(Path(__file__).resolve().parents[2])
 E = 1 + 1e-7
 NDRAW = 3
 WEIGHTS = np.linspace(0, 1, 21)

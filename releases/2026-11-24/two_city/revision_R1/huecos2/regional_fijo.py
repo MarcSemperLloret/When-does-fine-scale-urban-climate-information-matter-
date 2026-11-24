@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np, pandas as pd
 
 HERE = Path(__file__).resolve().parent
-REL = HERE.parents[1] / 'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city'
+REL=(lambda r:r if (r/'datos/policy_scores_two_cities.parquet').exists() else Path(__file__).resolve().parents[2]/'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city')(Path(__file__).resolve().parents[2])
 pol = pd.read_parquet(REL / 'datos/policy_scores_two_cities.parquet')
 secs = {c: pd.read_csv(REL / f'datos/secciones_{c}.csv', dtype={'CUSEC': str}).set_index('CUSEC') for c in ['Valencia', 'Madrid']}
 rows = []

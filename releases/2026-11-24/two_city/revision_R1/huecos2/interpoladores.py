@@ -15,7 +15,7 @@ import sys, numpy as np, pandas as pd, geopandas as gpd
 
 HERE = Path(__file__).resolve().parent
 M3 = HERE.parents[1]
-REL = M3 / 'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city'
+REL=(lambda r:r if (r/'datos/policy_scores_two_cities.parquet').exists() else Path(__file__).resolve().parents[2]/'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city')(Path(__file__).resolve().parents[2])
 V = M3 / 'validacion_vituclim_2025'
 E = 1 + 1e-7
 sys.path.insert(0, str(M3 / 'analisis'))

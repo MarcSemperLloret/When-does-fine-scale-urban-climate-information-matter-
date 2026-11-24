@@ -3,7 +3,7 @@ from pathlib import Path
 import sys, numpy as np, pandas as pd, geopandas as gpd
 HERE = Path(__file__).resolve().parent
 M3 = HERE.parents[1]
-REL = M3 / 'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city'
+REL=(lambda r:r if (r/'datos/policy_scores_two_cities.parquet').exists() else Path(__file__).resolve().parents[2]/'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city')(Path(__file__).resolve().parents[2])
 sys.path.insert(0, str(M3 / 'analisis'))
 import p2_comparar_era5land as P2
 sec = pd.read_csv(REL / 'datos/secciones_Valencia.csv', dtype={'CUSEC': str}).sort_values('CUSEC').reset_index(drop=True)
