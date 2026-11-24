@@ -1,7 +1,12 @@
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 import sys, pandas as pd, numpy as np
 d=pd.read_parquet(sys.argv[1] if len(sys.argv)>1 else 'perturbaciones_100.parquet')
-d['simple']=(d.pop_loss<=1+1e-9)|(d.uni_loss<=1+1e-9)
-d['station_ok']=d.station_list_loss<=1+1e-9
+from pathlib import Path as _P
+_rf=_P(__file__).resolve().parents[1]/'huecos2'/'regional_fijo.csv'
+d=d.merge(pd.read_csv(_rf),on=['city','mode','window','threshold','phi'])
+d['simple']=((d.pop_loss<=1+1e-9)&(d.pop_loss_R<=1+1e-9))|((d.uni_loss<=1+1e-9)&(d.uni_loss_R<=1+1e-9))
+d['station_ok']=(d.station_list_loss<=1+1e-9)&(d.station_list_loss_R<=1+1e-9)
 d['frac_changed']=d.changed_vs_station/d.k
 d['cfg']='σ='+d.sigma.astype(str)+' L='+(d.range_m/1000).astype(str)+'km'+np.where(d.hourly_sd>0,' +h'+d.hourly_sd.astype(str),'')
 tot=d.groupby(['cfg','real']).simple.sum().groupby('cfg').agg(['mean',lambda x:x.quantile(.05),lambda x:x.quantile(.95)]);tot.columns=['media','p5','p95']

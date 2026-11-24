@@ -99,8 +99,9 @@ for cv in [0.1, 0.25]:
         for key, g in groups:
             city = key[0]; e = eps[city].loc[g.CUSEC.astype(str)].to_numpy()
             p = secs[city].loc[g.CUSEC.astype(str), 'pob_65'].to_numpy() * e
-            L = g.local.to_numpy() * e; U = g.uniform.to_numpy() * e; k = int(g.quota.iloc[0])
-            simple = (100 - cap(L, top(p, k), k) <= E) or (100 - cap(L, top(U, k), k) <= E)
+            L = g.local.to_numpy() * e; U = g.uniform.to_numpy() * e; Rr = g.regional.to_numpy() * e; k = int(g.quota.iloc[0])
+            ok = lambda sel: (100 - cap(L, sel, k) <= E) and (100 - cap(Rr, sel, k) <= E)
+            simple = ok(top(p, k)) or ok(top(U, k))
             rows.append(dict(cv=cv, real=r, city=city, window=key[2], simple=simple,
                              changed_vs_original=k - len(np.intersect1d(top(L, k), top(g.local.to_numpy(), k))), k=k))
 pn = pd.DataFrame(rows)

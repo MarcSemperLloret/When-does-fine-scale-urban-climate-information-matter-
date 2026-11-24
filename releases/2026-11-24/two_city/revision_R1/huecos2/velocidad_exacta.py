@@ -65,7 +65,7 @@ for city in ['Valencia', 'Madrid']:
                             assert np.allclose(sl, o.local.to_numpy()[ix], atol=1e-9) and np.allclose(sr, o.regional.to_numpy()[ix], atol=1e-9)
                         lL = top(sl, k)
                         row = dict(city=city, window=w, mode=mode, speed=v, budget=B, threshold=thr, phi=phi, N=len(ix), k=k,
-                                   pop_loss=loss(sl, top(p, k), k), uni_loss=loss(sl, top(su, k), k),
+                                   pop_loss=loss(sl, top(p, k), k), uni_loss=loss(sl, top(su, k), k), pop_loss_R=loss(sr, top(p, k), k), uni_loss_R=loss(sr, top(su, k), k),
                                    changed_local_regional=k - len(np.intersect1d(lL, top(sr, k))))
                         if (v, B) == (0.9, 15):
                             base_lists[thr, phi] = set(sec.CUSEC.to_numpy()[ix][lL])

@@ -1,8 +1,10 @@
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 import pandas as pd, numpy as np
 d=pd.read_csv('capacidad_288x5.csv')
 print('MILP status',d.milp_status.value_counts().to_dict())
 e=1+1e-7
-d['state']=np.select([d.pop_loss<=e,d.uni_loss<=e,d.minimum_common_loss<=e],['P','U','C'],'X')
+d['state']=np.select([d.pop_loss_both<=e,d.uni_loss_both<=e,d.minimum_common_loss<=e],['P','U','C'],'X')
 t=d.pivot_table(index='capacity',columns='state',values='k',aggfunc='count',fill_value=0)[list('PUCX')];t['simple']=t.P+t.U
 print('Estados por capacidad (288 casos)');print(t.to_string())
 cw=d.assign(simple=d.state.isin(['P','U'])).pivot_table(index=['city','window'],columns='capacity',values='simple',aggfunc='sum');print('\nSimple por ciudad y franja');print(cw.to_string())

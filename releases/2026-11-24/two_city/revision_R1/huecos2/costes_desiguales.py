@@ -44,9 +44,9 @@ def work(task):
         row = dict(**meta, proxy=proxy, optimal=okL and okR, max_gap=max(gL, gR), uni_loss=100 * (1 - L[uni].sum() / optL),
                    uni_loss_regional=100 * (1 - R[uni].sum() / optR))
         if proxy == 'area':
-            pop = greedy(p / c, c, B); row['pop_loss'] = 100 * (1 - L[pop].sum() / optL)
+            pop = greedy(p / c, c, B); row['pop_loss'] = 100 * (1 - L[pop].sum() / optL); row['pop_loss_regional'] = 100 * (1 - R[pop].sum() / optR)
         else:
-            row['pop_loss'] = np.nan
+            row['pop_loss'] = np.nan; row['pop_loss_regional'] = np.nan
         out.append(row)
     return out
 
@@ -69,7 +69,7 @@ def main():
             rows += r
     d = pd.DataFrame(rows); d.to_csv(HERE / 'costes_desiguales.csv', index=False)
     print('all optimal', bool(d.optimal.all()))
-    d['simple'] = (d.pop_loss <= E) | (d.uni_loss <= E)
+    d['simple'] = ((d.pop_loss <= E) & (d.pop_loss_regional <= E)) | ((d.uni_loss <= E) & (d.uni_loss_regional <= E))
     print(d.groupby('proxy').simple.sum().to_string())
     print(d.groupby(['proxy', 'city', 'window']).simple.sum().unstack(['city', 'window']).to_string())
     print(d.groupby(['proxy']).uni_loss.median().round(3).to_string())

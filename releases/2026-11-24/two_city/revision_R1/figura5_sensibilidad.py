@@ -6,9 +6,9 @@ R=Path(__file__).resolve().parent
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.titlesize':11,'axes.labelsize':10,'pdf.fonttype':42,'ps.fonttype':42})
 SER=[('Valencia','Afternoon','#AA3377','Valencia PM'),('Valencia','Morning','#CCBB44','Valencia AM'),('Madrid','Morning','#4477AA','Madrid AM'),('Madrid','Afternoon','#66CCEE','Madrid PM')]
 e=1+1e-7
-st=pd.read_csv(R/'capacidad/estados_amplificacion.csv');st['state']=np.select([st.pop_loss<=e,st.uni_loss<=e,st.minimum_common_loss<=e],['P','U','C'],'X')
-am=pd.read_csv(R/'amplificacion/amplificacion_288.csv');am['simple']=(am.pop_loss<=e)|(am.uni_loss<=e)
-pe=pd.read_parquet(R/'perturbaciones/perturbaciones_100.parquet');pe['simple']=(pe.pop_loss<=e)|(pe.uni_loss<=e)
+st=pd.read_csv(R/'capacidad/estados_amplificacion.csv');st['state']=np.select([(st.pop_loss<=e)&(st.pop_loss_R<=e),(st.uni_loss<=e)&(st.uni_loss_R<=e),st.minimum_common_loss<=e],['P','U','C'],'X')
+am=pd.read_csv(R/'amplificacion/amplificacion_288.csv');am['simple']=(am.pop_loss_both<=e)|(am.uni_loss_both<=e)
+pe=pd.read_parquet(R/'perturbaciones/perturbaciones_100.parquet');pe=pe.merge(pd.read_csv(R/'huecos2/regional_fijo.csv'),on=['city','mode','window','threshold','phi']);pe['simple']=((pe.pop_loss<=e)&(pe.pop_loss_R<=e))|((pe.uni_loss<=e)&(pe.uni_loss_R<=e))
 fig,axs=plt.subplots(1,2,figsize=(7.4,3.4),sharey=True)
 ax=axs[0]
 ax.axvspan(0.75,2.24,color='0.9',lw=0,zorder=0);ax.axvline(1.3,color='0.35',lw=1,ls='--',zorder=1)

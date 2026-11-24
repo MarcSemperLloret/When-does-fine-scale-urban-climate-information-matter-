@@ -1,6 +1,8 @@
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 import pandas as pd, numpy as np
 d=pd.read_csv('amplificacion_288.csv')
-d['simple']=(d.pop_loss<=1+1e-9)|(d.uni_loss<=1+1e-9)
+d['simple']=(d.pop_loss_both<=1+1e-9)|(d.uni_loss_both<=1+1e-9)
 d['simple_both']=(d.pop_loss_both<=1+1e-9)|(d.uni_loss_both<=1+1e-9)
 d['station_ok']=d.station_list_loss_under_a<=1+1e-9
 d['frac_changed_vs_station']=d.changed_vs_station/d.k

@@ -4,11 +4,12 @@ import sys, numpy as np, pandas as pd
 from concurrent.futures import ProcessPoolExecutor
 sys.path.insert(0,str(Path(__file__).parent));from capacidad import common_loss, top
 M3=Path(__file__).resolve().parents[2];REL=(lambda r:r if (r/'datos/policy_scores_two_cities.parquet').exists() else Path(__file__).resolve().parents[2]/'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city')(Path(__file__).resolve().parents[2])
-A_GRID=[0.5,1,1.5,2,2.5,3,4]
+A_GRID=[0.5,1,1.3,1.5,2,2.5,3,4]
 def work(t):
     meta,a,sA,sR,sU,p,k=t;ml,st,_=common_loss(sA,sR,k)
     lo=lambda sel:100*(1-sA[sel].sum()/np.sort(sA)[-k:].sum())
-    return dict(**meta,a=a,k=k,pop_loss=lo(top(p,k)),uni_loss=lo(top(sU,k)),minimum_common_loss=ml,milp_status=st)
+    loR=lambda sel:100*(1-sR[sel].sum()/np.sort(sR)[-k:].sum())
+    return dict(**meta,a=a,k=k,pop_loss=lo(top(p,k)),uni_loss=lo(top(sU,k)),pop_loss_R=loR(top(p,k)),uni_loss_R=loR(top(sU,k)),minimum_common_loss=ml,milp_status=st)
 def tasks():
     pol=pd.read_parquet(REL/'datos/policy_scores_two_cities.parquet')
     for city in ['Valencia','Madrid']:
@@ -37,7 +38,7 @@ if __name__=='__main__':
     with ProcessPoolExecutor(6) as ex:
         for r in ex.map(work,tasks(),chunksize=4):rows.append(r)
     d=pd.DataFrame(rows);d.to_csv('estados_amplificacion.csv',index=False)
-    e=1+1e-7;d['state']=np.select([d.pop_loss<=e,d.uni_loss<=e,d.minimum_common_loss<=e],['P','U','C'],'X')
+    e=1+1e-7;d['state']=np.select([(d.pop_loss<=e)&(d.pop_loss_R<=e),(d.uni_loss<=e)&(d.uni_loss_R<=e),d.minimum_common_loss<=e],['P','U','C'],'X')
     print(d.milp_status.value_counts().to_dict())
     print(d.pivot_table(index='a',columns='state',values='k',aggfunc='count',fill_value=0).to_string())
     print(d.assign(X=d.state.eq('X')).pivot_table(index=['city','window'],columns='a',values='X',aggfunc='sum').to_string())

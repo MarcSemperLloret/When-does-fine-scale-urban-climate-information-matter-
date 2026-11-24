@@ -126,7 +126,7 @@ for w, hrs in [('Morning', [10, 11, 12]), ('Afternoon', [16, 17, 18])]:
                     sl = p * (1 - ((Fi < thr) & sh).mean(1)); su = p * (1 - ((Ui < thr) & sh).mean(1)); sr = p * (1 - ((R0[ix] < thr) & sh).mean(1))
                     lL = top(sl, k)
                     if nm == 'IDW': base[thr, phi] = lL
-                    out.append(dict(field=nm, window=w, mode=mode, threshold=thr, phi=phi, k=k, pop_loss=loss(sl, top(p, k), k), uni_loss=loss(sl, top(su, k), k),
+                    out.append(dict(field=nm, window=w, mode=mode, threshold=thr, phi=phi, k=k, pop_loss=loss(sl, top(p, k), k), uni_loss=loss(sl, top(su, k), k), pop_loss_R=loss(sr, top(p, k), k), uni_loss_R=loss(sr, top(su, k), k),
                                     changed_vs_IDW=k - len(np.intersect1d(lL, base[thr, phi])), changed_local_regional=k - len(np.intersect1d(lL, top(sr, k)))))
 d = pd.DataFrame(out); d.to_csv(HERE / 'interpoladores_decision.csv', index=False)
 d['simple'] = (d.pop_loss <= E) | (d.uni_loss <= E)

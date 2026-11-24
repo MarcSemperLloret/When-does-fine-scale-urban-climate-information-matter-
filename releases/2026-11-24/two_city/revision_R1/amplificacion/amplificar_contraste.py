@@ -10,7 +10,7 @@ from pathlib import Path
 import numpy as np, pandas as pd
 M3=Path(__file__).resolve().parents[2]
 REL=(lambda r:r if (r/'datos/policy_scores_two_cities.parquet').exists() else Path(__file__).resolve().parents[2]/'codigo_publico_UC_2026-10-04/releases/2026-10-04/two_city')(Path(__file__).resolve().parents[2])
-A_GRID=[0,0.5,1,1.5,2,2.5,3,3.5,4]
+A_GRID=[0,0.5,1,1.3,1.5,2,2.5,3,3.5,4]
 def top(x,k):return np.lexsort((np.arange(len(x)),-x))[:k]
 def loss(score,sel,k):return 100*(1-score[sel].sum()/np.sort(score)[-k:].sum())
 pol=pd.read_parquet(REL/'datos/policy_scores_two_cities.parquet')

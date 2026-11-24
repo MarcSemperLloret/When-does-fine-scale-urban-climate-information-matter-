@@ -48,10 +48,11 @@ def classify(city, w, mode, L, U, R, P, frac, ixk, label, base_lists=None):
         bl, bu = L < thr, U < thr
         for phi in PHI:
             sh = frac <= phi + 1e-12
-            sl = p * (1 - (bl & sh).mean(1)); su = p * (1 - (bu & sh).mean(1))
+            sl = p * (1 - (bl & sh).mean(1)); su = p * (1 - (bu & sh).mean(1)); sr = p * (1 - ((R < thr) & sh).mean(1))
             lL = top(sl, k); lists[(thr, phi)] = lL
             row = dict(city=city, window=w, mode=mode, threshold=thr, phi=phi, variant=label, k=k,
-                       pop_loss=loss(sl, top(p, k), k), uni_loss=loss(sl, top(su, k), k))
+                       pop_loss=loss(sl, top(p, k), k), uni_loss=loss(sl, top(su, k), k),
+                       pop_loss_R=loss(sr, top(p, k), k), uni_loss_R=loss(sr, top(su, k), k))
             if base_lists is not None:
                 row['changed_vs_base'] = k - len(np.intersect1d(lL, base_lists[(thr, phi)]))
             out.append(row)
@@ -135,14 +136,14 @@ for city in ['Valencia', 'Madrid']:
     ix = np.flatnonzero(reach); k = int(.15 * len(ix))
     for w in ['Morning', 'Afternoon']:
         f = M3 / (f'Madrid_2026-09-07/datos/campos_central_{w}.npz' if city == 'Madrid' else f'SCS_ampliado_2026-09-07/datos_ampliacion/fields_{w}.npz')
-        z = np.load(f); L0, months, hours = z['local'].astype(float), z['months'], z['hours']
+        z = np.load(f); L0, R0t, months, hours = z['local'].astype(float), z['regional'].astype(float), z['months'], z['hours']
         qf = route_matrix(rf, sec, ix, months, hours); qb = route_matrix(rb, sec, ix, months, hours)
         qb = np.where(np.isfinite(qb), qb, qf)
         Lr = L0[ix]; Ur = np.broadcast_to(L0.mean(0), Lr.shape)
         base = None
         for tau in [0, .1, .25, .5, 1]:
             q = qf + tau * (qb - qf)
-            out, lists = classify(city, w, 'network', Lr, Ur, None, P, q, (ix, k), f'tau={tau}', base)
+            out, lists = classify(city, w, 'network', Lr, Ur, R0t[ix], P, q, (ix, k), f'tau={tau}', base)
             if tau == 0: base = lists
             for r in out: r['tau'] = tau
             sh = q <= .4 + 1e-12; s30 = P[ix] * (1 - ((Lr < 30) & sh).mean(1))
